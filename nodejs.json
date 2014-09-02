@@ -1,0 +1,6 @@
+{
+  "name" : "Node",
+  "resources": [
+    "https://github.com/sindresorhus/awesome-nodejs"
+  ]
+}
