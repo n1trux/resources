@@ -14,8 +14,6 @@ fs.readdir(sourcesPath, function(error, files) {
 
     // Create a Resource.
     var resource = new Resource(info);
-    resource.getJSONData(function(data) {
-      //
-    });
+    resource.getJSONData();
   });
 });
