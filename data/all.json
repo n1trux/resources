@@ -1,0 +1,81 @@
+{
+    "resources": [
+        {
+            "title": "Android",
+            "url": "https://github.com/JStumpp/awesome-android",
+            "readme": "https://raw.githubusercontent.com/JStumpp/awesome-android/master/readme.md",
+            "headingLevel": 3,
+            "name": "android"
+        },
+        {
+            "title": "Clojure",
+            "url": "https://github.com/razum2um/awesome-clojure",
+            "readme": "https://raw.githubusercontent.com/razum2um/awesome-clojure/master/README.md",
+            "headingLevel": 2,
+            "name": "clojure"
+        },
+        {
+            "title": "Go",
+            "url": "https://github.com/avelino/awesome-go",
+            "readme": "https://raw.githubusercontent.com/avelino/awesome-go/master/README.md",
+            "headingLevel": 2,
+            "name": "go"
+        },
+        {
+            "title": "Haskell",
+            "url": "https://github.com/krispo/awesome-haskell",
+            "readme": "https://raw.githubusercontent.com/krispo/awesome-haskell/master/README.md",
+            "headingLevel": 2,
+            "name": "haskell"
+        },
+        {
+            "title": "iOS",
+            "url": "https://github.com/vsouza/awesome-ios",
+            "readme": "https://raw.githubusercontent.com/vsouza/awesome-ios/master/README.md",
+            "headingLevel": 3,
+            "name": "ios"
+        },
+        {
+            "title": "Java",
+            "url": "https://github.com/akullpp/awesome-java",
+            "readme": "https://raw.githubusercontent.com/akullpp/awesome-java/master/README.md",
+            "headingLevel": 2,
+            "name": "java"
+        },
+        {
+            "title": "Node",
+            "url": "https://github.com/sindresorhus/awesome-nodejs",
+            "readme": "https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/master/readme.md",
+            "headingLevel": 3,
+            "name": "nodejs"
+        },
+        {
+            "title": "PHP",
+            "url": "https://github.com/ziadoz/awesome-php",
+            "readme": "https://raw.githubusercontent.com/ziadoz/awesome-php/master/README.md",
+            "headingLevel": 2,
+            "name": "php"
+        },
+        {
+            "title": "Python",
+            "url": "https://github.com/vinta/awesome-python",
+            "readme": "https://raw.githubusercontent.com/vinta/awesome-python/master/README.md",
+            "headingLevel": 2,
+            "name": "python"
+        },
+        {
+            "title": "Scala",
+            "url": "https://github.com/lauris/awesome-scala",
+            "readme": "https://raw.githubusercontent.com/lauris/awesome-scala/master/README.md",
+            "headingLevel": 2,
+            "name": "scala"
+        },
+        {
+            "title": "SysAdmin",
+            "url": "https://github.com/kahun/awesome-sysadmin",
+            "readme": "https://raw.githubusercontent.com/kahun/awesome-sysadmin/master/README.md",
+            "headingLevel": 2,
+            "name": "sysadmin"
+        }
+    ]
+}
