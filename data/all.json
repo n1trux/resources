@@ -64,6 +64,13 @@
             "name": "python"
         },
         {
+            "title": "Ruby",
+            "url": "https://github.com/markets/awesome-ruby",
+            "readme": "https://raw.githubusercontent.com/markets/awesome-ruby/master/README.md",
+            "headingLevel": 2,
+            "name": "ruby"
+        },
+        {
             "title": "Scala",
             "url": "https://github.com/lauris/awesome-scala",
             "readme": "https://raw.githubusercontent.com/lauris/awesome-scala/master/README.md",
