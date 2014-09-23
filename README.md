@@ -1,2 +1,1 @@
-Curated Resources
-=========
+
