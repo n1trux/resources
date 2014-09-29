@@ -15,6 +15,13 @@
             "name": "clojure"
         },
         {
+            "title": "Dart",
+            "url": "https://github.com/yissachar/awesome-dart",
+            "readme": "https://raw.githubusercontent.com/yissachar/awesome-dart/master/README.md",
+            "headingLevel": 2,
+            "name": "dart"
+        },
+        {
             "title": "Go",
             "url": "https://github.com/avelino/awesome-go",
             "readme": "https://raw.githubusercontent.com/avelino/awesome-go/master/README.md",
