@@ -15,6 +15,13 @@
             "name": "clojure"
         },
         {
+            "title": "ColdFusion",
+            "url": "https://github.com/seancoyne/awesome-coldfusion",
+            "readme": "https://raw.githubusercontent.com/seancoyne/awesome-coldfusion/master/README.md",
+            "headingLevel": 2,
+            "name": "coldfusion"
+        },
+        {
             "title": "Dart",
             "url": "https://github.com/yissachar/awesome-dart",
             "readme": "https://raw.githubusercontent.com/yissachar/awesome-dart/master/README.md",
