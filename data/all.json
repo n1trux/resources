@@ -92,6 +92,13 @@
             "name": "scala"
         },
         {
+            "title": "Swift",
+            "url": "https://github.com/matteocrippa/awesome-swift",
+            "readme": "https://raw.githubusercontent.com/matteocrippa/awesome-swift/master/README.md",
+            "headingLevel": 3,
+            "name": "swift"
+        },
+        {
             "title": "SysAdmin",
             "url": "https://github.com/kahun/awesome-sysadmin",
             "readme": "https://raw.githubusercontent.com/kahun/awesome-sysadmin/master/README.md",
