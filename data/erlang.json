@@ -1,0 +1,130 @@
+{
+    "title": "Erlang",
+    "url": "https://github.com/drobakowski/awesome-erlang",
+    "readme": "https://raw.githubusercontent.com/drobakowski/awesome-erlang/master/README.md",
+    "headingLevel": 2,
+    "name": "erlang",
+    "sections": [
+        {
+            "title": "Package Management",
+            "name": "package-management"
+        },
+        {
+            "title": "Release Management",
+            "name": "release-management"
+        },
+        {
+            "title": "Web Frameworks",
+            "name": "web-frameworks"
+        },
+        {
+            "title": "Web Framework Components",
+            "name": "web-framework-components"
+        },
+        {
+            "title": "HTTP",
+            "name": "http"
+        },
+        {
+            "title": "Testing",
+            "name": "testing"
+        },
+        {
+            "title": "Logging",
+            "name": "logging"
+        },
+        {
+            "title": "Monitoring",
+            "name": "monitoring"
+        },
+        {
+            "title": "Code Analysis",
+            "name": "code-analysis"
+        },
+        {
+            "title": "Build Tools",
+            "name": "build-tools"
+        },
+        {
+            "title": "Geolocation",
+            "name": "geolocation"
+        },
+        {
+            "title": "Debugging",
+            "name": "debugging"
+        },
+        {
+            "title": "Actors",
+            "name": "actors"
+        },
+        {
+            "title": "Date and Time",
+            "name": "date-and-time"
+        },
+        {
+            "title": "ORM and Datamapping",
+            "name": "orm-and-datamapping"
+        },
+        {
+            "title": "Queue",
+            "name": "queue"
+        },
+        {
+            "title": "Authentication",
+            "name": "authentication"
+        },
+        {
+            "title": "Text and Numbers",
+            "name": "text-and-numbers"
+        },
+        {
+            "title": "REST and API",
+            "name": "rest-and-api"
+        },
+        {
+            "title": "Caching",
+            "name": "caching"
+        },
+        {
+            "title": "Third Party APIs",
+            "name": "third-party-apis"
+        },
+        {
+            "title": "Networking",
+            "name": "networking"
+        },
+        {
+            "title": "Algorithms and Datastructures",
+            "name": "algorithms-and-datastructures"
+        },
+        {
+            "title": "Translations and Internationalizations",
+            "name": "translations-and-internationalizations"
+        },
+        {
+            "title": "Miscellaneous",
+            "name": "miscellaneous"
+        },
+        {
+            "title": "Websites",
+            "name": "websites"
+        },
+        {
+            "title": "Books",
+            "name": "books"
+        },
+        {
+            "title": "Web Reading",
+            "name": "web-reading"
+        },
+        {
+            "title": "Erlang Reading",
+            "name": "erlang-reading"
+        },
+        {
+            "title": "Screencasts",
+            "name": "screencasts"
+        }
+    ],
+    "data": "# Awesome Erlang\nA curated list of amazingly awesome Erlang libraries, resources and shiny thing inspired by [awesome-elixir](https://github.com/h4cc/awesome-elixir).\n\n- [Awesome Erlang](#awesome-Erlang)\n    - [Package Management](#package-management)\n    - [Release Management](#release-management)\n    - [Web Frameworks](#web-frameworks)\n    - [Web Framework Components](#web-framework-components)\n    - [HTTP](#http)\n    - [Testing](#testing)\n    - [Logging](#logging)\n    - [Monitoring](#monitoring)\n    - [Code Analysis](#code-analysis)\n    - [Build Tools](#build-tools)\n    - [Geolocation](#geolocation)\n    - [Debugging](#debugging)\n    - [Actors](#actors)\n    - [Date and Time](#date-and-time)\n    - [ORM and Datamapping](#orm-and-datamapping)\n    - [Queue](#queue)\n    - [Authentication](#authentication)\n    - [Text and Numbers](#text-and-numbers)\n    - [REST and API](#rest-and-api)\n    - [Caching](#caching)\n    - [Third Party APIs](#third-party-apis)\n    - [Networking](#networking)\n    - [Algorithms and Datastructures](#algorithms-and-datastructures)\n    - [Translations and Internationalizations](#translations-and-internationalizations)\n    - [Miscellaneous](#miscellaneous)\n- [Resources](#resources)\n    - [Websites](#websites)\n    - [Books](#books)\n    - [Web Reading](#web-reading)\n    - [Erlang Reading](#Erlang-reading)\n    - [Screencasts](#screencasts)\n- [Other Awesome Lists](#other-awesome-lists)\n- [Contributing](#contributing)\n\n## Package Management\n*Libraries and tools for package and dependency management.*\n\n## Release Management\n*Libraries and tools for release management.*\n\n* [relx](https://github.com/erlware/relx) - A release assembler for Erlang.\n\n## Web Frameworks\n*Web development frameworks.*\n\n* [Axiom](https://github.com/tsujigiri/axiom) - A micro-framework, inspired by Ruby's [Sinatra](https://github.com/sinatra/sinatra).\n* [ChicagoBoss](https://github.com/ChicagoBoss/ChicagoBoss) - A server framework inspired by Rails and written in Erlang.\n* [cowboy](https://github.com/extend/cowboy) - A simple HTTP server.\n* [Giallo](https://github.com/kivra/giallo) - A small and flexible web framework on top of [Cowboy](https://github.com/extend/cowboy).\n* [MochiWeb](https://github.com/mochi/mochiweb) - An Erlang library for building lightweight HTTP servers.\n\n## Web Framework Components\n*Standalone component from web development frameworks.*\n\n* [cb_admin](https://github.com/ChicagoBoss/cb_admin) - An admin interface for Chicago Boss.\n* [cb_websocket_controller](https://github.com/dkuhlman/cb_websocket_controller) - A template for implementing a Websocket controller for ChicagoBoss.\n* [giallo_session](https://github.com/kivra/giallo_session) - A session management library for the Giallo web framework.\n\n## HTTP\n*Libraries for working with HTTP and scraping websites.*\n\n* [lhttpc](https://github.com/esl/lhttpc) - A lightweight HTTP/1.1 client implemented in Erlang.\n\n## Testing\n*Libraries for testing codebases and generating test data.*\n\n* [PropEr](https://github.com/manopapad/proper) - A QuickCheck-inspired property-based testing tool for Erlang.\n\n## Logging\n*Libraries for generating and working with log files.*\n\n* [lager](https://github.com/basho/lager) - A logging framework for Erlang/OTP.\n* [lager_amqp_backend](https://github.com/jbrisbin/lager_amqp_backend) - AMQP RabbitMQ Lager backend.\n* [lager_hipchat](https://github.com/synlay/lager_hipchat) - HipChat backend for lager.\n* [lager_loggly](https://github.com/kivra/lager_loggly) - Loggly backend for lager.\n* [lager_smtp](https://github.com/blinkov/lager_smtp) - SMTP backend for lager.\n* [logplex](https://github.com/heroku/logplex) - Heroku log router.\n\n## Monitoring\n*Libraries for gathering metrics and monitoring.*\n\n* [entop](https://github.com/mazenharake/entop) - A top-like Erlang node monitoring tool.\n* [eper](https://github.com/massemanet/eper) - A loose collection of Erlang Performance related tools.\n* [Exometer](https://github.com/Feuerlabs/exometer) - An Erlang instrumentation package.\n* [folsom](https://github.com/boundary/folsom) - An Erlang based metrics system inspired by Coda Hale's [metrics](https://github.com/codahale/metrics).\n* [statsderl](https://github.com/lpgauth/statsderl) - A statsd Erlang client.\n* [vmstats](https://github.com/ferd/vmstats) - Tiny Erlang app that works in conjunction with statsderl in order to generate information on the Erlang VM for graphite logs.\n\n## Code Analysis\n*Libraries and tools for analysing, parsing and manipulation codebases.*\n\n* [eflame](https://github.com/proger/eflame) - A Flame Graph profiler for Erlang.\n\n## Build Tools\n*Project build and automation tools.*\n\n* [rebar](https://github.com/rebar/rebar) - Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases.\n\n## Geolocation\n*Libraries for geocoding addresses and working with latitudes and longitudes.*\n\n* [erl-rstar](https://github.com/armon/erl-rstar) - An Erlang implementation of the R*-tree spacial data structure.\n* [GeoCouch](https://github.com/couchbase/geocouch) - A spatial extension for Couchbase and Apache CouchDB.\n* [Teles](https://github.com/armon/teles) - An Erlang network service for manipulating geographic data.\n\n## Debugging\n*Libraries and tools for debugging code and applications.*\n\n## Actors\n*Libraries and tools for working with actors and such.*\n\n* [poolboy](https://github.com/devinus/poolboy) - A hunky Erlang worker pool factory.\n\n## Date and Time\n*Libraries for working with dates and times.*\n\n## ORM and Datamapping\n*Libraries that implement object-relational mapping or datamapping techniques.*\n\n* [boss_db](https://github.com/ChicagoBoss/boss_db) - A sharded, caching, pooling, evented ORM for Erlang.\n\n## Queue\n*Libraries for working with event and task queues.*\n\n* [tinymq](https://github.com/ChicagoBoss/tinymq) - A diminutive, in-memory message queue for Erlang.\n\n## Authentication\n*Libraries for implementing authentications schemes.*\n\n* [oauth2](https://github.com/kivra/oauth2) - Erlang Oauth2 implementation.\n\n## Text and Numbers\n*Libraries for parsing and manipulating text and numbers.*\n\n* [jsx](https://github.com/talentdeficit/jsx) - an erlang application for consuming, producing and manipulating json.\n\n## REST and API\n*Libraries and web tools for developing REST-ful APIs.*\n\n* [leptus](https://github.com/s1n4/leptus) - Leptus is an Erlang REST framework that runs on top of cowboy.\n\n## Caching\n*Libraries for caching data.*\n\n## Third Party APIs\n*Libraries for accessing third party APIs.*\n\n* [restc](https://github.com/kivra/restclient) - An Erlang REST client\n* [oauth2c](https://github.com/kivra/oauth2_client) - An Erlang oAuth 2 client (uses restc)\n\n## Networking\n*Libraries and tools for using network related stuff.*\n\n## Algorithms and Datastructures\n*Libraries and implementations of algorithms and datastructures.*\n\n* [erlando](https://github.com/travelping/erlando) - A set of syntax extensions like currying and monads for Erlang.\n* [statebox](https://github.com/mochi/statebox) - Erlang state \"monad\" with merge/conflict-resolution capabilities.\n* [riak_dt](https://github.com/basho/riak_dt) - Erlang library of state based CRDTs.\n\n## Translations and Internationalizations\n*Libraries providing translations or internationalizations.*\n\n## Miscellaneous\n*Useful libraries or tools that don't fit in the categories above.*\n\n# Resources\nVarious resources, such as books, websites and articles, for improving your Erlang development skills and knowledge.\n\n## Websites\n*Useful web and Erlang-related websites and newsletters.*\n\n* [Erlang Central](https://erlangcentral.org/) - An awesome collections of erlang resource along with live community chat for discussing and seeking help.\n\n## Books\n*Fantastic books and e-books.*\n\n* [Learn You Some Erlang](http://learnyousomeerlang.com/) - Learn you some Erlang - for great good! A very thorough resource covering everything from beginning Erlang programming to large-scale development and deployment.\n\n## Web Reading\n*General web-development-related reading materials.*\n\n## Erlang Reading\n*Erlang-releated reading materials.*\n\n## Screencasts\n*Cool video tutorials.*\n\n# Contributing\nPlease see [CONTRIBUTING](https://github.com/drobakowski/awesome-erlang/blob/master/CONTRIBUTING.md) for details.\n"
+}
