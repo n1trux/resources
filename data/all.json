@@ -43,6 +43,13 @@
             "name": "go"
         },
         {
+            "title": "Groovy",
+            "url": "https://github.com/kdabir/awesome-groovy",
+            "readme": "https://raw.githubusercontent.com/kdabir/awesome-groovy/master/README.md",
+            "headingLevel": 2,
+            "name": "groovy"
+        },
+        {
             "title": "Haskell",
             "url": "https://github.com/krispo/awesome-haskell",
             "readme": "https://raw.githubusercontent.com/krispo/awesome-haskell/master/README.md",
