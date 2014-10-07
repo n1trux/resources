@@ -36,6 +36,13 @@
             "name": "erlang"
         },
         {
+            "title": "Fortran",
+            "url": "https://github.com/rabbiabram/awesome-fortran",
+            "readme": "https://raw.githubusercontent.com/rabbiabram/awesome-fortran/master/README.md",
+            "headingLevel": 2,
+            "name": "fortran"
+        },
+        {
             "title": "Go",
             "url": "https://github.com/avelino/awesome-go",
             "readme": "https://raw.githubusercontent.com/avelino/awesome-go/master/README.md",

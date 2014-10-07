@@ -1,90 +1,42 @@
 {
-    "title": "Swift",
-    "url": "https://github.com/matteocrippa/awesome-swift",
-    "readme": "https://raw.githubusercontent.com/matteocrippa/awesome-swift/master/README.md",
-    "headingLevel": 3,
-    "name": "swift",
+    "title": "Fortran",
+    "url": "https://github.com/rabbiabram/awesome-fortran",
+    "readme": "https://raw.githubusercontent.com/rabbiabram/awesome-fortran/master/README.md",
+    "headingLevel": 2,
+    "name": "fortran",
     "sections": [
         {
-            "title": "iOS",
-            "name": "ios"
+            "title": "Graphics Libraries",
+            "name": "graphics-libraries"
         },
         {
-            "title": "OSX",
-            "name": "osx"
+            "title": "Math Libs",
+            "name": "math-libs"
         },
         {
-            "title": "Auto Layout",
-            "name": "auto-layout"
+            "title": "JSON Manipulation",
+            "name": "json-manipulation"
         },
         {
-            "title": "Colors",
-            "name": "colors"
+            "title": "XML Manipulation",
+            "name": "xml-manipulation"
         },
         {
-            "title": "Cryptography",
-            "name": "cryptography"
-        },
-        {
-            "title": "Data Management",
-            "name": "data-management"
-        },
-        {
-            "title": "Date",
-            "name": "date"
-        },
-        {
-            "title": "Editor Support",
-            "name": "editor-support"
-        },
-        {
-            "title": "Fonts",
-            "name": "fonts"
-        },
-        {
-            "title": "Framework",
-            "name": "framework"
-        },
-        {
-            "title": "iBeacon",
-            "name": "ibeacon"
-        },
-        {
-            "title": "Images",
-            "name": "images"
-        },
-        {
-            "title": "Keyboard",
-            "name": "keyboard"
-        },
-        {
-            "title": "Math",
-            "name": "math"
-        },
-        {
-            "title": "Network",
-            "name": "network"
+            "title": "Date and time manipulation",
+            "name": "date-and-time-manipulation"
         },
         {
             "title": "Testing",
             "name": "testing"
         },
         {
-            "title": "UI",
-            "name": "ui"
+            "title": "Fortran Websites",
+            "name": "fortran-websites"
         },
         {
-            "title": "Utility",
-            "name": "utility"
-        },
-        {
-            "title": "Webserver",
-            "name": "webserver"
-        },
-        {
-            "title": "System",
-            "name": "system"
+            "title": "Fortran Videos",
+            "name": "fortran-videos"
         }
     ],
-    "data": "Awesome Swift\n=============\n\nA collaborative list of awesome Swift resources,inspired by [awesome-python](https://github.com/vinta/awesome-python) and listed on [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness).\n\nFeel free to contribute!\n\n- [Awesome Swift](#awesome-swift)\n    - [Demo](#demo)\n        - [iOS](#ios)\n        - [OSX](#osx)\n    - [Dependency Manager](#dependency-manager)\n    - [Guides](#guides)\n    - [Libs](#libs)\n        - [Auto Layout](#auto-layout)  \n        - [Colors](#colors)\n        - [Cryptography](#cryptography)\n        - [Data Management](#data-management)\n            - [Core Data](#core-data)\n            - [JSON](#json)\n            - [SQLite](#sqlite)\n        - [Date](#date)\n        - [Editor Support](#editor-support)\n            - [Vim](#vim)\n        - [Fonts](#fonts)\n        - [Framework](#framework)\n        - [iBeacon](#ibeacon)\n        - [Images](#images)\n        - [Keyboard](#keyboard)\n        - [Math](#math)\n        - [Network](#network)\n        - [Testing](#testing)\n        - [UI](#ui)\n        - [Utility](#utility)\n        - [Webserver](#webserver)\n        - [System](#system)\n\n\n\n## Demo App\n*Some interesting demo/poc apps written in swift.*\n\n### iOS\n*A list of iOS swift demo apps*\n\n* [2048](https://github.com/austinzheng/swift-2048) - 2048 demo game in swift.\n* [Alarm](https://github.com/ChrisChares/swift-alarm) - an alarm app in swift.\n* [Chat](https://github.com/acani/Chats) - chat like app implementation in swift.\n* [CloudKit-To-Do-List](https://github.com/anthonygeranio/CloudKit-To-Do-List) - a cloudkit based to do list.\n* [DeckRocket](https://github.com/jpsim/DeckRocket) - deckrocket porting in swift.\n* [FlappySwift](https://github.com/fullstackio/FlappySwift) - flappy bird clone in swift.\n* [HackerNews](https://github.com/amitburst/HackerNews) - hackernews reader app written in swift.\n* [HausClock](https://github.com/nottombrown/HausClock) - chess stile clock app in swift.\n* [KeychainDemo](https://github.com/dasdom/KeychainDemo) - keychain sharing between an App and it's share extension\n* [MyAwesomeChecklist](https://github.com/imod/MyAwesomeChecklist) - checklist app in swift.\n* [ReactiveSwiftFlickrSearch](https://github.com/ColinEberhardt/ReactiveSwiftFlickrSearch) - an MVVM & ReactiveCocoa Flickr search app in swift.\n* [SwiftDemo](https://github.com/Lax/iOS-Swift-Demos) - a collection of demo for swift.\n* [SwiftFlickrApp](https://github.com/synboo/SwiftFlickrApp) - flickr app written in swift.\n* [SwiftHN](https://github.com/Dimillian/SwiftHN) - hacker news app in swift.\n* [SwiftWeather](https://github.com/JakeLin/SwiftWeather) - a nice weather app written in swift.\n* [Valio](https://github.com/soffes/valio) - event time table app in swift.\n\n### OSX\n*A list of OSX swift demo apps*\n\n* [clock-saver](https://github.com/soffes/clock-saver) - a clock screen saver for osx written in swift.\n\n\n## Dependency Manager\n\n*Dependency manager software for swift.*\n\n* [cocoapods](https://github.com/CocoaPods/CocoaPods) - the most used dependency manager for Objective-C and now Swift projects.\n\n\n## Guides\n*An awesome list of swift related guides.*\n\n* [Apple eBook](https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11) - Official Apple eBook for swift beginners.\n* [Learn Swift](https://github.com/nettlep/learn-swift) - a collection of tuts that will help you learning swift via playground.\n* [Practice Swift](https://github.com/domenicosolazzo/practice-swift) - an interesting guide to learn swift.\n* [Swifter](http://swifter.natecook.com) - Auto-generated documentation for Swift stdlib.\n* [SwiftGuide CN](https://github.com/ipader/SwiftGuide) - A chinese written guide for swift.\n* [SwiftInFlux](https://github.com/ksm/SwiftInFlux) - A well explained list of feature in flux for swift\n* [Swift Style Guide](https://github.com/raywenderlich/swift-style-guide) - Raywenderlich swift guide, a must read.\n\n\n\n## Libs\n*Here you can find a list of snippets and libs for your swift projects.*\n\n### Auto Layout\n*Bored of using storyboard? Give a try to declarative auto layout libs.*\n\n* [Cartography](https://github.com/robb/Cartography) - declarative auto layout lib for your project.\n* [Snappy](https://github.com/Masonry/Snappy) - a light-weight layout framework which wraps AutoLayout with nicer syntax.\n* [SwiftAutoLayout](https://github.com/indragiek/SwiftAutoLayout) - a small DSL for autolayout.\n* [Tails](https://github.com/nickynick/Tails) - declarative autolayout for ios app written in swift.\n* [VFLToolbox](https://github.com/0xc010d/VFLToolbox) - fancy Swift implementation of the Visual Format Language\n\n### Colors\n\n*Interesting snippets related to color management and utilty.*\n\n* [UIColor-Hex-Swift](https://github.com/yeahdongcn/UIColor-Hex-Swift) - an hex to uicolor converter.\n\n\n\n### Cryptography\n*Deal with cryptography method easily in swift*\n* [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - add crypto lib support to swift.\n\n\n### Data Management\n#### Core Data\n*No more pain with Core Data, here listed some interesting lib to handle data management.*\n\n* [QueryKit](https://github.com/kylef/QueryKit) - an easy way to play with coredata filtering within your swift projects.\n\n#### JSON\n*Struggling using json data? Here you are some interesting way to handle it.*\n\n* [json-swift](https://github.com/owensd/json-swift) - A basic library for working with JSON in swift.\n* [SwiftyJSON](https://github.com/lingoer/SwiftyJSON) - A lib for JSON in swift with error handling.\n* [SwiftMapper](https://github.com/kam800/SwiftMapper) - JSON Mapper.\n\n#### SQLite\n*Are you interested in storing your app data using SQLite? Here some interesting resources.*\n\n* [SQLiteDB](https://github.com/FahimF/SQLiteDB) - sqlite wrapper for swift.\n\n\n### Date\n*Handle data formatting easily.*\n* [AFDateHelper](https://github.com/melvitax/AFDateHelper) - Simple date helper.\n\n\n### Editor Support\n\n*Support for your favorite editors.*\n\n#### Vim\n\n* [swift-vim](https://github.com/Keithbsmiley/swift.vim) - play swift with vim editor.\n* [vim-swift](https://github.com/toyamarinyon/vim-swift) - adds swift support to vim. It covers syntax, indenting, and more.\n    * [vim-polyglot](https://github.com/sheerun/vim-polyglot) - language pack for vim that includes vim-swift.\n\n\n### Fonts\n\n*A collection of font related snippets.*\n\n* [MCFontAwesome](https://github.com/matteocrippa/MCFontAwesome) - fontawesome porting for swift.\n* [SwiftFonts](https://github.com/roadfire/SwiftFonts) - render all the supported fonts in swift.\n\n### Framework\n*Do you need any framework?*\n\n* [Swifter Twitter](https://github.com/mattdonnelly/Swifter) - Swifter Twitter framework for swift.\n\n\n### iBeacon\n*Interested in using iBeacon in your swift project? Here some interesting resources.*\n\n* [iBeacon](https://github.com/gemtot/iBeacon) - iBeacon implementation in swift.\n\n\n### Images\n*An interesting list of image related libs..*\n\n* [CYFastImage](https://github.com/lihei12345/CYFastImage) - display images from web.\n* [PASImageView](https://github.com/abiaad/PASImageView) - async remote download your image and round them. automatically.\n* [SwiftGif](https://github.com/bahlo/SwiftGif) - A small UIImage extension with gif support\n* [UIImageView-BetterFace-Swift](https://github.com/croath/UIImageView-BetterFace-Swift) - autoresize images and if any face discovered refine the position of the image.\n\n\n### Keyboard\n*Do you want to create your own customized keyboard? Here some interesting resources*\n\n* [Hodor Keyboard](https://github.com/jonomuller/Hodor-Keyboard) - poc for custom keyboard implementation.\n\n\n### Math\n* [Surge](https://github.com/mattt/Surge) - Accelerate framework for swift.\n* [swix](https://github.com/scottsievert/swix) - A general matrix language.\n\n\n### Network\n*A list of libs that allow you to decrease the amount of time spent to deal with http requests.*\n\n* [agent](https://github.com/hallas/agent) - http request agent.\n* [Alamofire](https://github.com/Alamofire/Alamofire) - elegant networking in swift.\n* [GRequest](https://github.com/lingoer/GRequest) - http request handler.\n* [Moya](https://github.com/AshFurrow/Moya) - network abstraction layer.\n* [Net](https://github.com/nghialv/Net) - an httprequest wrapper.\n* [OAuth2](https://github.com/p2/OAuth2) - oauth2 auth lib.\n* [YYHRequest-Swift](https://github.com/yayuhh/YYHRequest-Swift) - http request in async.\n\n\n### Testing\n*A collection of testing frameworks.*\n\n* [Sleipnir](https://github.com/railsware/Sleipnir) - BDD-style framework for Swift.\n* [Swiftest](https://github.com/Swiftest/Swiftest) - experimental BDD-style framework.\n* [Quick](https://github.com/Quick/Quick) - Quick is a behavior-driven development framework for Swift and Objective-C.\n\n\n### UI\n\n*A collection of pre-packaged transitions & cool ui stuffs.*\n\n* [CharacterText](https://github.com/android1989/CharacterText) - perform fx on UILabel.\n* [hamburger button transition](https://github.com/robb/hamburger-button) - Hamburger button transition.\n* [GoogleWearAlert](https://github.com/AshRobinson/GoogleWearAlert) - Google Wear Alert style.\n* [pinterest transition](https://github.com/demon1105/PinterestSwift) - Pinterest style transition.\n* [SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift) - Animated Alert view.\n* [JTToast](https://github.com/devxoul/JLToast) - Toast for swift.\n* [PKHUD](https://github.com/pkluz/PKHUD) - Reimplementation of the Apple HUD.\n* [ZFRippleButton](https://github.com/zoonooz/ZFRippleButton) - A ripple button animation.\n\n\n### Utility\n\n*Some interesting utilities that help you in your projects*\n\n* [__](https://github.com/lotz84/__.swift) - Underscore.js power in your swift projects.\n* [Async](https://github.com/duemunk/Async) – Syntactic swift sugar for Grand Central Dispatch\n* [AwesomeCache](https://github.com/aschuch/AwesomeCache) - manage cache easy in your swift project.\n* [BrightFutures](https://github.com/Thomvis/BrightFutures) - promise and future lib for swift.\n* [CLKit](https://github.com/kylef/CLIKit) - a way to create cli with swift.\n* [Collection Each](https://github.com/oarrabi/Collection-Each) - add each func to collections.\n* [Dollar](https://github.com/ankurp/Dollar.swift) - a lib similar to Lo-Dash or Underscore in Javascript.\n* [ExSwift](https://github.com/pNre/ExSwift) - a set of swift extensions for standard types and classes.\n* [PromiseKit](https://github.com/mxcl/PromiseKit) - async promise programming lib.\n* [Pythonic.swift](https://github.com/practicalswift/Pythonic.swift) - Pythonic tool-belt for Swift: a Swift implementation of selected parts of Python standard library.\n* [SpecificationPattern](https://github.com/neoneye/SpecificationPattern) - chainable rules useful for form validation.\n* [Swiftz](https://github.com/maxpow4h/swiftz) - a lib for functional programming.\n* [Swift Sugar](https://github.com/RuiAAPeres/Swift-Sugar) - objsugar ported to swift.\n* [Wyrd](https://github.com/explicitcall/Wyrd) - Asynchronous programming in Swift made easy. Wyrd is inspired by Promises/A+.\n* [XCGLogger](https://github.com/DaveWoodCom/XCGLogger) - a lib that help you handling better debug logging.\n\n### Webserver\n*Do you wanna host a webserver in your device? Here you can find some tricks to do it.*\n\n* [swifter](https://github.com/glock45/swifter) - Http server written in Swift with routing handler.\n\n\n### System\n\n*System related libs.*\n\n#### OS X\n\n- [swift-smc](https://github.com/beltex/swift-smc) - Read temperature sensors, fan RPM, etc.\n"
+    "data": "# Awesome Fortran\nA curated list of awesome Fortran frameworks, libraries and software. Inspired by [awesome-swift](https://github.com/Wolg/awesome-swift) by @Wolg.\n\n- [Awesome Fortran](#awesome-fortran)\n\t- [Graphics Libraries](#graphics-libraries)\n\t- [Math libs](#math-libs) \n\t- [JSON Manipulation](#json-manipulation)\n\t- [XML Manipulation](#xml-manipulation)\n\t- [Date and time manipulation](#date-and-time-manipulation)\n\t- [Testing](#testing)\n- [Resources](#resources)\n\t- [Fortran Videos](#fortran-videos)\n- [Other Awesome Lists](#other-awesome-lists)\n- [Contributing](#contributing)\n\n## Graphics Libraries\n*Libraries for graphing, graphics, and GUIs*\n\n* [DISLIN](http://www.mps.mpg.de/dislin/) - a high-level graphing and user-interface library.\n* [f90gl](http://math.nist.gov/f90gl/) - public domain implementation of the official NIST Fortran 90 bindings for OpenGL.\n* [F03GL](http://www-stone.ch.cam.ac.uk/pub/f03gl/index.xhtml) - a Fortran 2003 interface to the OpenGL library, along with the GLU and GLUT toolkits.\n* [gtk-fortran](https://github.com/jerryd/gtk-fortran/wiki) - a cross-platform library to build Graphical User Interfaces (GUI) using [GTK+](http://www.gtk.org/).  Very useful when combined with the [Glade](https://glade.gnome.org/) RAD tool.\n* [PGPLOT](http://www.astro.caltech.edu/~tjp/pgplot/) - cross-platform scientific graphing library.\n* [Xeffort](http://www.xeffort.com/) - open source library for building GUI applications in Intel Visual Fortran.\n\n## Math Libs\n*Libraries for calculatings and other mathematical operations.*\n\n* [BLAS](http://www.netlib.org/blas/) - application programming interface standard for publishing libraries to perform basic linear algebra operations such as vector and matrix multiplication.\n* [CERNLIB](http://cernlib.web.cern.ch/cernlib/) - The CERN Program Library is a large collection of general purpose libraries and modules maintained and offered in both source and object code form on the CERN central computers\n* [EISPACK](http://www.netlib.org/eispack/) - a software library for numerical computation of eigenvalues and eigenvectors of matrices, written in FORTRAN\n* [FGSL](http://www.lrz.de/services/software/mathematik/gsl/fortran/index.html) - portable, object-based Fortran interface to the [GNU scientific library](http://www.lrz.de/services/software/mathematik/gsl/)\n* [IMSL](http://www.roguewave.com/products/imsl-numerical-libraries/fortran-library.aspx) - The IMSL Fortran Numerical Library is the standard for high performance computing commercial mathematics and statistics libraries\n* [Lis](http://www.ssisc.org/lis/index.en.html#download) - a Library of Iterative Solvers for Linear Systems\n* [netCDF](https://github.com/Unidata/netcdf-fortran) - a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.\n* [OpenBLAS](https://github.com/xianyi/OpenBLAS) - one of the fastest open source BLAS libraries available.  Almost as fast as Intel MKL.\n* [PAW](http://paw.web.cern.ch/paw/) - conceived as an instrument to assist physicists in the analysis and presentation of their data\n\n## JSON Manipulation\n*Libraries for JSON data manipulating with Fortran language.*\n\n* [FSON](https://github.com/josephalevin/fson) - Fortran 95 JSON Parser.\n* [json-fortran](https://github.com/jacobwilliams/json-fortran) - A Fortran 2008 JSON API.\n\n\n## XML Manipulation\n*Libraries for XML data manipulating with Fortran language.*\n\n* [fox](https://github.com/andreww/fox) - Fortran XML library\n* [xml-fortran](http://sourceforge.net/projects/xml-fortran/) - an all-Fortran solution for reading and writing XML files\n\n## Date and time manipulation\n*Libraries for date and time manipulation with Fortran language.*\n\n* [datetime-fortran](https://github.com/milancurcic/datetime-fortran) - A Fortran 2003 date and time manipulation library, modeled after Python's datetime library.\n\n## Testing\n*Libraries for testing codebases and generating test data.*\n\n* [FRUIT](http://sourceforge.net/projects/fortranxunit/) - FORTRAN Unit Test Framework, written in FORTRAN 95\n* [Ftunit](http://flibs.sourceforge.net/ftnunit.html) - Fortran unit testing framework by Arjen Markus\n* [pFUnit](http://sourceforge.net/projects/pfunit/) - Unit testing framework for Fortran with MPI extensions by developers from NASA and NGC TASC.  Uses parallel codes and object-oriented design.\n\n\n# Resources\nVarious resources, such as books, websites and articles, for improving your Fortran development skills and knowledge.\n\n## Fortran Websites\n\n* [The Fortran Company](http://www.fortran.com/) - A home page of FORTRAN programming language.\n* [Fortran Dev](http://fortrandev.wordpress.com) - Fortran development blog\n\n\n## Fortran Videos\n\n* [GNU FORTRAN Lesson 1](http://www.youtube.com/watch?v=qUy8M10uZRU) - Videos about the Fortran programming language.\n* [Modern Fortran for Scientists and Engineers](http://jolts.stanford.edu/72/modern_fortran_for_scientists_and_engineers) - Stanford JOLTS video tutorials on modern features of Fortran.\n\n\n# Other Awesome Lists\n\nOther amazingly awesome lists can be found in the [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) list.\n\n# Contributing\n\nYour contributions are always welcome! Please submit a pull request or create an issue to add a new framework, library or software to the list. Do not submit a project, which hasn't been updated in the past 6 months or is not awesome.\n"
 }
