@@ -78,6 +78,13 @@
             "name": "java"
         },
         {
+            "title": "Lua",
+            "url": "https://github.com/LewisJEllis/awesome-lua",
+            "readme": "https://raw.githubusercontent.com/LewisJEllis/awesome-lua/master/readme.md",
+            "headingLevel": 3,
+            "name": "lua"
+        },
+        {
             "title": "Node",
             "url": "https://github.com/sindresorhus/awesome-nodejs",
             "readme": "https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/master/readme.md",
