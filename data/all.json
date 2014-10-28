@@ -113,6 +113,13 @@
             "name": "ruby"
         },
         {
+            "title": "Sass",
+            "url": "https://github.com/HugoGiraudel/awesome-sass",
+            "readme": "https://raw.githubusercontent.com/HugoGiraudel/awesome-sass/master/README.md",
+            "headingLevel": 2,
+            "name": "sass"
+        },
+        {
             "title": "Scala",
             "url": "https://github.com/lauris/awesome-scala",
             "readme": "https://raw.githubusercontent.com/lauris/awesome-scala/master/README.md",
