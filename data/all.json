@@ -22,6 +22,13 @@
             "name": "coldfusion"
         },
         {
+            "title": "Courses",
+            "url": "https://github.com/prakhar1989/awesome-courses",
+            "readme": "https://raw.githubusercontent.com/prakhar1989/awesome-courses/master/README.md",
+            "headingLevel": 3,
+            "name": "courses"
+        },
+        {
             "title": "Dart",
             "url": "https://github.com/yissachar/awesome-dart",
             "readme": "https://raw.githubusercontent.com/yissachar/awesome-dart/master/README.md",
