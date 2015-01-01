@@ -7,35 +7,43 @@
     "sections": [
         {
             "title": "Graphics Libraries",
-            "name": "graphics-libraries"
+            "name": "graphics-libraries",
+            "html": "<ul><li><a href=\"http://www.mps.mpg.de/dislin/\">DISLIN</a> - a high-level graphing and user-interface library.</li>\n\n<li><a href=\"http://math.nist.gov/f90gl/\">f90gl</a> - public domain implementation of the official NIST Fortran 90 bindings for OpenGL.</li>\n\n<li><a href=\"http://www-stone.ch.cam.ac.uk/pub/f03gl/index.xhtml\">F03GL</a> - a Fortran 2003 interface to the OpenGL library, along with the GLU and GLUT toolkits.</li>\n\n<li><a href=\"https://github.com/jerryd/gtk-fortran/wiki\">gtk-fortran</a> - a cross-platform library to build Graphical User Interfaces (GUI) using <a href=\"http://www.gtk.org/\">GTK+</a>.  Very useful when combined with the <a href=\"https://glade.gnome.org/\">Glade</a> RAD tool.</li>\n\n<li><a href=\"http://www.astro.caltech.edu/~tjp/pgplot/\">PGPLOT</a> - cross-platform scientific graphing library.</li>\n\n<li><a href=\"http://www.xeffort.com/\">Xeffort</a> - open source library for building GUI applications in Intel Visual Fortran.</li></ul>"
         },
         {
             "title": "Math Libs",
-            "name": "math-libs"
+            "name": "math-libs",
+            "html": "<ul><li><a href=\"http://www.netlib.org/blas/\">BLAS</a> - application programming interface standard for publishing libraries to perform basic linear algebra operations such as vector and matrix multiplication.</li>\n\n<li><a href=\"http://cernlib.web.cern.ch/cernlib/\">CERNLIB</a> - The CERN Program Library is a large collection of general purpose libraries and modules maintained and offered in both source and object code form on the CERN central computers</li>\n\n<li><a href=\"http://www.netlib.org/eispack/\">EISPACK</a> - a software library for numerical computation of eigenvalues and eigenvectors of matrices, written in FORTRAN</li>\n\n<li><a href=\"http://www.lrz.de/services/software/mathematik/gsl/fortran/index.html\">FGSL</a> - portable, object-based Fortran interface to the <a href=\"http://www.lrz.de/services/software/mathematik/gsl/\">GNU scientific library</a></li>\n\n<li><a href=\"http://www.roguewave.com/products/imsl-numerical-libraries/fortran-library.aspx\">IMSL</a> - The IMSL Fortran Numerical Library is the standard for high performance computing commercial mathematics and statistics libraries</li>\n\n<li><a href=\"http://www.ssisc.org/lis/index.en.html#download\">Lis</a> - a Library of Iterative Solvers for Linear Systems</li>\n\n<li><a href=\"https://github.com/Unidata/netcdf-fortran\">netCDF</a> - a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.</li>\n\n<li><a href=\"https://github.com/xianyi/OpenBLAS\">OpenBLAS</a> - one of the fastest open source BLAS libraries available.  Almost as fast as Intel MKL.</li>\n\n<li><a href=\"http://paw.web.cern.ch/paw/\">PAW</a> - conceived as an instrument to assist physicists in the analysis and presentation of their data</li></ul>"
         },
         {
             "title": "JSON Manipulation",
-            "name": "json-manipulation"
+            "name": "json-manipulation",
+            "html": "<ul><li><a href=\"https://github.com/josephalevin/fson\">FSON</a> - Fortran 95 JSON Parser.</li>\n\n<li><a href=\"https://github.com/jacobwilliams/json-fortran\">json-fortran</a> - A Fortran 2008 JSON API.</li></ul>"
         },
         {
             "title": "XML Manipulation",
-            "name": "xml-manipulation"
+            "name": "xml-manipulation",
+            "html": "<ul><li><a href=\"https://github.com/andreww/fox\">fox</a> - Fortran XML library</li>\n\n<li><a href=\"http://sourceforge.net/projects/xml-fortran/\">xml-fortran</a> - an all-Fortran solution for reading and writing XML files</li></ul>"
         },
         {
             "title": "Date and time manipulation",
-            "name": "date-and-time-manipulation"
+            "name": "date-and-time-manipulation",
+            "html": "<ul><li><a href=\"https://github.com/milancurcic/datetime-fortran\">datetime-fortran</a> - A Fortran 2003 date and time manipulation library, modeled after Python&#39;s datetime library.</li></ul>"
         },
         {
             "title": "Testing",
-            "name": "testing"
+            "name": "testing",
+            "html": "<ul><li><a href=\"http://sourceforge.net/projects/fortranxunit/\">FRUIT</a> - FORTRAN Unit Test Framework, written in FORTRAN 95</li>\n\n<li><a href=\"http://flibs.sourceforge.net/ftnunit.html\">Ftunit</a> - Fortran unit testing framework by Arjen Markus</li>\n\n<li><a href=\"http://sourceforge.net/projects/pfunit/\">pFUnit</a> - Unit testing framework for Fortran with MPI extensions by developers from NASA and NGC TASC.  Uses parallel codes and object-oriented design.</li></ul>"
         },
         {
             "title": "Fortran Websites",
-            "name": "fortran-websites"
+            "name": "fortran-websites",
+            "html": "<ul><li><a href=\"http://www.fortran.com/\">The Fortran Company</a> - A home page of FORTRAN programming language.</li>\n\n<li><a href=\"http://fortrandev.wordpress.com\">Fortran Dev</a> - Fortran development blog</li></ul>"
         },
         {
             "title": "Fortran Videos",
-            "name": "fortran-videos"
+            "name": "fortran-videos",
+            "html": "<ul><li><a href=\"http://www.youtube.com/watch?v=qUy8M10uZRU\">GNU FORTRAN Lesson 1</a> - Videos about the Fortran programming language.</li>\n\n<li><a href=\"http://jolts.stanford.edu/72/modern_fortran_for_scientists_and_engineers\">Modern Fortran for Scientists and Engineers</a> - Stanford JOLTS video tutorials on modern features of Fortran.</li></ul>"
         }
     ],
     "repoTitle": "Awesome Fortran",

@@ -7,87 +7,108 @@
     "sections": [
         {
             "title": "Charts",
-            "name": "charts"
+            "name": "charts",
+            "html": "<ul><li><a href=\"http://code.google.com/p/achartengine/\">AChartEngine</a> - Charting Engine.</li>\n\n<li><a href=\"https://github.com/blackfizz/EazeGraph\">EazeGraph</a> - Chart and graph library.</li></ul>"
         },
         {
             "title": "Dependency Injection",
-            "name": "dependency-injection"
+            "name": "dependency-injection",
+            "html": "<ul><li><a href=\"https://github.com/roboguice/roboguice\">RoboGuice</a> - Dependency injection framework for Android.</li>\n\n<li><a href=\"https://github.com/square/Dagger\">Dagger</a> - Dependency injection framework for Java and Android.</li>\n\n<li><a href=\"http://jakewharton.github.io/butterknife\">Butter Knife</a> - View &quot;injection&quot; library for Android.</li></ul>"
         },
         {
             "title": "Game Development",
-            "name": "game-development"
+            "name": "game-development",
+            "html": "<ul><li><a href=\"http://www.andengine.org/\">AndEngine</a> - Free, Fun and Fast Android 2D OpenGL Game Engine.</li>\n\n<li><a href=\"https://www.vuforia.com\">Vuforia</a> - Augmented Reality library.</li>\n\n<li><a href=\"http://unity3d.com/unity/multiplatform/mobile\">Unity</a> - Cross-platform game creation system.</li></ul>"
         },
         {
             "title": "GUI",
-            "name": "gui"
+            "name": "gui",
+            "html": "<ul><li><a href=\"https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html\">Pull to refresh</a> - A swipe refresh layout is available in the v4 support library.</li>\n\n<li><a href=\"https://github.com/gabrielemariotti/cardslib\">Cardslib</a> - Android Library to build a UI Card.</li>\n\n<li><a href=\"https://github.com/etsy/AndroidStaggeredGrid\">AndroidStaggeredGrid</a> - Grid view which supports multiple columns with rows of varying sizes.</li>\n\n<li><a href=\"https://code.google.com/p/android-query/\">AQuery</a> - Android-Query (AQuery) is a light-weight library for doing asynchronous tasks and manipulating UI elements in Android.</li>\n\n<li><a href=\"https://github.com/square/flow\">Flow</a> - Library that helps with describing an app as a collection of moderately independent screens.</li>\n\n<li><a href=\"https://github.com/keyboardsurfer/Crouton\">Crouton</a> - Context sensitive notifications for Android</li>\n\n<li><a href=\"https://github.com/bauerca/drag-sort-listview\">DragSortListView</a> - Extension of the Android ListView that enables drag-and-drop reordering (No longer maintained).</li></ul>"
         },
         {
             "title": "JSON",
-            "name": "json"
+            "name": "json",
+            "html": "<ul><li><a href=\"https://code.google.com/p/google-gson/\">Gson</a> - Gson is a Java library used for serializing and deserializing Java objects from and into JSON.</li>\n\n<li><a href=\"http://jackson.codehaus.org\">Jackson JSON Processor</a> - High-performance JSON processor.</li></ul>"
         },
         {
             "title": "Crash monitoring",
-            "name": "crash-monitoring"
+            "name": "crash-monitoring",
+            "html": "<ul><li><a href=\"https://crashlytics.com\">Crashlytics</a> - Easy crash reporting solution.</li>\n\n<li><a href=\"http://hockeyapp.net\">HockeyApp</a> - Distribution, Crash Reports, Feedback and Analytics</li></ul>"
         },
         {
             "title": "Networking",
-            "name": "networking"
+            "name": "networking",
+            "html": "<ul><li><a href=\"https://github.com/koush/ion\">Ion</a> - Good networking library for android.</li>\n\n<li><a href=\"https://github.com/square/okhttp\">OkHttp</a> - An HTTP+SPDY client for Android and Java applications.</li>\n\n<li><a href=\"https://github.com/loopj/android-async-http\">Asynchronous Http Client</a> - An Asynchronous HTTP Library.</li>\n\n<li><a href=\"https://github.com/stephanenicolas/robospice\">RoboSpice</a> - Library that makes writing asynchronous network requests easy.</li>\n\n<li><a href=\"https://github.com/anton19/IceNet\">IceNet</a> - Fast, Simple and Easy Networking for Android</li>\n\n<li><a href=\"http://developer.android.com/training/volley/index.html\">Android Volley</a> - Official Android HTTP library that makes networking for easier and faster.</li></ul>"
         },
         {
             "title": "Database",
-            "name": "database"
+            "name": "database",
+            "html": "<ul><li><a href=\"https://bitbucket.org/qbusict/cupboard\">Cupboard</a> - Access the sqlite easily via direct database access or through the ContentProvider framework.</li>\n\n<li><a href=\"https://github.com/infinum/android_dbinspector\">DbInspector</a> - Provides a simple way to view the contents of the in-app database for debugging purposes.</li>\n\n<li><a href=\"https://github.com/realm/realm-java\">Realm</a> - The alternative to SQLite and ORMs: Simple, modern and fast! Object oriented API and multi platform support.</li></ul>"
         },
         {
             "title": "REST",
-            "name": "rest"
+            "name": "rest",
+            "html": "<ul><li><a href=\"http://square.github.io/retrofit/\">Retrofit</a> - Retrofit turns your REST API into a Java interface.</li></ul>"
         },
         {
             "title": "Testing",
-            "name": "testing"
+            "name": "testing",
+            "html": "<ul><li><a href=\"https://code.google.com/p/robotium/\">Robotium</a> - Test automation framework for black-box UI tests.</li>\n\n<li><a href=\"http://robolectric.org/\">Roboletric</a> - Unit test framework to run tests inside the JVM on your workstation, not in the emulator.</li>\n\n<li><a href=\"https://github.com/square/assertj-android\">AssertJ Android</a> - AssertJ assertions geared towards Android.</li></ul>"
         },
         {
             "title": "Tracking",
-            "name": "tracking"
+            "name": "tracking",
+            "html": "<ul><li><a href=\"http://mobileapptracking.com/\">MobileAppTracking</a> - Tracking your marketing campaigns across multiple ad networks.</li>\n\n<li><a href=\"https://mixpanel.com/\">Mixpanel</a> - Analytics platform to analyze the users.</li></ul>"
         },
         {
             "title": "Utility",
-            "name": "utility"
+            "name": "utility",
+            "html": "<ul><li><a href=\"http://greenrobot.github.io/EventBus/\">EventBus</a> - EventBus is a library that simplifies communication between different parts of your application.</li>\n\n<li><a href=\"https://github.com/square/otto\">Otto</a> - Event Bus for Android.</li></ul>"
         },
         {
             "title": "Wireless",
-            "name": "wireless"
+            "name": "wireless",
+            "html": "<ul><li><a href=\"https://github.com/movisens/SmartGattLib\">SmartGattLib</a> - Simplifies the work with Bluetooth SMART devices (a.k.a. Bluetooth Low Energy in Bluetooth 4.0).</li></ul>"
         },
         {
             "title": "Other",
-            "name": "other"
+            "name": "other",
+            "html": "<ul><li><a href=\"http://developer.android.com/tools/support-library/index.html\">Android Support library</a> - The Android Support Library package is a set of code libraries that provide backward-compatible versions of Android framework API.</li>\n\n<li><a href=\"http://developer.android.com/google/play-services/index.html\">Google Play Services</a> - Library to access Google services, such as account syncing, Google+ (sharing, single sign-on), Google Maps, Location APIs, Google Play Games, Cloud Messaging, Android Device Manager, and others.</li>\n\n<li><a href=\"https://github.com/square/tape\">Tape</a> - A lightning fast, transactional, file-based FIFO for Android and Java.</li>\n\n<li><a href=\"https://github.com/excilys/androidannotations\">Android Annotation framework</a> - Using Java annotations, developers can show their intent and let AndroidAnnotations generate the plumbing code at compile time.</li>\n\n<li><a href=\"https://code.google.com/p/guava-libraries/\">Google Core Libraries</a> - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.</li>\n\n<li><a href=\"http://code.google.com/p/android-scripting/\">Android Scripting</a> - Allows to run scripting languages on Android.</li>\n\n<li><a href=\"https://github.com/path/android-priority-jobqueue\">Android Priority Job Queue</a> - Implementation of a Job Queue to easily schedule jobs (tasks) that run in the background, improving UX and application stability.</li>\n\n<li><a href=\"https://github.com/Kopfgeldjaeger/RateMeMaybe\">RateMeMaybe</a> - Asks the user if (s)he wants to open the Play Store to rate your application.</li>\n\n<li><a href=\"https://github.com/fernandodev/easy-rating-dialog\">Easy Rating Dialog</a> - Lib provides a simple way to display an alert dialog for rating app.</li>\n\n<li><a href=\"https://github.com/zxing/zxing\">ZXing Android-Integration</a> - Integration with Barcode Scanner via Intent.</li>\n\n<li><a href=\"https://github.com/evant/gradle-retrolambda\">Gradle Retrolambda Plugin</a> - Java 8 Lambdas on Android!</li></ul>"
         },
         {
             "title": "More lists of libraries",
-            "name": "more-lists-of-libraries"
+            "name": "more-lists-of-libraries",
+            "html": "<ul><li><a href=\"http://android-arsenal.com\">The Android Arsenal</a> - Large list of android libraries</li>\n\n<li><a href=\"https://play.google.com/store/apps/details?id=com.inappsquared.devappsdirect\">DevAppsDirect - Demo Market</a> - App that demonstrates different libraries.</li>\n\n<li><a href=\"http://square.github.io/#android\">Square libraries</a> - Multiple high quality libraries by square.</li>\n\n<li><a href=\"http://android.hew.io\">Android.hew.io</a> - Yet another list of android libraries.</li></ul>"
         },
         {
             "title": "C&#35;",
-            "name": "c35"
+            "name": "c35",
+            "html": "<ul><li><a href=\"http://xamarin.com\">Xamarin</a> - Framework to create native iOS, Android, Mac and Windows apps in C#.</li></ul>"
         },
         {
             "title": "HTML, CSS and Javascript",
-            "name": "html-css-and-javascript"
+            "name": "html-css-and-javascript",
+            "html": "<ul><li><a href=\"http://phonegap.com\">PhoneGap</a> - Open source framework by Adobe to create cross platform mobile apps using HTML, CSS, and JavaScript.</li>\n\n<li><a href=\"http://www.appcelerator.com/titanium/\">Titanium</a> - Open-source framework to create &#39;native&#39; cross platform apps using JavaScript.</li></ul>"
         },
         {
             "title": "Lua",
-            "name": "lua"
+            "name": "lua",
+            "html": "<ul><li><a href=\"http://coronalabs.com/products/corona-sdk/\">Corona SDK</a> - Framework to create native iOS and Android Apps (especially Games).</li></ul>"
         },
         {
             "title": "Scala",
-            "name": "scala"
+            "name": "scala",
+            "html": "<ul><li><a href=\"http://macroid.github.io/ScalaOnAndroid.html\">Scala on Android</a> - Introduction to Scala on Android.</li>\n\n<li><a href=\"https://github.com/pocorall/scaloid\">Scaloid</a> - Library for less painful Android development with Scala.</li>\n\n<li><a href=\"https://github.com/macroid/macroid\">Macroid</a> - A modular functional UI language for Android.</li></ul>"
         },
         {
             "title": "Groovy",
-            "name": "groovy"
+            "name": "groovy",
+            "html": "<ul><li><a href=\"http://melix.github.io/blog/2014/06/grooid.html\">Groovy on Android</a> - Introduction to Groovy on Android.</li>\n\n<li><a href=\"https://github.com/melix/groovy-android-gradle-plugin\">Groovy Language Support for Android</a> - Gradle Plugin for Compiling Groovy for Android.</li>\n\n<li><a href=\"https://github.com/Arasthel/SwissKnife\">SwissKnife</a> - A multi-purpose Groovy library containing view injection and threading for Android using annotations.</li></ul>"
         },
         {
             "title": "Kotlin",
-            "name": "kotlin"
+            "name": "kotlin",
+            "html": "<ul><li><a href=\"https://github.com/yanex/koan\">Koan</a> - DSL for Android written in Kotlin.</li></ul>"
         }
     ],
     "repoTitle": "Awesome Android",

@@ -7,67 +7,83 @@
     "sections": [
         {
             "title": "Build tools and Setup",
-            "name": "build-tools-and-setup"
+            "name": "build-tools-and-setup",
+            "html": "<ul><li><p><a href=\"http://www.gradle.org/\">Gradle</a> - A powerful build system for the JVM</p></li>\n\n<li><p><a href=\"http://gvmtool.net/\">GVM</a> - the Groovy enVironment Manager</p></li>\n\n<li><p><a href=\"https://github.com/pledbrook/lazybones\">Lazybones</a> - A simple project creation tool that uses packaged project templates.</p></li></ul>"
         },
         {
             "title": "IDE and Editor Support",
-            "name": "ide-and-editor-support"
+            "name": "ide-and-editor-support",
+            "html": "<ul><li><p><a href=\"http://www.jetbrains.com/idea/\">IntelliJ IDEA</a> - The Most Intelligent IDE for the Java Platform</p></li>\n\n<li><p><a href=\"http://spring.io/tools/ggts\">Groovy Grails Tool Suite</a> -  Eclipse-based IDE optimized for developing, debugging and executing Groovy and Grails applications</p></li>\n\n<li><p><a href=\"http://groovyconsole.appspot.com\">Groovy Web Console</a> - The online Groovy console</p></li>\n\n<li><p><a href=\"https://github.com/rundis/LightTable-Groovy\">LightTable Plugin</a> - LightTable Support</p></li>\n\n<li><p><a href=\"https://gist.github.com/kdabir/2203530\">Sublime Text 2</a> - Run groovy scripts from Sublime Text</p></li></ul>"
         },
         {
             "title": "Web Frameworks",
-            "name": "web-frameworks"
+            "name": "web-frameworks",
+            "html": "<ul><li><p><a href=\"https://github.com/grails/grails\">Grails</a> - A powerful web application framework based on the Groovy language</p></li>\n\n<li><p><a href=\"https://github.com/gaelyk/gaelyk\">Gaelyk</a> - A lightweight Groovy toolkit for Google App Engine Java</p></li>\n\n<li><p><a href=\"https://github.com/kdabir/glide\">Glide</a> - Create awesome apps on Google App Engine in a snap</p></li>\n\n<li><p><a href=\"https://github.com/ratpack/ratpack\">Ratpack</a> - A toolkit for JVM web applications</p></li>\n\n<li><p><a href=\"http://projects.spring.io/spring-boot\">Spring-Boot</a> - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that can you can &quot;just run&quot;</p></li></ul>"
         },
         {
             "title": "Database",
-            "name": "database"
+            "name": "database",
+            "html": "<ul><li><p><a href=\"https://github.com/poiati/gmongo\">Gmongo</a> - A Groovy wrapper to the mongodb Java driver</p></li>\n\n<li><p><a href=\"https://github.com/kdabir/gstorm\">Gstorm</a> - A simple ORM for simple databases and CSV files to be used in groovy scripts</p></li>\n\n<li><p><a href=\"https://github.com/EqualExperts/Tayra\">Tyra</a> - Incremental backup tool for MongoDB</p></li>\n\n<li><p><a href=\"https://github.com/tlberglund/groovy-liquibase\">Groovy-liquibase</a> - Yet Another Groovy DSL for Liquibase</p></li></ul>"
         },
         {
             "title": "Rich Application",
-            "name": "rich-application"
+            "name": "rich-application",
+            "html": "<ul><li><p><a href=\"http://griffon.codehaus.org/\">Griffon</a> - Griffon is an application framework for developing desktop applications in the JVM</p></li>\n\n<li><p><a href=\"http://groovyfx.org/\">GroovyFx</a> - GroovyFX provides a Groovy binding for JavaFX 2.0.</p></li></ul>"
         },
         {
             "title": "HTTP",
-            "name": "http"
+            "name": "http",
+            "html": "<ul><li><p><a href=\"http://groovy.codehaus.org/modules/http-builder/home.html\">Http-Builder</a> - HTTPBuilder is the easiest way to manipulate HTTP-based resources from the JVM</p></li>\n\n<li><p><a href=\"https://github.com/jwagenleitner/groovy-wslite\">Groovy-wslite</a> - Lightweight SOAP and REST webservice clients for Groovy</p></li></ul>"
         },
         {
             "title": "Testing",
-            "name": "testing"
+            "name": "testing",
+            "html": "<ul><li><p><a href=\"https://github.com/spockframework/spock\">Spock</a> - The Enterprise-ready testing and specification framework.</p></li>\n\n<li><p><a href=\"https://github.com/geb/geb\">Geb</a> - Very Groovy Browser Automation</p></li>\n\n<li><p><a href=\"http://freeside.co/betamax/\">Betamax</a> - Betamax is a tool for mocking external HTTP resources such as web services and REST APIs in your tests.</p></li></ul>"
         },
         {
             "title": "Concurrency",
-            "name": "concurrency"
+            "name": "concurrency",
+            "html": "<ul><li><p><a href=\"http://gpars.codehaus.org/\">GPars</a> - The GPars concurrency and parallelism framework for the JVM</p></li>\n\n<li><p><a href=\"https://github.com/Netflix/RxJava\">RxJava</a> - Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.</p></li>\n\n<li><p><a href=\"http://vertx.io/\">Vertx</a> - Vert.x is a lightweight, high performance application platform for the JVM </p></li></ul>"
         },
         {
             "title": "Code Analysis",
-            "name": "code-analysis"
+            "name": "code-analysis",
+            "html": "<ul><li><a href=\"http://codenarc.sourceforge.net/\">CodeNarc</a> - Static analysis tool for Groovy</li></ul>"
         },
         {
             "title": "Transpilers",
-            "name": "transpilers"
+            "name": "transpilers",
+            "html": "<ul><li><a href=\"https://github.com/chiquitinxx/grooscript\">Grooscript</a> - Converts your Groovy code to Javascript</li></ul>"
         },
         {
             "title": "Static Web",
-            "name": "static-web"
+            "name": "static-web",
+            "html": "<ul><li><p><a href=\"https://github.com/sysgears/grain\">Grain</a> - Static Web Site Building Framework For Groovy</p></li>\n\n<li><p><a href=\"https://github.com/kobo/gaiden\">Gaiden</a> - Gaiden is a tool that makes it easy to create documentation with Markdown.</p></li></ul>"
         },
         {
             "title": "Language Utilities",
-            "name": "language-utilities"
+            "name": "language-utilities",
+            "html": "<ul><li><p><a href=\"https://github.com/mperry/functionalgroovy\">Functionalgroovy</a> - Functional programming in Groovy</p></li>\n\n<li><p><a href=\"https://github.com/timyates/groovy-stream\">Groovy-stream</a> - A collection of classes to give a fluent builder for Streams (Lazy Groovy Generators)</p></li>\n\n<li><p><a href=\"https://github.com/johnnywey/flipside\">Flipside</a> - Simple Groovy options library</p></li></ul>"
         },
         {
             "title": "Official Site",
-            "name": "official-site"
+            "name": "official-site",
+            "html": "<ul><li><a href=\"http://beta.groovy-lang.org/\">The Upcoming Beta Home</a> - Groovy&#39;s new home</li></ul>"
         },
         {
             "title": "Blogs",
-            "name": "blogs"
+            "name": "blogs",
+            "html": "<ul><li><p><a href=\"http://glaforge.appspot.com/\">Guillaume Laforge&#39;s blog</a> </p></li>\n\n<li><p><a href=\"http://mrhaki.blogspot.com/\">MrHaKi&#39;s Goodness</a> </p></li>\n\n<li><p><a href=\"http://melix.github.io/blog/\">Cédric Champeau&#39;s blog</a></p></li></ul>"
         },
         {
             "title": "Interactive Learning",
-            "name": "interactive-learning"
+            "name": "interactive-learning",
+            "html": "<ul><li><a href=\"http://groovykoans.org/\">Groovy-Koans</a> - Collection of small exercises in the form of unit tests</li></ul>"
         },
         {
             "title": "Using awesome.groovy script",
-            "name": "using-awesomegroovy-script"
+            "name": "using-awesomegroovy-script",
+            "html": "<p>You can use the \n\n<code>awesome.groovy</code>\n\n script to search awesome projects on github and generate the entry prepoulated with project name, repo url and description in markdown format. All you need to do is place it under right group in the markdown list in \n\n<code>README.md</code>\n\n.</p>"
         }
     ],
     "repoTitle": "Awesome Groovy",

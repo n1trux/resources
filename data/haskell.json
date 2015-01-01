@@ -7,147 +7,183 @@
     "sections": [
         {
             "title": "_Basics",
-            "name": "_basics"
+            "name": "_basics",
+            "html": "<ul><li><a href=\"http://www.haskell.org/platform/contents.html\">The Haskell Platform</a> - a comprehensive, robust development environment for programming in Haskell.</li>\n\n<li><a href=\"http://www.haskell.org/ghc/\">GHC</a> - the state-of-the-art optimizing native code compiler for Haskell.</li>\n\n<li><a href=\"http://www.haskell.org/ghc/docs/latest/html/users_guide/ghci.html\">GHCi</a> - a bytecode interpreter and interactive REPL environment for Haskell.</li>\n\n<li><a href=\"http://www.haskell.org/cabal/\">Cabal</a> - a system for building and packaging Haskell libraries and programs. </li>\n\n<li><a href=\"http://www.haskell.org/haddock/\">Haddock</a> - a tool for automatically generating documentation from annotated Haskell source code.</li>\n\n<li><a href=\"http://www.haskell.org/happy/\">Happy</a> - The Parser Generator for Haskell.</li>\n\n<li><a href=\"http://www.haskell.org/alex/\">Alex</a> - a lexical analyser generator for Haskell.</li>\n\n<li><a href=\"http://hackage.haskell.org/\">Hackage</a> - the Haskell community&#39;s central package archive.</li>\n\n<li><a href=\"http://www.haskell.org/hoogle/\">Hoogle</a> - a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.</li>\n\n<li><a href=\"http://holumbus.fh-wedel.de/hayoo/hayoo.html\">Hayoo</a> - will search all packages from Hackage, including all function and type definitions.</li></ul>"
         },
         {
             "title": "Algorithmics",
-            "name": "algorithmics"
+            "name": "algorithmics",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Theorem_provers\">Theorem Provers</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Audio, Music & Sound",
-            "name": "audio-music-sound"
+            "name": "audio-music-sound",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Music_and_sound\">Audio, music and sound</a> - official Website Resources.</li></ul>"
         },
         {
             "title": "Category Theory",
-            "name": "category-theory"
+            "name": "category-theory",
+            "html": "<ul><li><a href=\"http://hackage.haskell.org/packages/#cat:Adjunctions\">Adjunctions</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Algebra\">Algebra</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Categories\">Categories</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Combinators\">Combinators</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Comonads\">Comonads</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Composition\">Compisition</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Computer Algebra\">Computer Algebra</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Constraints\">Constraints</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Functors\">Functors</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Monad\">Monad</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Monads\">Monads</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Semigroups\">Semigroups</a> - a curated Hackage list.</li></ul>"
         },
         {
             "title": "Compilers",
-            "name": "compilers"
+            "name": "compilers",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Compilers_and_interpreters\">Compilers &amp; Interpreters</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Compiler_tools\">Compiler construction, lexing, parsing, pretty printing</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Concurrency & Parallelism",
-            "name": "concurrency-parallelism"
+            "name": "concurrency-parallelism",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Concurrency_and_parallelism\">Concurrency &amp; Parallelism</a> - Official Website Info.</li></ul>"
         },
         {
             "title": "Cryptography & Hashing",
-            "name": "cryptography-hashing"
+            "name": "cryptography-hashing",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Cryptography\">Cryptography &amp; Hashing</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Data Access",
-            "name": "data-access"
+            "name": "data-access",
+            "html": "<ul><li><a href=\"https://github.com/facebook/Haxl\">Haxl</a> - a library for efficient, concurrent, concise data access.</li></ul>"
         },
         {
             "title": "Data Formats",
-            "name": "data-formats"
+            "name": "data-formats",
+            "html": "<ul><li><a href=\"http://hackage.haskell.org/packages/#cat:JSON\">JSON</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:PDF\">PDF</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:XML\">XML</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:RSS\">RSS</a> - a curated Hackage list.</li></ul>"
         },
         {
             "title": "Data Science",
-            "name": "data-science"
+            "name": "data-science",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Linguistics\">Linguistics and natural language processing</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Robotics\">Robotics</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Data Structures",
-            "name": "data-structures"
+            "name": "data-structures",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Data_structures\">Data Structures &amp; IO Libraries</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Database",
-            "name": "database"
+            "name": "database",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Database_interfaces\">Database Interfaces</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Development Tools",
-            "name": "development-tools"
+            "name": "development-tools",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Development_Libraries_and_Tools\">Development Libraries and Tools</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Distributed Computing",
-            "name": "distributed-computing"
+            "name": "distributed-computing",
+            "html": "<ul><li><a href=\"http://hackage.haskell.org/packages/#cat:Distributed Computing\">Distributed Computing</a> - a curated Hackage list.</li></ul>"
         },
         {
             "title": "Documentation",
-            "name": "documentation"
+            "name": "documentation",
+            "html": "<ul><li><a href=\"http://hackage.haskell.org/packages/#cat:Documentation\">Documentation</a> - a curated Hackage list.</li></ul>"
         },
         {
             "title": "Editors",
-            "name": "editors"
+            "name": "editors",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Editors\">Editors written in Haskell</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Editors\">editors for Haskell</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Extensions",
-            "name": "extensions"
+            "name": "extensions",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Extended_Haskell\">Extended Haskell</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Games",
-            "name": "games"
+            "name": "games",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Games\">Games</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "GUI",
-            "name": "gui"
+            "name": "gui",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/GUI_libraries\">Graphical User Interface (GUI) Libraries</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Graphics",
-            "name": "graphics"
+            "name": "graphics",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Graphics\">Graphics</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Network",
-            "name": "network"
+            "name": "network",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Network\">Network</a> - Official Website Resources</li></ul>"
         },
         {
             "title": "Number Theory",
-            "name": "number-theory"
+            "name": "number-theory",
+            "html": "<ul><li><a href=\"http://hackage.haskell.org/packages/#cat:Number Theory\">Number Theory</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Numeric\">Numeric</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Numerical\">Numerical</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Math\">Math</a> - a curated Hackage list.</li></ul>"
         },
         {
             "title": "Web / Frameworks",
-            "name": "web-frameworks"
+            "name": "web-frameworks",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Web/Servers\">Web Servers</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Web/Frameworks\">Web Frameworks</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Web/Cloud\">Cloud</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Web/Deploy\">Deploy</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Web/Libraries\">Libraries</a> - Official Website Resources.</li>\n\n<li><a href=\"\">Interfaces to Frameworks</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Web/Databases_and_Persistence\">Database adn Persistence</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Web/Testing_and_Verification\">Testing and Verification</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Web/Content_Management\">CMS</a> - Official Website Resources for Content Management Systems (CMS).</li></ul>"
         },
         {
             "title": "Text Processing",
-            "name": "text-processing"
+            "name": "text-processing",
+            "html": "<ul><li><a href=\"http://johnmacfarlane.net/pandoc/\">Pandoc</a> - is a library for converting from one markup format to another, and a command-line tool that uses this library.</li></ul>"
         },
         {
             "title": "Messaging",
-            "name": "messaging"
+            "name": "messaging",
+            "html": "<ul><li><a href=\"http://stomp.github.io/\">Stomp</a> - is the Simple (or Streaming) Text Orientated Messaging Protocol. <a href=\"http://hackage.haskell.org/packages/#cat:Stomp\">Resources</a>.</li>\n\n<li><a href=\"https://github.com/hreinhardt/amqp\">amqp</a> - client library for AMQP servers (currently only RabbitMQ).</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:IRC\">IRC</a> - a curated Hackage list for Internet Relay Chat (IRC).</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:IRC Client\">IRC Client</a> - a curated Hackage list.</li></ul>"
         },
         {
             "title": "Languages",
-            "name": "languages"
+            "name": "languages",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages\">Tools for interfacing with other languages</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Operating Systems",
-            "name": "operating-systems"
+            "name": "operating-systems",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Operating_system\">Operating systems and systems programming</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Platforms",
-            "name": "platforms"
+            "name": "platforms",
+            "html": "<ul><li><a href=\"http://hackage.haskell.org/packages/#cat:.NET\">.NET</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Apple\">Apple</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:JVM\">JVM</a> - a curated Hackage list.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:Mobile\">Mobile</a> - a curated Hackage list.</li></ul>"
         },
         {
             "title": "Programming",
-            "name": "programming"
+            "name": "programming",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Generic_programming\">Generic Programming</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Science",
-            "name": "science"
+            "name": "science",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Bioinformatics\">Bioinformatics</a> - Official Website Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries/Mathematics\">Mathematics &amp; Physics</a> - Official Website Resources.</li></ul>"
         },
         {
             "title": "Streaming Processing",
-            "name": "streaming-processing"
+            "name": "streaming-processing",
+            "html": "<ul><li><a href=\"https://github.com/snoyberg/conduit\">Conduit</a> - a streaming data library. <a href=\"http://hackage.haskell.org/packages/#cat:Conduit\">Resources</a>.</li>\n\n<li><a href=\"http://hackage.haskell.org/packages/#cat:IO-Streams\">IO-Streams</a> - a curated Hackage list.</li>\n\n<li><a href=\"https://github.com/Gabriel439/Haskell-Pipes-Library\">Pipes</a> - is a clean and powerful stream processing library that lets you build and connect reusable streaming components. <a href=\"http://hackage.haskell.org/packages/#cat:Pipes\">Resources</a>.</li></ul>"
         },
         {
             "title": "Websites",
-            "name": "websites"
+            "name": "websites",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Haskell\">The Haskell Programming Language</a></li>\n\n<li><a href=\"http://tryhaskell.org/\">Try Haskell</a> - Haskell Online.</li>\n\n<li><a href=\"https://www.fpcomplete.com/school\">School of Haskell</a> - Learning Haskell.</li></ul>"
         },
         {
             "title": "Community",
-            "name": "community"
+            "name": "community",
+            "html": "<ul><li><a href=\"http://www.reddit.com/r/haskell/\">Reddit</a></li>\n\n<li><a href=\"http://stackoverflow.com/questions/tagged?tagnames=haskell\">Stackoverflow</a></li>\n\n<li><a href=\"https://plus.google.com/communities/104818126031270146189\">G+</a></li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Mailing_lists\">Mailing lists</a></li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/IRC_channel\">IRC channels</a></li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/User_groups\">Local user groups</a></li>\n\n<li><a href=\"http://planet.haskell.org/\">Planet Haskell</a></li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Haskell_Communities_and_Activities_Report\">Haskell Communities and Activities Report</a></li></ul>"
         },
         {
             "title": "Courses",
-            "name": "courses"
+            "name": "courses",
+            "html": "<ul><li><a href=\"https://www.edx.org/course/delftx/delftx-fp101x-introduction-functional-2126\">Introduction to Functional Programming</a> - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.</li></ul>"
         },
         {
             "title": "Packages",
-            "name": "packages"
+            "name": "packages",
+            "html": "<ul><li><a href=\"http://hackage.haskell.org/\">Hackage</a> - is the Haskell community&#39;s central package archive.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Applications_and_libraries\">Application &amp; Libraries</a> - Official collections and Guide.</li>\n\n<li><a href=\"http://www.haskell.org/hoogle/\">Hoogle</a> - is a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.</li>\n\n<li><a href=\"http://holumbus.fh-wedel.de/hayoo/hayoo.html\">Hayoo</a> - will search all packages from Hackage, including all function and type definitions.</li></ul>"
         },
         {
             "title": "Tutorials",
-            "name": "tutorials"
+            "name": "tutorials",
+            "html": "<ul><li><a href=\"http://www.haskell.org/haskellwiki/Learning_Haskell\">Learn Haskell</a> - Official Learning Resources.</li>\n\n<li><a href=\"http://www.haskell.org/haskellwiki/Books\">Books</a> &amp; <a href=\"http://www.haskell.org/haskellwiki/Tutorials\">Tutorials</a></li>\n\n<li><a href=\"https://github.com/bitemyapp/learnhaskell\">learnhaskell</a> - Haskell Learning.</li>\n\n<li><a href=\"http://dev.stephendiehl.com/hask/\">wiwinwlh</a> - amazing guide for all kinds of things.</li>\n\n<li><a href=\"http://learnyouahaskell.com/chapters\">LearnYouHaskell</a> - Learn You a Haskell for Great Good!</li>\n\n<li><a href=\"http://www.haskell.org/onlinereport/\">Revised report</a> - Haskell 98 Language and Libraries. The Revised Report.</li></ul>"
         }
     ],
     "repoTitle": "Awesome Haskell",

@@ -7,143 +7,178 @@
     "sections": [
         {
             "title": "Web Framework",
-            "name": "web-framework"
+            "name": "web-framework",
+            "html": "<ul><li><a href=\"https://github.com/webnf/webnf\">Web Non-Framework</a></li>\n\n<li><a href=\"http://www.luminusweb.net/\">Luminus</a></li>\n\n<li><a href=\"http://www.joodoweb.com/\">Joodo</a></li>\n\n<li><a href=\"https://github.com/zubairq/coils\">Coils</a></li>\n\n<li><a href=\"https://github.com/weavejester/duct\">Duct</a></li></ul>"
         },
         {
             "title": "Dependency injection",
-            "name": "dependency-injection"
+            "name": "dependency-injection",
+            "html": "<ul><li><a href=\"https://github.com/stuartsierra/component\">Component</a></li>\n\n<li><a href=\"https://github.com/danielsz/system\">System</a></li>\n\n<li><a href=\"https://github.com/weavejester/duct\">Duct</a></li></ul>"
         },
         {
             "title": "Package management",
-            "name": "package-management"
+            "name": "package-management",
+            "html": "<ul><li><a href=\"https://github.com/technomancy/leiningen\">Leiningen</a></li></ul>"
         },
         {
             "title": "Date and Time",
-            "name": "date-and-time"
+            "name": "date-and-time",
+            "html": "<ul><li><a href=\"https://github.com/clj-time/clj-time\">clj-time</a></li></ul>"
         },
         {
             "title": "GUI",
-            "name": "gui"
+            "name": "gui",
+            "html": "<ul><li><a href=\"https://github.com/aaronc/fx-clj\">fx-clj</a></li></ul>"
         },
         {
             "title": "Audio",
-            "name": "audio"
+            "name": "audio",
+            "html": "<ul><li><a href=\"http://overtone.github.io/\">Overtone</a></li></ul>"
         },
         {
             "title": "HTTP",
-            "name": "http"
+            "name": "http",
+            "html": "<ul><li><a href=\"https://github.com/dakrone/clj-http\">clj-http</a></li>\n\n<li><a href=\"http://http-kit.org/\">http-kit</a></li>\n\n<li><a href=\"https://github.com/ring-clojure/ring\">ring</a></li></ul>"
         },
         {
             "title": "Database",
-            "name": "database"
+            "name": "database",
+            "html": "<ul><li><a href=\"http://www.datomic.com/\">Datomic</a></li>\n\n<li><a href=\"https://github.com/niwibe/clojure.jdbc\">clojure.jdbc</a></li>\n\n<li><a href=\"https://github.com/robashton/cravendb\">cravendb</a></li>\n\n<li><a href=\"http://clojuremongodb.info/\">Mongo</a></li></ul>"
         },
         {
             "title": "Connection pools",
-            "name": "connection-pools"
+            "name": "connection-pools",
+            "html": "<ul><li><a href=\"https://github.com/tomekw/hikari-cp\">hikari-cp</a></li></ul>"
         },
         {
             "title": "Structural Migrations",
-            "name": "structural-migrations"
+            "name": "structural-migrations",
+            "html": "<ul><li><a href=\"https://github.com/budu/lobos\">Lobos</a></li>\n\n<li><a href=\"https://github.com/weavejester/ragtime\">Ragtime</a></li>\n\n<li><a href=\"https://github.com/pjstadig/migratus\">Migratus</a></li>\n\n<li><a href=\"https://github.com/macourtney/drift\">Drift</a></li></ul>"
         },
         {
             "title": "Redis",
-            "name": "redis"
+            "name": "redis",
+            "html": "<ul><li><a href=\"https://github.com/ptaoussanis/carmine\">carmine</a></li></ul>"
         },
         {
             "title": "JSON",
-            "name": "json"
+            "name": "json",
+            "html": "<ul><li><a href=\"https://github.com/dakrone/cheshire\">cheshire</a></li></ul>"
         },
         {
             "title": "Database Cli",
-            "name": "database-cli"
+            "name": "database-cli",
+            "html": ""
         },
         {
             "title": "ORM and SQL generation",
-            "name": "orm-and-sql-generation"
+            "name": "orm-and-sql-generation",
+            "html": "<ul><li><a href=\"http://sqlkorma.com/\">Korma</a></li>\n\n<li><a href=\"https://github.com/stch-library/sql\">stch-library/sql</a></li>\n\n<li><a href=\"https://github.com/r0man/sqlingvo\">sqlingvo</a></li>\n\n<li><a href=\"https://github.com/jkk/honeysql\">honeysql</a></li></ul>"
         },
         {
             "title": "Security",
-            "name": "security"
+            "name": "security",
+            "html": "<ul><li><a href=\"https://github.com/niwibe/buddy\">Buddy</a></li>\n\n<li><a href=\"https://github.com/cemerick/friend\">Friend</a></li>\n\n<li><a href=\"https://github.com/juxt/cylon\">Cylon</a></li></ul>"
         },
         {
             "title": "RESTful API",
-            "name": "restful-api"
+            "name": "restful-api",
+            "html": "<ul><li><a href=\"http://clojure-liberator.github.io/liberator/\">Liberator</a></li>\n\n<li><a href=\"https://github.com/metosin/compojure-api\">compojure-api</a></li></ul>"
         },
         {
             "title": "HTML Manipulation",
-            "name": "html-manipulation"
+            "name": "html-manipulation",
+            "html": "<ul><li><a href=\"https://github.com/cgrand/enlive/wiki\">Enlive</a></li>\n\n<li><a href=\"https://github.com/weavejester/hiccup\">hiccup</a></li></ul>"
         },
         {
             "title": "Data Validation",
-            "name": "data-validation"
+            "name": "data-validation",
+            "html": "<ul><li><a href=\"http://clojurevalidations.info/\">Validateur</a></li>\n\n<li><a href=\"http://clojurevalidations.info/\">Prismatic&#39;s schema</a></li>\n\n<li><a href=\"https://github.com/friemen/domaintypes\">domaintypes</a></li></ul>"
         },
         {
             "title": "Type System",
-            "name": "type-system"
+            "name": "type-system",
+            "html": "<ul><li><a href=\"https://github.com/clojure/core.typed\">core.typed</a></li></ul>"
         },
         {
             "title": "Async processing",
-            "name": "async-processing"
+            "name": "async-processing",
+            "html": "<ul><li><a href=\"https://github.com/clojure/core.async/\">core.async</a></li>\n\n<li><a href=\"https://github.com/puniverse/pulsar\">pulsar</a></li>\n\n<li><a href=\"https://github.com/ztellman/lamina\">lamina</a></li>\n\n<li><a href=\"https://github.com/ztellman/aleph\">aleph</a></li></ul>"
         },
         {
             "title": "Monads",
-            "name": "monads"
+            "name": "monads",
+            "html": "<ul><li><a href=\"https://github.com/niwibe/cats\">cats</a></li>\n\n<li><a href=\"https://github.com/clojure/algo.monads\">algo.monads</a></li></ul>"
         },
         {
             "title": "WebSocket",
-            "name": "websocket"
+            "name": "websocket",
+            "html": "<ul><li><a href=\"https://github.com/ptaoussanis/sente\">Sente</a></li></ul>"
         },
         {
             "title": "Testing",
-            "name": "testing"
+            "name": "testing",
+            "html": "<ul><li><a href=\"http://jayfields.com/expectations/\">Expectations</a></li>\n\n<li><a href=\"https://github.com/marick/Midje\">Midje</a></li></ul>"
         },
         {
             "title": "Code Analysis and Linter",
-            "name": "code-analysis-and-linter"
+            "name": "code-analysis-and-linter",
+            "html": "<ul><li><a href=\"https://github.com/technomancy/slamhound\">Slamhound</a></li>\n\n<li><a href=\"https://github.com/jonase/eastwood\">eastwood</a></li>\n\n<li><a href=\"https://github.com/jonase/kibit\">kibit</a></li></ul>"
         },
         {
             "title": "Science and Data Analysis",
-            "name": "science-and-data-analysis"
+            "name": "science-and-data-analysis",
+            "html": "<ul><li><a href=\"https://github.com/incanter/incanter\">Incanter</a></li>\n\n<li><a href=\"http://cascalog.org/\">Cascalog</a></li>\n\n<li><a href=\"https://github.com/MichaelDrogalis/onyx\">Onyx</a></li></ul>"
         },
         {
             "title": "Computer Vision",
-            "name": "computer-vision"
+            "name": "computer-vision",
+            "html": "<ul><li><a href=\"https://github.com/antoniogarrote/clj-tesseract\">clj-tesseract</a></li>\n\n<li><a href=\"http://nakkaya.com/vision.html\">vision</a></li></ul>"
         },
         {
             "title": "Natural Language Processing",
-            "name": "natural-language-processing"
+            "name": "natural-language-processing",
+            "html": "<ul><li><a href=\"https://github.com/dakrone/clojure-opennlp\">clojure-opennlp</a></li></ul>"
         },
         {
             "title": "Editor Plugins",
-            "name": "editor-plugins"
+            "name": "editor-plugins",
+            "html": "<ul><li><a href=\"https://github.com/clojure-emacs/cider\">CIDER</a></li>\n\n<li><a href=\"https://github.com/tpope/vim-fireplace\">vim-fireplace</a></li>\n\n<li><a href=\"https://github.com/dgrnbrg/vim-redl\">vim-redl</a></li></ul>"
         },
         {
             "title": "Literate Programming",
-            "name": "literate-programming"
+            "name": "literate-programming",
+            "html": "<ul><li><a href=\"https://github.com/gdeer81/marginalia\">marginalia</a></li></ul>"
         },
         {
             "title": "Miscellaneous",
-            "name": "miscellaneous"
+            "name": "miscellaneous",
+            "html": "<ul><li><a href=\"https://github.com/ztellman/clj-tuple\">clj-tuple</a></li>\n\n<li><a href=\"https://github.com/scgilardi/slingshot\">slingshot</a></li></ul>"
         },
         {
             "title": "Debugging",
-            "name": "debugging"
+            "name": "debugging",
+            "html": "<ul><li><a href=\"https://github.com/GeorgeJahad/debug-repl\">debug-repl</a></li>\n\n<li><a href=\"https://github.com/pallet/ritz\">ritz</a></li>\n\n<li><a href=\"https://github.com/dgrnbrg/redl\">redl</a></li>\n\n<li><a href=\"https://github.com/technomancy/limit-break\">limit-break</a></li>\n\n<li><a href=\"https://github.com/dgrnbrg/spyscope\">spyscope</a></li>\n\n<li><a href=\"https://github.com/razum2um/aprint\">aprint</a></li>\n\n<li><a href=\"https://github.com/AvisoNovate/pretty\">pretty</a></li>\n\n<li><a href=\"https://github.com/magnars/prone\">prone</a></li>\n\n<li><a href=\"https://github.com/bhauman/lein-figwheel\">figwheel</a></li></ul>"
         },
         {
             "title": "Guides",
-            "name": "guides"
+            "name": "guides",
+            "html": "<ul><li><a href=\"http://yogthos.github.io/ClojureDistilled.html\">Clojure Distilled</a></li>\n\n<li><a href=\"https://github.com/clojure-cookbook/clojure-cookbook\">clojure-cookbook</a></li>\n\n<li><a href=\"http://www.unexpected-vortices.com/clojure/brief-beginners-guide/index.html\">A Brief Beginner&#39;s Guide To Clojure</a></li>\n\n<li><a href=\"http://www.braveclojure.com/\">Clojure for the Brave and True</a></li>\n\n<li><a href=\"http://aphyr.com/tags/Clojure-from-the-ground-up\">Clojure from the ground up</a></li></ul>"
         },
         {
             "title": "Websites",
-            "name": "websites"
+            "name": "websites",
+            "html": "<ul><li><a href=\"http://clojuredocs.org\">clojuredocs</a></li>\n\n<li><a href=\"http://crossclj.info/\">crossclj</a></li>\n\n<li><a href=\"http://clojure-doc.org/\">clojure-doc</a></li>\n\n<li><a href=\"http://www.clojuresphere.com/\">Clojure Sphere</a></li>\n\n<li><a href=\"http://grimoire.arrdem.com/\">Grimoire</a></li>\n\n<li><a href=\"http://www.clojure-toolbox.com/\">The Clojure Toolbox</a></li>\n\n<li><a href=\"http://web.clojurerepl.com/\">InstaREPL Online</a></li>\n\n<li><a href=\"https://clojure.zeef.com/vlad.bokov\">ZEEF/Clojure</a></li></ul>"
         },
         {
             "title": "Twitter",
-            "name": "twitter"
+            "name": "twitter",
+            "html": "<ul><li>[oss<em>clj](https://twitter.com/oss</em>clj)</li></ul>"
         },
         {
             "title": "Misc",
-            "name": "misc"
+            "name": "misc",
+            "html": "<ul><li><a href=\"https://github.com/functional-koans/clojure-koans\">koans</a></li></ul>"
         }
     ],
     "repoTitle": "Awesome Clojure",

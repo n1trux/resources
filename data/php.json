@@ -7,271 +7,338 @@
     "sections": [
         {
             "title": "Contributing",
-            "name": "contributing"
+            "name": "contributing",
+            "html": "<p>Please see \n\n<a href=\"https://github.com/ziadoz/awesome-php/blob/master/CONTRIBUTING.md\">CONTRIBUTING</a>\n\n for details.</p>"
         },
         {
             "title": "Table of Contents",
-            "name": "table-of-contents"
+            "name": "table-of-contents",
+            "html": "<ul><li><a href=\"#awesome-php\">Awesome PHP</a><ul><li><a href=\"#dependency-management\">Dependency Management</a></li><li><a href=\"#dependency-management-extras\">Dependency Management Extras</a></li><li><a href=\"#frameworks\">Frameworks</a></li><li><a href=\"#framework-extras\">Framework Extras</a></li><li><a href=\"#framework-components\">Framework Components</a></li><li><a href=\"#micro-frameworks\">Micro Frameworks</a></li><li><a href=\"#micro-framework-extras\">Micro Framework Extras</a></li><li><a href=\"#templating\">Templating</a></li><li><a href=\"#static-site-generators\">Static Site Generators</a></li><li><a href=\"#http\">HTTP</a></li><li><a href=\"#url\">URL</a></li><li><a href=\"#email\">Email</a></li><li><a href=\"#files\">Files</a></li><li><a href=\"#streams\">Streams</a></li><li><a href=\"#dependency-injection\">Dependency Injection</a></li><li><a href=\"#imagery\">Imagery</a></li><li><a href=\"#testing\">Testing</a></li><li><a href=\"#continuous-integration\">Continuous Integration</a></li><li><a href=\"#documentation\">Documentation</a></li><li><a href=\"#security\">Security</a></li><li><a href=\"#passwords\">Passwords</a></li><li><a href=\"#code-analysis\">Code Analysis</a></li><li><a href=\"#debugging\">Debugging</a></li><li><a href=\"#build-tools\">Build Tools</a></li><li><a href=\"#task-runners\">Task Runners</a></li><li><a href=\"#navigation\">Navigation</a></li><li><a href=\"#asset-management\">Asset Management</a></li><li><a href=\"#geolocation\">Geolocation</a></li><li><a href=\"#date-and-time\">Date and Time</a></li><li><a href=\"#event\">Event</a></li><li><a href=\"#logging\">Logging</a></li><li><a href=\"#e-commerce\">E-commerce</a></li><li><a href=\"#pdf\">PDF</a></li><li><a href=\"#database\">Database</a></li><li><a href=\"#migrations\">Migrations</a></li><li><a href=\"#nosql\">NoSQL</a></li><li><a href=\"#queue\">Queue</a></li><li><a href=\"#search\">Search</a></li><li><a href=\"#command-line\">Command Line</a></li><li><a href=\"#authentication\">Authentication</a></li><li><a href=\"#markup\">Markup</a></li><li><a href=\"#strings\">Strings</a></li><li><a href=\"#numbers\">Numbers</a></li><li><a href=\"#filtering-and-validation\">Filtering and Validation</a></li><li><a href=\"#rest-and-api\">REST and API</a></li><li><a href=\"#caching\">Caching</a></li><li><a href=\"#data-structure-and-storage\">Data Structure and Storage</a></li><li><a href=\"#notifications\">Notifications</a></li><li><a href=\"#deployment\">Deployment</a></li><li><a href=\"#internationalisation-and-localisation\">Internationalisation and Localisation</a></li><li><a href=\"#third-party-apis\">Third Party APIs</a></li><li><a href=\"#extensions\">Extensions</a></li><li><a href=\"#miscellaneous\">Miscellaneous</a></li></ul></li>\n\n<li><a href=\"#software\">Software</a><ul><li><a href=\"#php-installation\">PHP Installation</a></li><li><a href=\"#development-environment\">Development Environment</a></li><li><a href=\"#virtual-machines\">Virtual Machines</a></li><li><a href=\"#integrated-development-environment\">Integrated Development Environment</a></li><li><a href=\"#web-applications\">Web Applications</a></li></ul></li>\n\n<li><a href=\"#resources\">Resources</a><ul><li><a href=\"#php-websites\">PHP Websites</a></li><li><a href=\"#other-websites\">Other Websites</a></li><li><a href=\"#php-books\">PHP Books</a></li><li><a href=\"#other-books\">Other Books</a></li><li><a href=\"#php-videos\">PHP Videos</a></li><li><a href=\"#php-reading\">PHP Reading</a></li><li><a href=\"#php-internals-reading\">PHP Internals Reading</a></li></ul></li>\n\n<li><a href=\"#contributing\">Contributing</a></li></ul>"
         },
         {
             "title": "Dependency Management",
-            "name": "dependency-management"
+            "name": "dependency-management",
+            "html": "<ul><li><a href=\"http://getcomposer.org/\">Composer</a>/<a href=\"http://packagist.org/\">Packagist</a> - A package and dependency manager.</li>\n\n<li><a href=\"https://github.com/composer/installers\">Composer Installers</a> - A  multi framework Composer library installer.</li>\n\n<li><a href=\"https://github.com/FriendsOfPHP/pickle\">Pickle</a> - A PHP extension installer.</li></ul>"
         },
         {
             "title": "Dependency Management Extras",
-            "name": "dependency-management-extras"
+            "name": "dependency-management-extras",
+            "html": "<ul><li><a href=\"https://github.com/composer/satis\">Satis</a> - A static Composer repository generator.</li>\n\n<li><a href=\"https://github.com/bamarni/composition\">Composition</a> - A library to check your Composer environment at runtime.</li>\n\n<li><a href=\"https://github.com/herrera-io/php-version\">Version</a> - A parsing and comparison library for semantic versioning.</li>\n\n<li><a href=\"https://github.com/ralphschindler/Namespacer\">NameSpacer</a> - A library to convert from underscores to namespaces.</li>\n\n<li><a href=\"https://github.com/goatherd/patch-installer\">Patch Installer</a> - A library to install patches using Composer.</li>\n\n<li><a href=\"https://github.com/silpion/composer-checker\">Composer Checker</a> - A tool to validate Composer configurations.</li></ul>"
         },
         {
             "title": "Frameworks",
-            "name": "frameworks"
+            "name": "frameworks",
+            "html": "<ul><li><a href=\"http://symfony.com/\">Symfony2</a> - A framework comprised of individual components.</li>\n\n<li><a href=\"http://framework.zend.com\">Zend Framework 2</a> - Another framework comprised of individual components.</li>\n\n<li><a href=\"http://laravel.com/\">Laravel 4</a> - Another PHP framework.</li>\n\n<li><a href=\"http://auraphp.com/\">Aura PHP</a> - A framework of independent components.</li>\n\n<li><a href=\"https://github.com/yiisoft/yii2/\">Yii2</a> - Another PHP framework.</li>\n\n<li><a href=\"http://nette.org\">Nette</a> - Another framework comprised of individual components.</li>\n\n<li><a href=\"http://www.ppi.io\">PPI Framework 2</a> - An interoperability framework.</li>\n\n<li><a href=\"http://phalconphp.com/en/\">Phalcon</a> - A framework implemented as a C extension.</li></ul>"
         },
         {
             "title": "Framework Extras",
-            "name": "framework-extras"
+            "name": "framework-extras",
+            "html": "<ul><li><a href=\"https://github.com/symfony-cmf/symfony-cmf\">Symfony CMF</a> - A Content Management Framework to create custom CMS.</li>\n\n<li><a href=\"http://rad.knplabs.com/\">Knp RAD Bundle</a> - A Rapid Application Development (RAD) bundle for Symfony 2.</li></ul>"
         },
         {
             "title": "Framework Components",
-            "name": "framework-components"
+            "name": "framework-components",
+            "html": "<ul><li><a href=\"http://symfony.com/doc/master/components/index.html\">Symfony2 Components</a> - The components that make Symfony2.</li>\n\n<li><a href=\"https://packages.zendframework.com/\">Zend Framework 2 Components</a> - The components that make ZF2.</li>\n\n<li><a href=\"http://auraphp.github.com/\">Aura Components</a> - A package of PHP 5.4 components.</li>\n\n<li><a href=\"http://hoa-project.net/En/\">Hoa Project</a> - Another package of PHP components.</li></ul>"
         },
         {
             "title": "Micro Frameworks",
-            "name": "micro-frameworks"
+            "name": "micro-frameworks",
+            "html": "<ul><li><a href=\"http://silex.sensiolabs.org/\">Silex</a> - A micro framework built around Symfony2 components.</li>\n\n<li><a href=\"http://www.slimframework.com/\">Slim</a> - Another simple micro framework.</li>\n\n<li><a href=\"http://bulletphp.com/\">Bullet PHP</a> - A micro framework for building REST APIs.</li>\n\n<li><a href=\"https://github.com/nikic/FastRoute\">Fast Route</a> - A fast routing library.</li>\n\n<li><a href=\"https://github.com/c9s/Pux\">Pux</a> - Another fast routing library.</li></ul>"
         },
         {
             "title": "Micro Framework Extras",
-            "name": "micro-framework-extras"
+            "name": "micro-framework-extras",
+            "html": "<ul><li><a href=\"https://github.com/fabpot/Silex-Skeleton\">Silex Skeleton</a> - A project skeleton for Silex.</li>\n\n<li><a href=\"https://github.com/silexphp/Silex-WebProfiler\">Silex Web Profiler</a> - A web debug toolbar for Silex.</li>\n\n<li><a href=\"https://github.com/stackphp\">Stack</a> - A library of stackable middleware for Silex/Symfony.</li>\n\n<li><a href=\"https://github.com/codeguy/Slim-Skeleton\">Slim Skeleton</a> - A skeleton for Slim.</li>\n\n<li><a href=\"https://github.com/codeguy/Slim-Views\">Slim View</a> - A collection of custom views for Slim.</li>\n\n<li><a href=\"https://github.com/codeguy/Slim-Middleware\">Slim Middleware</a> - A collection of custom middleware for Slim.</li></ul>"
         },
         {
             "title": "Templating",
-            "name": "templating"
+            "name": "templating",
+            "html": "<ul><li><a href=\"http://twig.sensiolabs.org/\">Twig</a> - A comprehensive templating language.</li>\n\n<li><a href=\"https://github.com/asm89/twig-cache-extension\">Twig Cache Extension</a> - A template fragment cache library for Twig.</li>\n\n<li><a href=\"https://github.com/bobthecow/mustache.php\">Mustache</a> - A PHP implementation of the Mustache template language.</li>\n\n<li><a href=\"https://github.com/weierophinney/phly_mustache\">Phly Mustache</a> - Another PHP implementation of the Mustache template language.</li>\n\n<li><a href=\"https://github.com/arnaud-lb/MtHaml\">MtHaml</a> - A PHP implementation of the HAML template language.</li>\n\n<li><a href=\"http://phptal.org/\">PHPTAL</a> - A PHP implementation of the <a href=\"http://en.wikipedia.org/wiki/Template_Attribute_Language\">TAL</a> templating language.</li>\n\n<li><a href=\"http://platesphp.com/\">Plates</a> - A native PHP templating library.</li>\n\n<li><a href=\"https://github.com/pyrocms/lex\">Lex</a> - A lightweight template parser.</li></ul>"
         },
         {
             "title": "Static Site Generators",
-            "name": "static-site-generators"
+            "name": "static-site-generators",
+            "html": "<ul><li><a href=\"http://sculpin.io\">Sculpin</a> - A tool that converts Markdown and Twig into static HTML.</li>\n\n<li><a href=\"http://phrozn.info\">Phrozn</a> - Another tool that converts Textile, Markdown and Twig into HTML.</li></ul>"
         },
         {
             "title": "HTTP",
-            "name": "http"
+            "name": "http",
+            "html": "<ul><li><a href=\"https://github.com/guzzle/guzzle\">Guzzle</a> - A comprehensive HTTP client.</li>\n\n<li><a href=\"https://github.com/kriswallsmith/Buzz\">Buzz</a> - Another HTTP client.</li>\n\n<li><a href=\"https://github.com/rmccue/Requests\">Requests</a> - A simple HTTP library.</li>\n\n<li><a href=\"https://github.com/nategood/httpful\">HTTPFul</a> - A chainable HTTP client.</li>\n\n<li><a href=\"https://github.com/fabpot/Goutte\">Goutte</a> - A simple web scraper.</li>\n\n<li><a href=\"http://php-vcr.github.io/\">PHP VCR</a> - A library for recording and replaying HTTP requests.</li></ul>"
         },
         {
             "title": "URL",
-            "name": "url"
+            "name": "url",
+            "html": "<ul><li><a href=\"https://github.com/jwage/purl\">Purl</a> - A URL manipulation library.</li>\n\n<li><a href=\"https://github.com/jeremykendall/php-domain-parser\">PHP Domain Parser</a> - A domain suffix parser library.</li></ul>"
         },
         {
             "title": "Email",
-            "name": "email"
+            "name": "email",
+            "html": "<ul><li><a href=\"http://swiftmailer.org/\">SwiftMailer</a> - A mailer solution.</li>\n\n<li><a href=\"https://github.com/PHPMailer/PHPMailer\">PHPMailer</a> - Another mailer solution.</li>\n\n<li><a href=\"https://github.com/tedivm/Fetch\">Fetch</a> - An IMAP library.</li>\n\n<li><a href=\"https://github.com/willdurand/EmailReplyParser\">Email Reply Parser</a> - An email reply parser library.</li>\n\n<li><a href=\"https://github.com/henrikbjorn/Stampie\">Stampie</a> - A library for email services such as <a href=\"http://sendgrid.com\">SendGrid</a>, <a href=\"http://postmarkapp.com\">PostMark</a>, <a href=\"http://www.mailgun.com\">MailGun</a> and <a href=\"http://www.mandrill.com\">Mandrill</a>.</li>\n\n<li><a href=\"https://github.com/tijsverkoyen/CssToInlineStyles\">CssToInlineStyles</a> - A library to inline CSS in email templates.</li></ul>"
         },
         {
             "title": "Files",
-            "name": "files"
+            "name": "files",
+            "html": "<ul><li><a href=\"https://github.com/KnpLabs/Gaufrette\">Gaufrette</a> - A filesystem abstraction layer.</li>\n\n<li><a href=\"https://github.com/FrenkyNet/Flysystem\">Flysystem</a> - Another filesystem abstraction layer.</li>\n\n<li><a href=\"https://github.com/dflydev/dflydev-canal\">Canal</a> - A library to determine internet media types.</li>\n\n<li><a href=\"https://github.com/dflydev/dflydev-apache-mime-types\">Apache MIME Types</a> - A library that parses Apache MIME types.</li>\n\n<li><a href=\"https://github.com/versionable/Ferret\">Ferret</a> - A MIME detection library.</li>\n\n<li><a href=\"https://github.com/hoaproject/Mime\">Hoa Mime</a> - Another MIME detection library.</li>\n\n<li><a href=\"https://github.com/henrikbjorn/Lurker\">Lurker</a> - A resource tracking library.</li>\n\n<li><a href=\"https://github.com/herrera-io/php-file-locator\">PHP File Locator</a> - A library for locating files in large projects.</li>\n\n<li><a href=\"https://github.com/alchemy-fr/PHP-FFmpeg/\">PHP FFmpeg</a> - A wrapper for the <a href=\"http://www.ffmpeg.org/\">FFmpeg</a> video library.</li>\n\n<li><a href=\"https://github.com/nyamsprod/Bakame.csv\">CSV</a> - A CSV data manipulation library.</li></ul>"
         },
         {
             "title": "Streams",
-            "name": "streams"
+            "name": "streams",
+            "html": "<ul><li><a href=\"https://github.com/fzaninotto/Streamer\">Streamer</a> - A simple object-orientated stream wrapper library.</li></ul>"
         },
         {
             "title": "Dependency Injection",
-            "name": "dependency-injection"
+            "name": "dependency-injection",
+            "html": "<ul><li><a href=\"http://pimple.sensiolabs.org/\">Pimple</a> - A tiny dependency injection container.</li>\n\n<li><a href=\"https://github.com/rdlowrey/Auryn\">Auryn</a> - Another dependency injection container.</li>\n\n<li><a href=\"https://github.com/orno/di\">Orno Di</a> - Another flexible dependency injection container.</li>\n\n<li><a href=\"http://mnapoli.github.com/PHP-DI/\">PHP DI</a> - A dependency injection implementation using annotations.</li>\n\n<li><a href=\"https://github.com/jeremeamia/acclimate\">Acclimate</a> - A common interface to dependency injection containers and service locators.</li></ul>"
         },
         {
             "title": "Imagery",
-            "name": "imagery"
+            "name": "imagery",
+            "html": "<ul><li><a href=\"http://imagine.readthedocs.org/en/latest/index.html\">Imagine</a> - An image manipulation library.</li>\n\n<li><a href=\"https://github.com/Sybio/ImageWorkshop\">PHP Image Workshop</a> - Another image manipulation library.</li>\n\n<li><a href=\"https://github.com/Intervention/image\">Intervention Image</a> - Another image manipulation library.</li>\n\n<li><a href=\"https://github.com/Sybio/GifFrameExtractor\">GIF Frame Extractor</a> - A library to extract GIF animation frame information.</li>\n\n<li><a href=\"https://github.com/Sybio/GifCreator\">GIF Creator</a> - A library to create GIF animations from multiple images.</li>\n\n<li><a href=\"https://github.com/nmcteam/image-with-text\">Image With Text</a> - A library for embedding text into images.</li>\n\n<li><a href=\"https://github.com/php-loep/color-extractor\">Color Extractor</a> - A library for extracting colours from images.</li></ul>"
         },
         {
             "title": "Testing",
-            "name": "testing"
+            "name": "testing",
+            "html": "<ul><li><a href=\"https://github.com/sebastianbergmann/phpunit\">PHPUnit</a> - A unit testing framework.</li>\n\n<li><a href=\"https://github.com/sebastianbergmann/dbunit\">DBUnit</a> - A database testing library for PHPUnit.</li>\n\n<li><a href=\"https://github.com/brianium/paratest\">ParaTest</a> - A parallel testing library for PHPUnit.</li>\n\n<li><a href=\"https://github.com/phpspec/phpspec\">PHPSpec</a> - A design by specification unit testing library.</li>\n\n<li><a href=\"https://github.com/Codeception/Codeception\">Codeception</a> - A full stack testing framework.</li>\n\n<li><a href=\"https://github.com/Codeception/AspectMock\">AspectMock</a> - A mocking framework for PHPUnit/Codeception.</li>\n\n<li><a href=\"https://github.com/atoum/atoum\">Atoum</a> - A simple testing library.</li>\n\n<li><a href=\"https://github.com/padraic/mockery\">Mockery</a> - A mock object library for testing.</li>\n\n<li><a href=\"https://github.com/mlively/Phake\">Phake</a> - Another mock object library for testing.</li>\n\n<li><a href=\"https://github.com/phpspec/prophecy\">Prophecy</a> - A highly opinionated mocking framework.</li>\n\n<li><a href=\"https://github.com/fzaninotto/Faker\">Faker</a> - A fake data generator library.</li>\n\n<li><a href=\"https://github.com/mauris/samsui\">Samsui</a> - Another fake data generator library.</li>\n\n<li><a href=\"https://github.com/nelmio/alice\">Alice</a> - An expressive fixture generation library.</li>\n\n<li><a href=\"http://behat.org/\">Behat</a> - A behaviour driven development (BDD) testing framework.</li>\n\n<li><a href=\"https://github.com/danielstjules/pho\">Pho</a> - Another behaviour driven development testing framework.</li>\n\n<li><a href=\"http://mink.behat.org/\">Mink</a> - Web acceptance testing.</li>\n\n<li><a href=\"https://github.com/InterNations/http-mock\">HTTP Mock</a> - A library for mocking HTTP requests in unit tests.</li>\n\n<li><a href=\"https://github.com/mikey179/vfsStream\">VFS Stream</a> - A virtual filesystem stream wrapper for testing.</li>\n\n<li><a href=\"https://github.com/adlawson/vfs.php\">VFS</a> - Another virtual filesystem for testing.</li>\n\n<li><a href=\"http://locust.io/\">Locust</a> - A modern load test library written in Python.</li></ul>"
         },
         {
             "title": "Continuous Integration",
-            "name": "continuous-integration"
+            "name": "continuous-integration",
+            "html": "<ul><li><a href=\"https://travis-ci.org/\">Travis CI</a> - A continuous integration platform.</li>\n\n<li><a href=\"http://www.phptesting.org/\">PHPCI</a> - An open source continuous integration platform for PHP.</li>\n\n<li><a href=\"http://sismo.sensiolabs.org/\">Sismo</a> - A continuous testing server library.</li>\n\n<li><a href=\"http://jenkins-ci.org/\">Jenkins</a> A continous integration platform with <a href=\"http://jenkins-php.org/index.html\">PHP support</a>.</li>\n\n<li><a href=\"https://github.com/jolicode/JoliCi\">JoliCi</a> - A continuous integration client written in PHP and powered by Docker.</li></ul>"
         },
         {
             "title": "Documentation",
-            "name": "documentation"
+            "name": "documentation",
+            "html": "<ul><li><a href=\"https://github.com/fabpot/Sami\">Sami</a> - An API documentation generator.</li>\n\n<li><a href=\"https://github.com/apigen/apigen\">APIGen</a> - Another API documentation generator.</li>\n\n<li><a href=\"https://github.com/phpDocumentor/phpDocumentor2\">PHP Documentor 2</a> - A documentation generator.</li>\n\n<li><a href=\"http://phpdox.de/\">phpDox</a> - A documentation generator for PHP projects (that is not limited to API documentation).</li></ul>"
         },
         {
             "title": "Security",
-            "name": "security"
+            "name": "security",
+            "html": "<ul><li><a href=\"https://github.com/ezyang/htmlpurifier\">HTML Purifier</a> - A standards compliant HTML filter.</li>\n\n<li><a href=\"https://github.com/ircmaxell/RandomLib\">RandomLib</a> - A library for generating random numbers and strings.</li>\n\n<li><a href=\"https://github.com/pixeloution/true-random\">True Random</a> - A library that generates random numbers using <a href=\"http://www.random.org/\">www.random.org</a>.</li>\n\n<li><a href=\"https://github.com/padraic/SecurityMultiTool\">SecurityMultiTool</a> - A PHP security library.</li>\n\n<li><a href=\"http://phpseclib.sourceforge.net/\">PHPSecLib</a> - A pure PHP secure communications library.</li>\n\n<li><a href=\"https://github.com/timoh6/TCrypto\">TCrypto</a> - A simple encrypted key-value storage library.</li>\n\n<li><a href=\"https://github.com/PHPIDS/PHPIDS\">PHP IDS</a> - A structured PHP security layer.</li>\n\n<li><a href=\"https://github.com/Herzult/php-ssh\">PHP SSH</a> - An experimental object orientated SSH wrapper library.</li>\n\n<li><a href=\"https://github.com/psecio/iniscan\">IniScan</a> - A tool that scans PHP INI files for security.</li>\n\n<li><a href=\"https://security.sensiolabs.org/\">SensioLabs Security Check</a> - A web tool to check your Composer dependencies for security advisories.</li>\n\n<li><a href=\"https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project\">Zed</a> - An integrated penetration testing tool for web applications.</li></ul>"
         },
         {
             "title": "Passwords",
-            "name": "passwords"
+            "name": "passwords",
+            "html": "<ul><li><a href=\"https://github.com/ircmaxell/password_compat\">Password Compat</a> - A compatibility library for the new PHP 5.5 password functions.</li>\n\n<li><a href=\"http://www.openwall.com/phpass/\">phpass</a> - A portable password hashing framework.</li>\n\n<li><a href=\"https://github.com/ircmaxell/PHP-PasswordLib\">PHP Password Lib</a> - A library for generating and validating passwords.</li>\n\n<li><a href=\"https://github.com/ircmaxell/password-policy\">Password Policy</a> - A password policy library for PHP and JavaScript.</li>\n\n<li><a href=\"https://github.com/jeremykendall/password-validator\">Password Validator</a> - A library for validating and upgrading password hashes.</li>\n\n<li><a href=\"https://github.com/bjeavons/zxcvbn-php\">Zxcvbn PHP</a> - A realistic PHP password strength estimate library based on Zxcvbn JS.</li></ul>"
         },
         {
             "title": "Code Analysis",
-            "name": "code-analysis"
+            "name": "code-analysis",
+            "html": "<ul><li><a href=\"https://github.com/nikic/PHP-Parser\">PHP Parser</a> - A PHP parser written in PHP.</li>\n\n<li><a href=\"https://github.com/ircmaxell/PHPPHP\">PHPPHP</a> - A PHP VM implementation in PHP.</li>\n\n<li><a href=\"https://github.com/fieryprophet/php-sandbox\">PHPSandbox</a> - A PHP sandbox environment.</li>\n\n<li><a href=\"https://github.com/jakubledl/dissect\">Dissect</a> - A set of tools for lexical and syntactical analysis.</li>\n\n<li><a href=\"http://phpmd.org/\">PHP Mess Detector</a> - A library that scans code for bugs, sub-optimal code, unused parameters and more.</li>\n\n<li><a href=\"https://github.com/squizlabs/PHP_CodeSniffer\">PHP Code Sniffer</a> - A library that detects PHP, CSS and JS coding standard violations.</li>\n\n<li><a href=\"https://github.com/sebastianbergmann/phpcpd\">PHPCPD</a> - A library that detects copied and pasted code.</li>\n\n<li><a href=\"https://github.com/scrutinizer-ci/php-analyzer\">PHP Analyser</a> - A library for analysing PHP code to find bugs and errors.</li>\n\n<li><a href=\"https://github.com/fabpot/PHP-CS-Fixer\">PHP CS Fixer</a> - A coding standard fixer library.</li>\n\n<li><a href=\"https://github.com/schmittjoh/php-manipulator\">PHP Manipulator</a> - A library for analysing and modifying PHP Source Code.</li>\n\n<li><a href=\"https://github.com/Halleck45/PhpMetrics\">PHP Metrics</a> - A static metric library.</li>\n\n<li><a href=\"https://github.com/QafooLabs/php-refactoring-browser\">PHP Refactoring Browser</a> - A command line utility for refactoring PHP code.</li>\n\n<li><a href=\"https://github.com/devster/ubench\">UBench</a> - A simple micro benchmark library.</li>\n\n<li><a href=\"https://github.com/polyfractal/athletic\">Athletic</a> - An annotation based benchmark framework.</li>\n\n<li><a href=\"https://github.com/Trismegiste/Mondrian\">Mondrian</a> - A code analysis tool using Graph Theory.</li>\n\n<li><a href=\"https://scrutinizer-ci.com/\">Scrutinizer</a> - A web tool to scrutinise PHP code.</li>\n\n<li><a href=\"https://github.com/sebastianbergmann/phploc\">PHPLOC</a> - A tool for quickly measuring the size of a PHP project.</li>\n\n<li><a href=\"https://github.com/phacility/xhprof\">xHprof</a> - Another profiling tool for PHP.</li>\n\n<li><a href=\"https://github.com/jbrooksuk/phpcheckstyle\">PHPCheckstyle</a> - A tool to help adhere to certain coding conventions.</li></ul>"
         },
         {
             "title": "Debugging",
-            "name": "debugging"
+            "name": "debugging",
+            "html": "<ul><li><a href=\"https://github.com/xdebug/xdebug\">xDebug</a> - A debug and profile tool for PHP.</li>\n\n<li><a href=\"http://phpdebugbar.com/\">PHP Debug Bar</a> - A debugging toolbar.</li>\n\n<li><a href=\"https://github.com/Seldaek/php-console\">PHP Console</a> - A web debugging console.</li>\n\n<li><a href=\"https://github.com/barbushin/php-console\">Barbushin PHP Console</a> - Another web debugging console using Google Chrome.</li>\n\n<li><a href=\"http://phpdbg.com/\">PHPDBG</a> - An interactive PHP debugger.</li>\n\n<li><a href=\"https://github.com/nette/tracy\">Tracy</a> - A simple error detection, logging and time measuring library.</li></ul>"
         },
         {
             "title": "Build Tools",
-            "name": "build-tools"
+            "name": "build-tools",
+            "html": "<ul><li><a href=\"https://github.com/herrera-io/php-go\">Go</a> - A simple PHP build tool.</li>\n\n<li><a href=\"https://github.com/CHH/bob\">Bob</a> - A simple project automation tool.</li>\n\n<li><a href=\"https://github.com/jaz303/phake\">Phake</a> - A rake PHP clone library.</li>\n\n<li><a href=\"https://github.com/kherge/Box\">Box</a> - A utility to build PHAR files.</li>\n\n<li><a href=\"http://www.phing.info/\">Phing</a> - A PHP project build system inspired by Apache Ant.</li></ul>"
         },
         {
             "title": "Task Runners",
-            "name": "task-runners"
+            "name": "task-runners",
+            "html": "<p><em>Libraries for automating and running tasks.</em>\n\n\n\n\n<em> <a href=\"http://taskphp.github.io/\">Task</a> - A pure PHP task runner inspired by Grunt and Gulp.\n</em>\n\n \n\n<a href=\"https://github.com/Codegyre/Robo\">Robo</a>\n\n - A PHP Task runner with object-orientated configurations.\n* \n\n<a href=\"http://bldr.io/\">Bldr</a>\n\n - A PHP Task runner built on Symfony components.</p>"
         },
         {
             "title": "Navigation",
-            "name": "navigation"
+            "name": "navigation",
+            "html": "<ul><li><a href=\"https://github.com/KnpLabs/KnpMenu\">KnpMenu</a> - A menu library.</li>\n\n<li><a href=\"https://github.com/tackk/cartographer\">Cartographer</a> - A sitemap generation library.</li></ul>"
         },
         {
             "title": "Asset Management",
-            "name": "asset-management"
+            "name": "asset-management",
+            "html": "<ul><li><a href=\"https://github.com/kriswallsmith/assetic\">Assetic</a> - An asset manager pipeline library.</li>\n\n<li><a href=\"https://github.com/CHH/pipe\">Pipe</a> - Another asset manager pipeline library.</li>\n\n<li><a href=\"https://github.com/meenie/munee\">Munee</a> - An asset optimiser library.</li>\n\n<li><a href=\"https://github.com/tedivm/JShrink\">JShrink</a> - A JavaScript minifier library.</li>\n\n<li><a href=\"https://github.com/webmozart/puli\">Puli</a> - A library for determining assets absolute paths.</li></ul>"
         },
         {
             "title": "Geolocation",
-            "name": "geolocation"
+            "name": "geolocation",
+            "html": "<ul><li><a href=\"http://geocoder-php.org/\">GeoCoder</a> - A geocoding library.</li>\n\n<li><a href=\"https://github.com/php-loep/Geotools\">GeoTools</a> - A library of geo-related tools.</li>\n\n<li><a href=\"https://github.com/mjaschen/phpgeo\">PHPGeo</a> - A simple geo library.</li>\n\n<li><a href=\"https://github.com/jmikola/geojson\">GeoJSON</a> - A GeoJSON implementation.</li></ul>"
         },
         {
             "title": "Date and Time",
-            "name": "date-and-time"
+            "name": "date-and-time",
+            "html": "<ul><li><a href=\"https://github.com/briannesbitt/Carbon\">Carbon</a> - A simple DateTime API extension.</li>\n\n<li><a href=\"https://github.com/jasonlewis/expressive-date\">ExpressiveDate</a> - Another DateTime API extension.</li>\n\n<li><a href=\"http://yohan.giarel.li/CalendR\">CalendR</a> - A calendar management library.</li></ul>"
         },
         {
             "title": "Event",
-            "name": "event"
+            "name": "event",
+            "html": "<ul><li><a href=\"https://github.com/reactphp/react\">React</a> - An event driven non-blocking I/O library.</li>\n\n<li><a href=\"https://github.com/asm89/Rx.PHP\">Rx.PHP</a> - A reactive extension library.</li>\n\n<li><a href=\"https://github.com/cboden/Ratchet\">Ratchet</a> - A web socket library.</li>\n\n<li><a href=\"https://github.com/hoaproject/Websocket\">Hoa WebSocket</a> - Another web socket library.</li>\n\n<li><a href=\"https://github.com/hoaproject/Eventsource\">Hoa EventSource</a> - An event source library.</li>\n\n<li><a href=\"https://github.com/igorw/evenement\">Evenement</a> - An event dispatcher library.</li>\n\n<li><a href=\"https://github.com/fuelphp/event\">FuelPHP Event</a> - Another event dispatcher library.</li></ul>"
         },
         {
             "title": "Logging",
-            "name": "logging"
+            "name": "logging",
+            "html": "<ul><li><a href=\"https://github.com/Seldaek/monolog\">Monolog</a> - A comprehensive logger.</li>\n\n<li><a href=\"https://github.com/katzgrau/KLogger\">KLogger</a> - An easy-to-use PSR-3 compliant logging class.</li></ul>"
         },
         {
             "title": "E-commerce",
-            "name": "ecommerce"
+            "name": "ecommerce",
+            "html": "<ul><li><a href=\"https://github.com/adrianmacneil/omnipay\">OmniPay</a> - A framework agnostic multi-gateway payment processing library.</li>\n\n<li><a href=\"https://github.com/payum/payum\">Payum</a> - A payment abstraction library.</li>\n\n<li><a href=\"http://www.sylius.org/\">Sylius</a> - An open source e-commerce solution.</li>\n\n<li><a href=\"http://thelia.net/v2/\">Thelia</a> - Another open source e-commerce solution.</li>\n\n<li><a href=\"https://github.com/mathiasverraes/money\">Money</a> - A PHP implementation of Fowler&#39;s money pattern.</li>\n\n<li><a href=\"https://github.com/sebastianbergmann/money\">Sebastian Money</a> - Another library for working with monetary values.</li>\n\n<li><a href=\"https://github.com/florianv/swap\">Swap</a> - An exchange rates library.</li></ul>"
         },
         {
             "title": "PDF",
-            "name": "pdf"
+            "name": "pdf",
+            "html": "<ul><li><a href=\"https://github.com/KnpLabs/snappy\">Snappy</a> - A PDF and image generation library.</li>\n\n<li><a href=\"https://github.com/antialize/wkhtmltopdf\">WKHTMLToPDF</a> - A tool to convert HTML to PDF.</li></ul>"
         },
         {
             "title": "Database",
-            "name": "database"
+            "name": "database",
+            "html": "<ul><li><a href=\"http://www.doctrine-project.org/\">Doctrine</a> - A comprehensive DBAL and ORM.</li>\n\n<li><a href=\"https://github.com/l3pp4rd/DoctrineExtensions\">Doctrine Extensions</a> - A collection of Doctrine behavioural extensions.</li>\n\n<li><a href=\"http://www.propelorm.org/\">Propel</a> - A fast ORM, migration library and query builder.</li>\n\n<li><a href=\"https://github.com/illuminate/database\">Eloquent</a> - The Laravel 4 ORM.</li>\n\n<li><a href=\"https://github.com/etrepat/baum\">Baum</a> - A nested set implementation for Eloquent.</li>\n\n<li><a href=\"https://github.com/vlucas/spot2\">Spot2</a> - A MySQL datamapper ORM.</li>\n\n<li><a href=\"http://redbeanphp.com/\">RedBean</a> - A lightweight, configuration-less ORM.</li>\n\n<li><a href=\"https://github.com/chanmix51/Pomm\">Pomm</a> - An Object Model Manager for PostgreSQL.</li>\n\n<li><a href=\"https://github.com/Ocramius/ProxyManager\">ProxyManager</a> - A set of utilities to generate proxy objects for data mappers.</li></ul>"
         },
         {
             "title": "Migrations",
-            "name": "migrations"
+            "name": "migrations",
+            "html": "<ul><li><a href=\"https://github.com/davedevelopment/phpmig\">PHPMig</a> - Another migration management library.</li>\n\n<li><a href=\"https://github.com/robmorgan/phinx\">Phinx</a> - Another database migration library.</li>\n\n<li><a href=\"https://github.com/icomefromthenet/Migrations\">Migrations</a> - A migration management library.</li>\n\n<li><a href=\"http://docs.doctrine-project.org/projects/doctrine-migrations/en/latest/toc.html\">Doctrine Migrations</a> - A migration library for Doctrine.</li></ul>"
         },
         {
             "title": "NoSQL",
-            "name": "nosql"
+            "name": "nosql",
+            "html": "<ul><li><a href=\"https://github.com/alexbilbie/MongoQB\">MongoQB</a> - A MongoDB query builder library.</li>\n\n<li><a href=\"https://github.com/thephpleague/monga\">Monga</a> - A MongoDB abstraction library.</li>\n\n<li><a href=\"https://github.com/nrk/predis\">Predis</a> - A feature complete Redis library.</li></ul>"
         },
         {
             "title": "Queue",
-            "name": "queue"
+            "name": "queue",
+            "html": "<ul><li><a href=\"https://github.com/pda/pheanstalk\">Pheanstalk</a> - A Beanstalkd client library.</li>\n\n<li><a href=\"https://github.com/videlalvaro/php-amqplib\">PHP AMQP</a> - A pure PHP AMQP library.</li>\n\n<li><a href=\"https://github.com/videlalvaro/Thumper\">Thumper</a> - A RabbitMQ pattern library.</li>\n\n<li><a href=\"https://github.com/bernardphp/bernard\">Bernard</a> - A multibackend abstraction library.</li></ul>"
         },
         {
             "title": "Search",
-            "name": "search"
+            "name": "search",
+            "html": "<ul><li><a href=\"https://github.com/elasticsearch/elasticsearch-php\">ElasticSearch PHP</a> - The official client library for <a href=\"http://www.elasticsearch.org/\">ElasticSearch</a>.</li>\n\n<li><a href=\"https://github.com/ruflin/Elastica\">Elastica</a> - A client library for ElasticSearch.</li>\n\n<li><a href=\"http://www.solarium-project.org/\">Solarium</a> - A client library for <a href=\"http://lucene.apache.org/solr/\">Solr</a>.</li>\n\n<li><a href=\"http://foolcode.github.io/SphinxQL-Query-Builder/\">SphinxQL query builder</a> - A query library for the <a href=\"http://sphinxsearch.com/\">Sphinx</a> search engine.</li></ul>"
         },
         {
             "title": "Command Line",
-            "name": "command-line"
+            "name": "command-line",
+            "html": "<ul><li><a href=\"https://github.com/d11wtq/boris\">Boris</a> - A tiny PHP REPL.</li>\n\n<li><a href=\"https://github.com/bobthecow/psysh\">PsySH</a> - Another PHP REPL.</li>\n\n<li><a href=\"https://github.com/mcrumm/pecan\">Pecan</a> - An event-driven, non-blocking shell.</li>\n\n<li><a href=\"https://github.com/ulrichsg/getopt-php\">GetOpt</a> - A command line opt parser.</li>\n\n<li><a href=\"https://github.com/CHH/optparse\">OptParse</a> - Another command line opt parser.</li>\n\n<li><a href=\"https://github.com/nategood/commando\">Commando</a> - Another simple command line opt parser.</li>\n\n<li><a href=\"https://github.com/c9s/php-GetOptionKit\">GetOptionKit</a> - Another command line opt parser.</li>\n\n<li><a href=\"https://github.com/mtdowling/cron-expression\">Cron Expression</a> - A library to calculate cron run dates.</li>\n\n<li><a href=\"https://github.com/MrRio/shellwrap\">ShellWrap</a> - A simple command line wrapper library.</li>\n\n<li><a href=\"https://github.com/hoaproject/Console\">Hoa Console</a> - Another command line library.</li>\n\n<li><a href=\"https://github.com/php-loep/shunt\">Shunt</a> - A library for running commands in parallel on multiple remote machines.</li>\n\n<li><a href=\"https://github.com/Cilex/Cilex\">Cilex</a> - A micro framework for building command line tools.</li></ul>"
         },
         {
             "title": "Authentication",
-            "name": "authentication"
+            "name": "authentication",
+            "html": "<ul><li><a href=\"https://github.com/cartalyst/sentry\">Sentry</a> - A framework agnostic authentication &amp; authorisation library.</li>\n\n<li><a href=\"http://docs.cartalyst.com/sentry-social-2/introduction\">Sentry Social</a> - A library for social network authentication.</li>\n\n<li><a href=\"https://github.com/opauth/opauth\">Opauth</a> - A multi-provider authentication framework.</li>\n\n<li><a href=\"https://github.com/php-loep/oauth2-server\">OAuth2</a> - An OAuth2 authentication server, resource server and client library.</li>\n\n<li><a href=\"http://bshaffer.github.io/oauth2-server-php-docs/\">OAuth2 Server</a> - Another OAuth2 server implementation.</li>\n\n<li><a href=\"https://github.com/Lusitanian/PHPoAuthLib\">PHP oAuthLib</a> - Another OAuth library.</li>\n\n<li><a href=\"https://github.com/ruudk/twitteroauth\">TwitterOAuth</a> - A Twitter OAuth library.</li>\n\n<li><a href=\"https://github.com/lyrixx/twitter-sdk\">TwitterSDK</a> - A fully tested Twitter SDK.</li>\n\n<li><a href=\"https://github.com/dflydev/dflydev-hawk\">Hawk</a> - A Hawk HTTP authentication library.</li>\n\n<li><a href=\"https://github.com/hybridauth/hybridauth\">HybridAuth</a> - An open source social sign on library.</li></ul>"
         },
         {
             "title": "Markup",
-            "name": "markup"
+            "name": "markup",
+            "html": "<ul><li><a href=\"http://milesj.me/code/php/decoda\">Decoda</a> - A lightweight markup parser library.</li>\n\n<li><a href=\"https://github.com/michelf/php-markdown\">PHP Markdown</a> - A Markdown parser.</li>\n\n<li><a href=\"https://github.com/thephpleague/commonmark\">CommonMark PHP</a> - A Markdown parser which supports the full <a href=\"https://jgm.github.io/stmd/spec.html\">CommonMark spec</a>.</li>\n\n<li><a href=\"https://github.com/dflydev/dflydev-markdown\">Dflydev Markdown</a> - Another Markdown parser.</li>\n\n<li><a href=\"https://github.com/erusev/parsedown\">Parsedown</a> - Another Markdown parser.</li>\n\n<li><a href=\"https://github.com/kzykhys/Ciconia\">Ciconia</a> - Another Markdown parser that supports Github flavoured Markdown.</li>\n\n<li><a href=\"https://github.com/cebe/markdown\">Cebe Markdown</a> - An fast and extensible Markdown parser.</li>\n\n<li><a href=\"https://github.com/Masterminds/html5-php\">HTML5 PHP</a> - An HTML5 parser and serializer library.</li></ul>"
         },
         {
             "title": "Strings",
-            "name": "strings"
+            "name": "strings",
+            "html": "<ul><li><a href=\"https://github.com/sensiolabs/ansi-to-html\">ANSI to HTML5</a> - An ANSI to HTML5 converter library.</li>\n\n<li><a href=\"https://github.com/nicolas-grekas/Patchwork-UTF8\">Patchwork UTF-8</a> - A portable library for working with UTF-8 strings.</li>\n\n<li><a href=\"https://github.com/hoaproject/String\">Hoa String</a> - Another UTF-8 string library.</li>\n\n<li><a href=\"https://github.com/danielstjules/Stringy\">Stringy</a> - A string manipulation library with multibyte support.</li>\n\n<li><a href=\"https://github.com/mikeemoo/ColorJizz-PHP\">Color Jizz</a> - A library for manipulating and converting colours.</li>\n\n<li><a href=\"https://github.com/ramsey/uuid\">UUID</a> - A library for generating UUIDs.</li>\n\n<li><a href=\"https://github.com/cocur/slugify\">Slugify</a> - A library to convert strings to slugs.</li>\n\n<li><a href=\"https://github.com/jbroadway/urlify\">Urlify</a> - A PHP port of Django&#39;s URLify.js.</li>\n\n<li><a href=\"https://github.com/kzykhys/Text\">Text</a> - A text manipulation library.</li>\n\n<li><a href=\"https://github.com/jdorn/sql-formatter/\">SQL Formatter</a> - A library for formatting SQL statements.</li>\n\n<li><a href=\"https://github.com/tobie/ua-parser/tree/master/php\">UA Parser</a> - A library for parsing user agent strings.</li></ul>"
         },
         {
             "title": "Numbers",
-            "name": "numbers"
+            "name": "numbers",
+            "html": "<ul><li><a href=\"https://github.com/powder96/numbers.php\">Numbers PHP</a> - A library for working with numbers.</li>\n\n<li><a href=\"https://github.com/moontoast/math\">Math</a> - A library for working with large numbers.</li>\n\n<li><a href=\"https://github.com/gabrielelana/byte-units\">ByteUnits</a> - A library to parse, format and convert byte units in binary and metric systems.</li>\n\n<li><a href=\"https://github.com/triplepoint/php-units-of-measure\">PHP Units of Measure</a> - A library for converting between units of measure.</li>\n\n<li><a href=\"https://github.com/Crisu83/php-conversion\">PHP Conversion</a> - Another library for converting between units of measure.</li>\n\n<li><a href=\"https://github.com/giggsey/libphonenumber-for-php\">LibPhoneNumber for PHP</a> - A PHP implementation of Google&#39;s phone number handling library.</li></ul>"
         },
         {
             "title": "Filtering and Validation",
-            "name": "filtering-and-validation"
+            "name": "filtering-and-validation",
+            "html": "<ul><li><a href=\"https://github.com/ircmaxell/filterus\">Filterus</a> - A simple PHP filtering library.</li>\n\n<li><a href=\"https://github.com/Respect/Validation\">Respect Validate</a> - A simple validation library.</li>\n\n<li><a href=\"https://github.com/vlucas/valitron\">Valitron</a> - Another validation library.</li>\n\n<li><a href=\"https://github.com/codeguy/Upload\">Upload</a> - A library for handling file uploads and validation.</li>\n\n<li><a href=\"https://github.com/rdohms/DMS-Filter\">DMS Filter</a> - An annotation filtering library.</li>\n\n<li><a href=\"https://github.com/romaricdrigon/MetaYaml\">MetaYaml</a> - A schema validation library that supports YAML, JSON and XML.</li>\n\n<li><a href=\"https://github.com/ronanguilloux/IsoCodes\">ISO-codes</a> - A library for validating various ISO and ZIP codes (IBAN, SWIFT/BIC, BBAN, VAT, SSN, UKNIN).</li></ul>"
         },
         {
             "title": "REST and API",
-            "name": "rest-and-api"
+            "name": "rest-and-api",
+            "html": "<ul><li><a href=\"https://github.com/zfcampus/zf-apigility-skeleton\">Apigility</a> - An API builder built with Zend Framework 2.</li>\n\n<li><a href=\"https://github.com/willdurand/Hateoas\">Hateoas</a> - A HATEOAS REST web service library.</li>\n\n<li><a href=\"https://github.com/blongden/hal\">HAL</a> - A Hypertext Application Language (HAL) builder library.</li>\n\n<li><a href=\"https://github.com/willdurand/Negotiation\">Negotiation</a> - A content negotiation library.</li>\n\n<li><a href=\"https://github.com/leedavis81/drest\">Drest</a> - A library for exposing Doctrine entities as REST resource endpoints.</li>\n\n<li><a href=\"https://github.com/Luracast/Restler\">Restler</a> - A lightweight framework to expose PHP methods as RESTful web API.</li></ul>"
         },
         {
             "title": "Caching",
-            "name": "caching"
+            "name": "caching",
+            "html": "<ul><li><a href=\"http://www.php.net/manual/en/book.apc.php\">Alternative PHP Cache (APC)</a> - Open opcode cache for PHP.</li>\n\n<li><a href=\"https://github.com/doctrine/cache\">Cache</a> - A caching library (part of Doctrine).</li>\n\n<li><a href=\"https://github.com/tedivm/Stash\">Stash</a> - Another library for caching.</li></ul>"
         },
         {
             "title": "Data Structure and Storage",
-            "name": "data-structure-and-storage"
+            "name": "data-structure-and-storage",
+            "html": "<ul><li><a href=\"https://github.com/morrisonlevi/Ardent\">Ardent</a> - A library of data structures.</li>\n\n<li><a href=\"https://github.com/schmittjoh/php-collection\">PHP Collections</a> - A simple collections library.</li>\n\n<li><a href=\"https://github.com/schmittjoh/serializer\">Serializer</a> - A library for serialising and de-serialising data.</li>\n\n<li><a href=\"https://github.com/herrera-io/php-object-storage\">PHP Object Storage</a> - A library for object storage.</li>\n\n<li><a href=\"https://github.com/php-loep/fractal\">Fractal</a> - A library for converting complex data structures to JSON output.</li>\n\n<li><a href=\"http://github.com/Wisembly/Totem\">Totem</a> - A library to manage and create data changesets.</li>\n\n<li><a href=\"https://github.com/TimeToogo/Pinq\">PINQ</a> - A real Linq library for PHP.</li>\n\n<li><a href=\"https://github.com/netresearch/jsonmapper\">JsonMapper</a> - A library that maps nested JSON structures onto PHP classes.</li></ul>"
         },
         {
             "title": "Notifications",
-            "name": "notifications"
+            "name": "notifications",
+            "html": "<ul><li><a href=\"https://github.com/filp/nod\">Nod</a> - A notification library (e.g., Growl).</li>\n\n<li><a href=\"https://github.com/wrep/notificato\">Notificato</a> - A library for handling push notifications.</li>\n\n<li><a href=\"https://github.com/Ph3nol/NotificationPusher\">Notification Pusher</a> - A standalone library for device push notifications.</li>\n\n<li><a href=\"https://github.com/namshi/notificator\">Notificator</a> - A lightweight notification library.</li></ul>"
         },
         {
             "title": "Deployment",
-            "name": "deployment"
+            "name": "deployment",
+            "html": "<ul><li><a href=\"https://github.com/tamagokun/pomander\">Pomander</a> - A deployment tool for PHP applications.</li>\n\n<li><a href=\"https://github.com/Anahkiasen/rocketeer\">Rocketeer</a> - A fast and easy deployer for the PHP world.</li>\n\n<li><a href=\"https://github.com/laravel/envoy\">Envoy</a> - A tool to run SSH tasks with PHP.</li>\n\n<li><a href=\"https://github.com/aerialls/Plum\">Plum</a> - A deployer library.</li></ul>"
         },
         {
             "title": "Internationalisation and Localisation",
-            "name": "internationalisation-and-localisation"
+            "name": "internationalisation-and-localisation",
+            "html": "<ul><li><a href=\"https://github.com/auraphp/Aura.Intl\">Aura.Intl</a></li></ul>"
         },
         {
             "title": "Third Party APIs",
-            "name": "third-party-apis"
+            "name": "third-party-apis",
+            "html": "<ul><li><a href=\"https://github.com/aws/aws-sdk-php\">Amazon Web Service SDK</a> - The official PHP AWS SDK library.</li>\n\n<li><a href=\"https://github.com/gwkunze/S3StreamWrapper\">S3 Stream Wrapper</a> - A stream wrapper library for Amazon S3.</li>\n\n<li><a href=\"https://github.com/stripe/stripe-php\">Stripe</a> - The official Stripe PHP library.</li>\n\n<li><a href=\"http://campaignmonitor.github.com/createsend-php/\">Campaign Monitor</a> - The official Campaign Monitor PHP library.</li>\n\n<li><a href=\"https://github.com/toin0u/DigitalOcean\">Digital Ocean</a> - A library to interface with the Digital Ocean API.</li>\n\n<li><a href=\"https://github.com/dsyph3r/github-api3-php\">Github</a> - A library to interface with the Github API.</li>\n\n<li><a href=\"https://github.com/KnpLabs/php-github-api\">PHP Github API</a> - Another library to interface with the Github API.</li>\n\n<li><a href=\"https://github.com/widop/twitter-oauth\">Twitter OAuth</a> - A library to interface with Twitter&#39;s OAuth workflow.</li>\n\n<li><a href=\"https://github.com/widop/twitter-rest\">Twitter REST</a> - A library to interact with Twitter&#39;s REST API.</li>\n\n<li><a href=\"https://github.com/dropbox/dropbox-sdk-php\">Dropbox SDK</a> - The official PHP Dropbox SDK library.</li>\n\n<li><a href=\"https://github.com/twilio/twilio-php\">Twilio</a> - The official Twilio PHP REST API.</li>\n\n<li><a href=\"https://github.com/mailgun/mailgun-php\">Mailgun</a> The official Mailgun PHP API.</li></ul>"
         },
         {
             "title": "Extensions",
-            "name": "extensions"
+            "name": "extensions",
+            "html": "<ul><li><a href=\"https://github.com/phalcon/zephir\">Zephir</a> - A compiled language between PHP and C++ for developing PHP extensions.</li>\n\n<li><a href=\"http://www.php-cpp.com/\">PHP CPP</a> - A C++ library for developing PHP extensions.</li></ul>"
         },
         {
             "title": "Miscellaneous",
-            "name": "miscellaneous"
+            "name": "miscellaneous",
+            "html": "<ul><li><a href=\"https://github.com/kriswallsmith/spork\">Spork</a> - A process forking library.</li>\n\n<li><a href=\"https://github.com/Seldaek/jsonlint\">JSON Lint</a> - A JSON lint utility.</li>\n\n<li><a href=\"https://github.com/willdurand/JsonpCallbackValidator\">JSONPCallbackValidator</a> - A library for validating JSONP callbacks.</li>\n\n<li><a href=\"https://github.com/whiteoctober/Pagerfanta\">Pagerfanta</a> - A pagination library.</li>\n\n<li><a href=\"https://github.com/bobthecow/Ruler\">Ruler</a> - A simple stateless production rules engine.</li>\n\n<li><a href=\"https://github.com/beberlei/litecqrs-php\">LiteCQRS</a> - A CQRS (Command Query Responsibility Separation) library.</li>\n\n<li><a href=\"https://github.com/EvanDotPro/Sslurp\">Sslurp</a> - A library that makes dealing with SSL suck less.</li>\n\n<li><a href=\"https://github.com/schmittjoh/php-option\">PHP Option</a> An option type library.</li>\n\n<li><a href=\"https://github.com/beberlei/metrics\">Metrics</a> - A simple metrics API library.</li>\n\n<li><a href=\"https://github.com/evert/sabre-vobject\">Sabre VObject</a> - A library for parsing VCard and iCalendar objects.</li>\n\n<li><a href=\"https://github.com/doctrine/annotations\">Annotations</a> - An annotations library (part of Doctrine).</li>\n\n<li><a href=\"https://github.com/filp/whoops\">Whoops</a> - A pretty error handling library.</li>\n\n<li><a href=\"http://yohan.giarel.li/Finite\">Finite</a> - A simple PHP finite state machine.</li>\n\n<li><a href=\"https://github.com/raulfraile/Ladybug\">LadyBug</a> - A dumper library.</li>\n\n<li><a href=\"https://github.com/lstrojny/Procrastinator\">Procrastinator</a> - A library for running time consuming tasks.</li>\n\n<li><a href=\"https://github.com/igorw/compose\">Compose</a> - A function composition library.</li>\n\n<li><a href=\"https://github.com/jeremeamia/super_closure\">SuperClosure</a> - A library that allows Closures to be serialized.</li>\n\n<li><a href=\"https://github.com/kakawait/Jumper\">Jumper</a> - A remote service executor library.</li>\n\n<li><a href=\"http://anahkiasen.github.io/underscore-php/\">Underscore</a> - A PHP port of the Underscore JS library.</li>\n\n<li><a href=\"https://github.com/eymengunay/php-passbook\">PHP PassBook</a> - A PHP library for iOS PassBook.</li>\n\n<li><a href=\"https://github.com/Kitano/php-expression\">PHP Expression</a> - A PHP expression language.</li>\n\n<li><a href=\"https://github.com/liip/RMT\">RMT</a> - A library for versioning and releasing software.</li>\n\n<li><a href=\"https://github.com/herrera-io/php-wise\">Wise</a> - A configuration manager.</li>\n\n<li><a href=\"https://github.com/euskadi31/Opengraph\">Opengraph</a> - An opengraph library.</li>\n\n<li><a href=\"https://github.com/felixgirault/essence\">Essence</a> - A library for extracting web media.</li>\n\n<li><a href=\"https://github.com/mpratt/Embera\">Embera</a> - An Oembed consumer library.</li>\n\n<li><a href=\"https://github.com/alexandresalome/graphviz\">Graphviz</a> - A Graphviz library.</li>\n\n<li><a href=\"https://github.com/ircmaxell/monad-php\">Monad PHP</a> - A simple Monad library.</li>\n\n<li><a href=\"https://github.com/selvinortiz/flux\">Flux</a> - A regular expression building library.</li>\n\n<li><a href=\"http://antecedent.github.io/patchwork/\">Patchwork</a> - A library for redefining userland functions.</li>\n\n<li><a href=\"https://github.com/igorw/galapagos\">Galapagos</a> - Evolutionary language transformation.</li>\n\n<li><a href=\"https://github.com/domnikl/DesignPatternsPHP\">Design Patterns PHP</a> - A repository of software patterns implemented in PHP.</li>\n\n<li><a href=\"https://github.com/phpcr/phpcr\">PHPCR</a> - A PHP port of the Java Content Repository (JCR).</li>\n\n<li><a href=\"https://github.com/lstrojny/functional-php\">Functional PHP</a> - A functional programming library.</li>\n\n<li><a href=\"https://github.com/mtdowling/ClassPreloader\">ClassPreloader</a> - A library for optimising autoloading.</li>\n\n<li><a href=\"https://github.com/phine/lib-country\">Lib Country</a> - A library for country and subdivision data.</li>\n\n<li><a href=\"https://github.com/phine/lib-accessor\">Lib Accessor</a> - A library for simplifying accessors.</li>\n\n<li><a href=\"http://dunkels.com/adam/phpstack/\">PHPStack</a> - A TCP/IP stack proof of concept written in PHP.</li>\n\n<li><a href=\"https://github.com/willdurand/nmap\">Nmap</a> - A PHP wrapper around <a href=\"http://nmap.org/\">Nmap</a>.</li>\n\n<li><a href=\"https://github.com/dantleech/code-mover\">Code Mover</a> - A library for moving code.</li>\n\n<li><a href=\"https://github.com/nikic/iter\">Iter</a> - A library that provides iteration primitives using generators.</li>\n\n<li><a href=\"https://github.com/igorw/lambda-php\">Lambda PHP</a> - A Lambda calculus interpreter in PHP.</li>\n\n<li><a href=\"https://github.com/umpirsky/country-list\">Country List</a> - A list of all countries with names and ISO 3166-1 codes.</li>\n\n<li><a href=\"https://github.com/ronanguilloux/php-gpio\">PHP-GPIO</a> - A library for playing with the Raspberry PI&#39;s GPIO pins.</li>\n\n<li>[print<em>o](https://github.com/koriym/print</em>o) - An object graph visualizer.</li>\n\n<li><a href=\"https://github.com/fuelphp/alias\">Alias</a> - A class aliasing library.</li></ul>"
         },
         {
             "title": "PHP Installation",
-            "name": "php-installation"
+            "name": "php-installation",
+            "html": "<ul><li><a href=\"http://mxcl.github.com/homebrew/\">HomeBrew</a> - A package manager for OSX.</li>\n\n<li><a href=\"https://github.com/josegonzalez/homebrew-php\">HomeBrew PHP</a> - A PHP tap for HomeBrew.</li>\n\n<li><a href=\"http://php-osx.liip.ch/\">PHP OSX</a> - A PHP installer for OSX.</li>\n\n<li><a href=\"https://github.com/c9s/phpbrew\">PHP Brew</a> - A PHP version manager and installer.</li>\n\n<li><a href=\"https://github.com/CHH/phpenv\">PHP Env</a> - Another PHP version manager.</li>\n\n<li><a href=\"https://github.com/jubianchi/phpswitch\">PHP Switch</a> - Another version manager.</li>\n\n<li><a href=\"https://github.com/CHH/php-build\">PHP Build</a> - Another PHP version installer.</li>\n\n<li><a href=\"http://virtphp.org/\">VirtPHP</a> - A tool for creating and managing isolated PHP environments.</li></ul>"
         },
         {
             "title": "Development Environment",
-            "name": "development-environment"
+            "name": "development-environment",
+            "html": "<ul><li><a href=\"http://www.vagrantup.com/\">Vagrant</a> - A portable development environment utility.</li>\n\n<li><a href=\"http://www.ansibleworks.com/\">Ansible</a> - A radically simple orchestration framework.</li>\n\n<li><a href=\"http://puppetlabs.com/\">Puppet</a> - A server automation framework and application.</li>\n\n<li><a href=\"https://puphpet.com/\">PuPHPet</a> - A web tool for building PHP development virtual machines.</li>\n\n<li><a href=\"http://getprotobox.com/\">Protobox</a> - Another web tool for building PHP development virtual machines.</li>\n\n<li><a href=\"http://phansible.com/\">Phansible</a> - A web tool for building PHP development virtual machines with Ansible.</li></ul>"
         },
         {
             "title": "Virtual Machines",
-            "name": "virtual-machines"
+            "name": "virtual-machines",
+            "html": "<ul><li><a href=\"https://github.com/facebook/hiphop-php\">HipHop PHP</a> - A Virtual Machine, Runtime and JIT for PHP by Facebook.</li>\n\n<li><a href=\"http://hippyvm.com/\">HippyVM</a> - Another PHP virtual machine.</li>\n\n<li><a href=\"http://hacklang.org/\">Hack</a> - A programming language for <a href=\"https://github.com/facebook/hiphop-php\">HHVM</a> that interoperates seamlessly with PHP.</li></ul>"
         },
         {
             "title": "Integrated Development Environment",
-            "name": "integrated-development-environment"
+            "name": "integrated-development-environment",
+            "html": "<ul><li><a href=\"https://netbeans.org\">Netbeans</a> - An IDE with support for PHP and HTML5.</li>\n\n<li><a href=\"https://www.eclipse.org/downloads/\">Eclipse for PHP Developers</a> - A PHP IDE based on the Eclipse platform.</li>\n\n<li><a href=\"http://www.jetbrains.com/phpstorm/\">PhpStorm</a> - A commercial PHP IDE.</li></ul>"
         },
         {
             "title": "Web Applications",
-            "name": "web-applications"
+            "name": "web-applications",
+            "html": "<ul><li><a href=\"http://3v4l.org/\">3V4L</a> - An online PHP shell.</li>\n\n<li><a href=\"http://dbv.vizuina.com/\">DBV</a> - A database version control application.</li>\n\n<li><a href=\"https://github.com/CoderKungfu/php-queue\">PHP Queue</a> - An application for managing queueing backends.</li>\n\n<li><a href=\"http://composer.borreli.com/\">Composer as a Service</a> - A tool for downloading Composer packages as a zip file.</li>\n\n<li><a href=\"https://github.com/sj26/mailcatcher\">MailCatcher</a> - A web tool for capturing and viewing emails.</li></ul>"
         },
         {
             "title": "PHP Websites",
-            "name": "php-websites"
+            "name": "php-websites",
+            "html": "<ul><li><a href=\"http://www.phptherightway.com/\">PHP The Right Way</a> - A PHP best practice quick reference guide.</li>\n\n<li><a href=\"http://phpbestpractices.org/\">PHP Best Practices</a> - A PHP best practice guide.</li>\n\n<li><a href=\"http://phpweekly.info/archive/\">PHP Weekly</a> - A weekly PHP newsletter.</li>\n\n<li><a href=\"http://phpsecurity.readthedocs.org/en/latest/index.html\">PHP Security</a> - A guide to PHP security.</li>\n\n<li><a href=\"http://www.php-fig.org/\">PHP FIG</a> - The PHP Framework Interoperability Group.</li>\n\n<li><a href=\"http://php.ug\">PHP UG</a> - A website to help people locate their nearest PHP user group (UG).</li>\n\n<li><a href=\"http://7php.com/\">Seven PHP</a> - A website that interviews members of the PHP community.</li>\n\n<li><a href=\"http://nomadphp.com/\">Nomad PHP</a> - A online PHP learning resource.</li>\n\n<li><a href=\"http://phpmentoring.org/\">PHP Mentoring</a> - Peer to peer PHP mentorship organization.</li></ul>"
         },
         {
             "title": "Other Websites",
-            "name": "other-websites"
+            "name": "other-websites",
+            "html": "<ul><li><a href=\"https://www.owasp.org/index.php/Main_Page\">The Open Web Application Security Project (OWASP)</a> - An open software security community.</li>\n\n<li><a href=\"http://websec.io/\">WebSec IO</a> - A web security community resource.</li>\n\n<li><a href=\"http://webadvent.org\">Web Advent</a> - An advent calendar for web developers.</li>\n\n<li><a href=\"http://semver.org/\">Semantic Versioning</a> - A website explaining semantic versioning.</li>\n\n<li><a href=\"https://www.atlassian.com/git\">Atlassian Git Tutorials</a> - A series of Git tutorials.</li>\n\n<li><a href=\"http://hginit.com/\">Hg Init</a> - A series of Mercurial tutorials.</li>\n\n<li><a href=\"http://serversforhackers.com/\">Servers for Hackers</a> - A newsletter about server management.</li></ul>"
         },
         {
             "title": "PHP Books",
-            "name": "php-books"
+            "name": "php-books",
+            "html": "<ul><li><a href=\"http://www.scalingphpbook.com\">Scaling PHP Applications</a> - An ebook about scaling PHP applications by Steve Corona.</li>\n\n<li><a href=\"https://leanpub.com/grumpy-testing\">The Grumpy Programmer&#39;s Guide to Building Testable PHP Applications</a> - A book about building testing PHP applications by Chris Hartjes.</li>\n\n<li><a href=\"https://leanpub.com/grumpy-phpunit\">Grumpy PHPUnit</a> - A book about unit testing with PHPUnit by Chris Hartjes.</li>\n\n<li><a href=\"http://www.brandonsavage.net\">Mastering Object-Orientated PHP</a> - A book about object-orientated PHP by Brandon Savage.</li>\n\n<li><a href=\"https://leanpub.com/signalingphp\">Signaling PHP</a> - A book about catching PCNTL signals in CLI scripts by Cal Evans.</li>\n\n<li><a href=\"https://leanpub.com/securingphp-coreconcepts\">Securing PHP: Core Concepts</a> - A book about common security terms and practices for PHP by Chris Cornutt.</li>\n\n<li><a href=\"https://leanpub.com/mlaphp\">Modernising Legacy Applications in PHP</a> - A book about modernising legacy PHP applications by Paul M. Jones.</li></ul>"
         },
         {
             "title": "Other Books",
-            "name": "other-books"
+            "name": "other-books",
+            "html": "<ul><li><a href=\"http://linuxcommand.org/tlcl.php\">The Linux Command Line</a> - A book about the Linux command line by William Shotts.</li>\n\n<li><a href=\"http://computationbook.com\">Understanding Computation</a> - A book about computation theory by Tom Stuart.</li>\n\n<li><a href=\"http://www.amazon.ca/The-Tangled-Web-Securing-Applications/dp/1593273886\">The Tangled Web — Securing Web Applications</a> - A book about securing web applications by Michal Zalewski.</li>\n\n<li><a href=\"http://www.elasticsearch.org/guide/\">Elasticsearch: The Definitive Guide</a> - A guide to working with Elasticsearch by Clinton Gormley and Zachary Tong.</li>\n\n<li><a href=\"http://eloquentjavascript.net/\">Eloquent JavaScript</a> - A book about JavaScript programming by Marijn Haverbeke.</li>\n\n<li><a href=\"https://leanpub.com/vagrantcookbook\">Vagrant Cookbook</a> A book about creating Vagrant environments by Erika Heidi.</li>\n\n<li><a href=\"http://git-scm.com/book/en/v2\">Pro Git</a> - A book about Git by Scott Chacon and Ben Straub.</li></ul>"
         },
         {
             "title": "PHP Videos",
-            "name": "php-videos"
+            "name": "php-videos",
+            "html": "<ul><li><a href=\"http://www.infoq.com/presentations/php-history\">Taking PHP Seriously</a> - A talk outlining PHP&#39;s strengths by Keith Adams of Facebook.</li>\n\n<li><a href=\"http://phptownhall.com/\">PHP Town Hall</a> - A casual PHP podcast by Ben Edmunds and Phil Sturgeon.</li>\n\n<li><a href=\"http://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW\">Programming with Anthony</a> - A video series by Anthony Ferrara.</li></ul>"
         },
         {
             "title": "PHP Reading",
-            "name": "php-reading"
+            "name": "php-reading",
+            "html": "<ul><li><a href=\"http://fabien.potencier.org/article/50/create-your-own-framework-on-top-of-the-symfony2-components-part-1\">Create Your Own PHP Framework</a> - A series of articles on how to make your own PHP framework by Fabien Potencier.</li>\n\n<li><a href=\"http://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html\">Seven Ways to Screw Up BCrypt</a> - An article about correct BCrypt implementation.</li>\n\n<li><a href=\"http://blog.ircmaxell.com/2013/02/preventing-csrf-attacks.html\">Preventing CSRF Attacks</a> - An article on preventing CSRF attacks.</li>\n\n<li><a href=\"http://blog.ircmaxell.com/2013/08/dont-worry-about-breach.html\">Don&#39;t Worry About BREACH</a> - An article about the BREACH hack and CSRF tokens.</li>\n\n<li><a href=\"http://fabien.potencier.org/article/17/on-php-5-3-lambda-functions-and-closures\">On PHP 5.3, Lamda Functions and Closures</a> - An article about lambda functions and closures.</li>\n\n<li><a href=\"http://seancoates.com/blogs/use-env\">Use Env</a> - An article about using the unix environment helper.</li>\n\n<li><a href=\"http://daylerees.com/composer-primer\">Composer Primer</a> - A Composer primer.</li>\n\n<li><a href=\"https://igor.io/2013/01/07/composer-versioning.html\">Composer Versioning</a> - An article about Composer versioning.</li>\n\n<li><a href=\"https://igor.io/2013/02/07/composer-stability-flags.html\">Composer Stability Flags</a> - An article about Composer stability flags.</li>\n\n<li><a href=\"http://blog.astrumfutura.com/2012/04/php-innocent-villagefolk-or-a-pillagin-pirate/\">Innocent Villagefolk or a Pillagin’ Pirate?</a> - An article about PHP taking ideas from other language.</li>\n\n<li><a href=\"http://blog.astrumfutura.com/2013/03/predicting-random-numbers-in-php-its-easier-than-you-think/\">Predicting Random Numbers in PHP</a> - An article about generating random numbers.</li>\n\n<li><a href=\"http://blog.astrumfutura.com/2013/04/20-point-list-for-preventing-cross-site-scripting-in-php/\">A 20 Point List for Preventing XSS in PHP</a> - An article about preventing XSS.</li>\n\n<li><a href=\"http://blog.ircmaxell.com/2012/04/php-sucks-but-i-like-it.html\">PHP Sucks! But I Like It!</a> - An article about the pros and cons of PHP.</li>\n\n<li><a href=\"http://fabien.potencier.org/article/64/php-is-much-better-than-you-think\">PHP Is Much Better Than You Think</a> - An article about the PHP language and ecosystem.</li></ul>"
         },
         {
             "title": "PHP Internals Reading",
-            "name": "php-internals-reading"
+            "name": "php-internals-reading",
+            "html": "<ul><li><a href=\"https://wiki.php.net/rfc\">PHP RFCs</a> - The home of PHP RFCs (Request for Comments).</li>\n\n<li><a href=\"http://www.phpinternalsbook.com\">PHP Internals Book</a> - An online book about PHP internals, written by three core developers.</li>\n\n<li><a href=\"http://fabien.potencier.org/article/8/print-vs-echo-which-one-is-faster\">Print vs Echo, Which One is Faster?</a> - An article about print and echo performance.</li>\n\n<li><a href=\"http://fabien.potencier.org/article/48/the-php-ternary-operator-fast-or-not\">The PHP Ternary Operator. Fast or Not?</a> - An article ternary performance.</li>\n\n<li><a href=\"http://nikic.github.com/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html\">Disproving the Single Quotes Myth</a> - An article about performance of single and double quoted strings.</li>\n\n<li><a href=\"http://blog.golemon.com/2007/01/youre-being-lied-to.html\">You&#39;re Being Lied To</a> - An article about internal ZVALs.</li>\n\n<li><a href=\"http://blog.golemon.com/2006/06/how-long-is-piece-of-string.html\">How Long is a Piece of String</a> - An article about string internals.</li>\n\n<li><a href=\"http://blog.golemon.com/2008/01/understanding-opcodes.html\">Understanding OpCodes</a> - An article about opcodes.</li>\n\n<li><a href=\"http://stackoverflow.com/questions/10057671/how-foreach-actually-works/14854568#14854568\">How Foreach Works</a> - A detailed StackOverflow answer about foreach.</li>\n\n<li><a href=\"http://nikic.github.com/2011/11/11/PHP-Internals-When-does-foreach-copy.html\">When Does Foreach Copy?</a> - An article about the internals of foreach.</li>\n\n<li><a href=\"http://nikic.github.com/2011/12/12/How-big-are-PHP-arrays-really-Hint-BIG.html\">How Big Are PHP Arrays (And Values) Really?</a> - An article about array internals.</li>\n\n<li><a href=\"https://gist.github.com/nikic/5015323\">Why Objects (Usually) Use Less Memory Than Arrays</a> - An article about object and array internals.</li>\n\n<li><a href=\"https://gist.github.com/nikic/6699370\">PHP Evaluation Order</a> - An article about evaluation order in PHP.</li>\n\n<li>PHP Source Code for Developers: <a href=\"http://blog.ircmaxell.com/2012/03/phps-source-code-for-php-developers.html\">1</a> <a href=\"http://nikic.github.com/2012/03/16/Understanding-PHPs-internal-function-definitions.html\">2</a> <a href=\"http://blog.ircmaxell.com/2012/03/phps-source-code-for-php-developers_21.html\">3</a> <a href=\"http://nikic.github.com/2012/03/28/Understanding-PHPs-internal-array-implementation.html\">4</a> - A series about the PHP source code.</li>\n\n<li>Collecting Garbage: <a href=\"http://www.php.net/manual/en/features.gc.refcounting-basics.php\">1</a> <a href=\"http://www.php.net/manual/en/features.gc.collecting-cycles.php\">2</a> <a href=\"http://www.php.net/manual/en/features.gc.performance-considerations.php\">3</a> - A series about the PHP garbage collection internals.</li></ul>"
         }
     ],
     "repoTitle": "Awesome PHP",
