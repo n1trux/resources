@@ -8,22 +8,22 @@
         {
             "title": "Web Framework",
             "name": "web-framework",
-            "html": "<ul><li><a href=\"https://github.com/webnf/webnf\">Web Non-Framework</a></li>\n\n<li><a href=\"http://www.luminusweb.net/\">Luminus</a></li>\n\n<li><a href=\"http://www.joodoweb.com/\">Joodo</a></li>\n\n<li><a href=\"https://github.com/zubairq/coils\">Coils</a></li>\n\n<li><a href=\"https://github.com/weavejester/duct\">Duct</a></li></ul>"
+            "html": "<p><em>Actually don&#39;t search rails/django here, but compose them by yourself</em></p><ul><li><a href=\"https://github.com/webnf/webnf\">Web Non-Framework</a></li>\n\n<li><a href=\"http://www.luminusweb.net/\">Luminus</a></li>\n\n<li><a href=\"http://www.joodoweb.com/\">Joodo</a></li>\n\n<li><a href=\"https://github.com/zubairq/coils\">Coils</a></li>\n\n<li><a href=\"https://github.com/weavejester/duct\">Duct</a></li></ul>"
         },
         {
             "title": "Dependency injection",
             "name": "dependency-injection",
-            "html": "<ul><li><a href=\"https://github.com/stuartsierra/component\">Component</a></li>\n\n<li><a href=\"https://github.com/danielsz/system\">System</a></li>\n\n<li><a href=\"https://github.com/weavejester/duct\">Duct</a></li></ul>"
+            "html": "<p><em>Managed lifecycle of stateful objects</em>\n\n </p><ul><li><a href=\"https://github.com/stuartsierra/component\">Component</a></li>\n\n<li><a href=\"https://github.com/danielsz/system\">System</a></li>\n\n<li><a href=\"https://github.com/weavejester/duct\">Duct</a></li></ul>"
         },
         {
             "title": "Package management",
             "name": "package-management",
-            "html": "<ul><li><a href=\"https://github.com/technomancy/leiningen\">Leiningen</a></li></ul>"
+            "html": "<p><em>Libraries for package and dependency management.</em></p><ul><li><a href=\"https://github.com/technomancy/leiningen\">Leiningen</a></li></ul>"
         },
         {
             "title": "Date and Time",
             "name": "date-and-time",
-            "html": "<ul><li><a href=\"https://github.com/clj-time/clj-time\">clj-time</a></li></ul>"
+            "html": "<p><em>Libraries for working with dates and times.</em></p><ul><li><a href=\"https://github.com/clj-time/clj-time\">clj-time</a></li></ul>"
         },
         {
             "title": "GUI",
@@ -38,22 +38,22 @@
         {
             "title": "HTTP",
             "name": "http",
-            "html": "<ul><li><a href=\"https://github.com/dakrone/clj-http\">clj-http</a></li>\n\n<li><a href=\"http://http-kit.org/\">http-kit</a></li>\n\n<li><a href=\"https://github.com/ring-clojure/ring\">ring</a></li></ul>"
+            "html": "<p><em>Libraries for working with HTTP.</em></p><ul><li><a href=\"https://github.com/dakrone/clj-http\">clj-http</a></li>\n\n<li><a href=\"http://http-kit.org/\">http-kit</a></li>\n\n<li><a href=\"https://github.com/ring-clojure/ring\">ring</a></li></ul>"
         },
         {
             "title": "Database",
             "name": "database",
-            "html": "<ul><li><a href=\"http://www.datomic.com/\">Datomic</a></li>\n\n<li><a href=\"https://github.com/niwibe/clojure.jdbc\">clojure.jdbc</a></li>\n\n<li><a href=\"https://github.com/robashton/cravendb\">cravendb</a></li>\n\n<li><a href=\"http://clojuremongodb.info/\">Mongo</a></li></ul>"
+            "html": "<p><em>Databases and database client libraries</em></p><ul><li><a href=\"http://www.datomic.com/\">Datomic</a></li>\n\n<li><a href=\"https://github.com/niwibe/clojure.jdbc\">clojure.jdbc</a></li>\n\n<li><a href=\"https://github.com/robashton/cravendb\">cravendb</a></li>\n\n<li><a href=\"http://clojuremongodb.info/\">Mongo</a></li></ul>"
         },
         {
             "title": "Connection pools",
             "name": "connection-pools",
-            "html": "<ul><li><a href=\"https://github.com/tomekw/hikari-cp\">hikari-cp</a></li></ul>"
+            "html": "<p><em>Database connection pools</em></p><ul><li><a href=\"https://github.com/tomekw/hikari-cp\">hikari-cp</a></li></ul>"
         },
         {
             "title": "Structural Migrations",
             "name": "structural-migrations",
-            "html": "<ul><li><a href=\"https://github.com/budu/lobos\">Lobos</a></li>\n\n<li><a href=\"https://github.com/weavejester/ragtime\">Ragtime</a></li>\n\n<li><a href=\"https://github.com/pjstadig/migratus\">Migratus</a></li>\n\n<li><a href=\"https://github.com/macourtney/drift\">Drift</a></li></ul>"
+            "html": "<p><em>Keeps database and others in sync</em></p><ul><li><a href=\"https://github.com/budu/lobos\">Lobos</a></li>\n\n<li><a href=\"https://github.com/weavejester/ragtime\">Ragtime</a></li>\n\n<li><a href=\"https://github.com/pjstadig/migratus\">Migratus</a></li>\n\n<li><a href=\"https://github.com/macourtney/drift\">Drift</a></li></ul>"
         },
         {
             "title": "Redis",
@@ -73,32 +73,32 @@
         {
             "title": "ORM and SQL generation",
             "name": "orm-and-sql-generation",
-            "html": "<ul><li><a href=\"http://sqlkorma.com/\">Korma</a></li>\n\n<li><a href=\"https://github.com/stch-library/sql\">stch-library/sql</a></li>\n\n<li><a href=\"https://github.com/r0man/sqlingvo\">sqlingvo</a></li>\n\n<li><a href=\"https://github.com/jkk/honeysql\">honeysql</a></li></ul>"
+            "html": "<p><em>DSL for SQL generaion.</em></p><ul><li><a href=\"http://sqlkorma.com/\">Korma</a></li>\n\n<li><a href=\"https://github.com/stch-library/sql\">stch-library/sql</a></li>\n\n<li><a href=\"https://github.com/r0man/sqlingvo\">sqlingvo</a></li>\n\n<li><a href=\"https://github.com/jkk/honeysql\">honeysql</a></li></ul>"
         },
         {
             "title": "Security",
             "name": "security",
-            "html": "<ul><li><a href=\"https://github.com/niwibe/buddy\">Buddy</a></li>\n\n<li><a href=\"https://github.com/cemerick/friend\">Friend</a></li>\n\n<li><a href=\"https://github.com/juxt/cylon\">Cylon</a></li></ul>"
+            "html": "<p><em>Authentication, authorization and other security related libraries.</em></p><ul><li><a href=\"https://github.com/niwibe/buddy\">Buddy</a></li>\n\n<li><a href=\"https://github.com/cemerick/friend\">Friend</a></li>\n\n<li><a href=\"https://github.com/juxt/cylon\">Cylon</a></li></ul>"
         },
         {
             "title": "RESTful API",
             "name": "restful-api",
-            "html": "<ul><li><a href=\"http://clojure-liberator.github.io/liberator/\">Liberator</a></li>\n\n<li><a href=\"https://github.com/metosin/compojure-api\">compojure-api</a></li></ul>"
+            "html": "<p><em>Libraries for developing RESTful APIs.</em></p><ul><li><a href=\"http://clojure-liberator.github.io/liberator/\">Liberator</a></li>\n\n<li><a href=\"https://github.com/metosin/compojure-api\">compojure-api</a></li></ul>"
         },
         {
             "title": "HTML Manipulation",
             "name": "html-manipulation",
-            "html": "<ul><li><a href=\"https://github.com/cgrand/enlive/wiki\">Enlive</a></li>\n\n<li><a href=\"https://github.com/weavejester/hiccup\">hiccup</a></li></ul>"
+            "html": "<p><em>Libraries for working with HTML.</em></p><ul><li><a href=\"https://github.com/cgrand/enlive/wiki\">Enlive</a></li>\n\n<li><a href=\"https://github.com/weavejester/hiccup\">hiccup</a></li></ul>"
         },
         {
             "title": "Data Validation",
             "name": "data-validation",
-            "html": "<ul><li><a href=\"http://clojurevalidations.info/\">Validateur</a></li>\n\n<li><a href=\"http://clojurevalidations.info/\">Prismatic&#39;s schema</a></li>\n\n<li><a href=\"https://github.com/friemen/domaintypes\">domaintypes</a></li></ul>"
+            "html": "<p><em>Libraries for validating data.</em></p><ul><li><a href=\"http://clojurevalidations.info/\">Validateur</a></li>\n\n<li><a href=\"http://clojurevalidations.info/\">Prismatic&#39;s schema</a></li>\n\n<li><a href=\"https://github.com/friemen/domaintypes\">domaintypes</a></li></ul>"
         },
         {
             "title": "Type System",
             "name": "type-system",
-            "html": "<ul><li><a href=\"https://github.com/clojure/core.typed\">core.typed</a></li></ul>"
+            "html": "<p><em>Optional type system for Clojure</em></p><ul><li><a href=\"https://github.com/clojure/core.typed\">core.typed</a></li></ul>"
         },
         {
             "title": "Async processing",
