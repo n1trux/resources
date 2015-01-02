@@ -153,6 +153,13 @@
             "readme": "https://raw.githubusercontent.com/kahun/awesome-sysadmin/master/README.md",
             "headingLevel": 2,
             "name": "sysadmin"
+        },
+        {
+            "title": "Web Performance Optimization",
+            "url": "https://github.com/davidsonfellipe/awesome-wpo",
+            "readme": "https://raw.githubusercontent.com/davidsonfellipe/awesome-wpo/master/README.md",
+            "headingLevel": 3,
+            "name": "wpo"
         }
     ]
 }

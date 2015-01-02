@@ -29,6 +29,6 @@ fs.readdir(sourcesPath, function(error, files) {
     if (error) return console.log(error);
 
     // Log success message.
-    console.log("Successfully update all");
+    console.log("Successfully updated all.json");
   });
 });

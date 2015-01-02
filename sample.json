@@ -1,0 +1,6 @@
+{
+  "title" : "Title of Resource",
+  "url" : "https://github.com/user/repo",
+  "readme" : "https://raw.githubusercontent.com/user/repo/master/readme.md",
+  "headingLevel" : 2
+}
