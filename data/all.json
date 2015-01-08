@@ -106,6 +106,13 @@
             "name": "nodejs"
         },
         {
+            "title": "Perl",
+            "url": "https://github.com/hachiojipm/awesome-perl",
+            "readme": "https://raw.githubusercontent.com/hachiojipm/awesome-perl/master/README.md",
+            "headingLevel": 2,
+            "name": "perl"
+        },
+        {
             "title": "PHP",
             "url": "https://github.com/ziadoz/awesome-php",
             "readme": "https://raw.githubusercontent.com/ziadoz/awesome-php/master/README.md",
@@ -153,6 +160,13 @@
             "readme": "https://raw.githubusercontent.com/kahun/awesome-sysadmin/master/README.md",
             "headingLevel": 2,
             "name": "sysadmin"
+        },
+        {
+            "title": "Web Tools",
+            "url": "https://github.com/lvwzhen/tools",
+            "readme": "https://raw.githubusercontent.com/lvwzhen/tools/master/README.md",
+            "headingLevel": 3,
+            "name": "webtools"
         },
         {
             "title": "Web Performance Optimization",

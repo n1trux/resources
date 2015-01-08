@@ -1,0 +1,138 @@
+{
+    "title": "Perl",
+    "url": "https://github.com/hachiojipm/awesome-perl",
+    "readme": "https://raw.githubusercontent.com/hachiojipm/awesome-perl/master/README.md",
+    "headingLevel": 2,
+    "name": "perl",
+    "sections": [
+        {
+            "title": "Benchmarks",
+            "name": "benchmarks",
+            "html": "<p><em>Libraries for benchmarking</em></p><ul><li><a href=\"http://metacpan.org/pod/Dumbbench\">Dumbbench</a></li>\n\n<li><a href=\"http://metacpan.org/pod/Benchmark\">Benchmark</a></li>\n\n<li><a href=\"http://metacpan.org/pod/Parallel::Benchmark\">Parallel::Benchmark</a> - Benchmark in multiprocesses</li></ul>"
+        },
+        {
+            "title": "CUI",
+            "name": "cui",
+            "html": "<p><em>Libraries for developing CUI applications</em></p><ul><li><a href=\"https://metacpan.org/pod/Getopt::Long\">Getopt::Long</a></li></ul>"
+        },
+        {
+            "title": "Class Builder",
+            "name": "class-builder",
+            "html": "<p><em>Libraries to support writing classes and meta programming</em></p><ul><li><a href=\"https://metacpan.org/pod/Class::Accessor::Lite\">Class::Accessor::Lite</a> - Simple accessor generator.</li>\n\n<li><a href=\"https://metacpan.org/pod/Class::Accessor::Lite::Lazy\">Class::Accessor::Lite::Lazy</a> - Generate lazy accessors.</li>\n\n<li><a href=\"https://metacpan.org/pod/Moo\">Moo</a> - Class builder supporting meta programming.</li>\n\n<li><a href=\"https://metacpan.org/pod/Mouse\">Mouse</a> - Yet another class builder like Moo/Moose.</li></ul>"
+        },
+        {
+            "title": "Container",
+            "name": "container",
+            "html": "<p><em>Libraries for Singleton Pattern implementation.</em></p><ul><li><a href=\"https://metacpan.org/pod/Object::Container\">Object::Container</a></li></ul>"
+        },
+        {
+            "title": "Database",
+            "name": "database",
+            "html": "<p><em>Libraries for dealing with relational databases</em></p><ul><li><a href=\"https://metacpan.org/pod/DBI\">DBI</a></li>\n\n<li><a href=\"https://metacpan.org/pod/DBIx::Connector\">DBIx::Connector</a> - Fast, safe DBI connection and transaction management</li>\n\n<li><a href=\"https://metacpan.org/pod/DBIx::Sunny\">DBIx::Sunny</a> - Useful DBI Wrapper</li>\n\n<li><a href=\"https://metacpan.org/pod/DBIx::TransactionManager\">DBIx::TransactionManager</a></li>\n\n<li><a href=\"https://metacpan.org/pod/DBIx::Handler\">DBIx::Handler</a> - Fork-safe DBI handler</li>\n\n<li><a href=\"https://metacpan.org/pod/DBIx::Inspector\">DBIx::Inspector</a></li>\n\n<li><a href=\"https://metacpan.org/pod/DBIx::QueryLog\">DBIx::QueryLog</a></li></ul>"
+        },
+        {
+            "title": "Database Drivers",
+            "name": "database-drivers",
+            "html": "<p><em>Libraries for using specific database products</em></p><ul><li><p>Relational Databases</p><ul><li><a href=\"https://metacpan.org/pod/DBD::mysql\">DBD::mysql</a></li><li><a href=\"https://metacpan.org/pod/DBD::Pg\">DBD::Pg</a> - PostgreSQL driver for DBI.</li><li><p><a href=\"https://metacpan.org/pod/DBD::SQLite\">DBD::SQLite</a></p></li></ul></li>\n\n<li><p>NoSQL Databases</p><ul><li><a href=\"https://metacpan.org/pod/Mango\">Mango</a> - Pure-Perl non-blocking I/O MongoDB driver</li><li><a href=\"https://metacpan.org/pod/Cache::Memcached::Fast\">Cache::Memcached::Fast</a></li><li><a href=\"https://metacpan.org/pod/Redis\">Redis</a></li><li><a href=\"https://metacpan.org/pod/Redis::Fast\">Redis::Fast</a> - Perl wrapper around hiredis driver</li><li><a href=\"https://metacpan.org/pod/UnQLite\">UnQLite</a></li></ul></li></ul>"
+        },
+        {
+            "title": "Data Format",
+            "name": "data-format",
+            "html": "<p><em>Libraries for serializing, formatting and parsing</em></p><ul><li><a href=\"https://metacpan.org/pod/Sereal\">Sereal</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Storable\">Storable</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Data::MessagePack\">Data::MessagePack</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Data::Dumper::Simple\">Data::Dumper</a> - Reduce and faster Data::Dumper and eval() equivalent</li>\n\n<li><a href=\"https://metacpan.org/pod/XML::LibXML\">XML::LibXML</a></li>\n\n<li><a href=\"https://metacpan.org/pod/JSON::XS\">JSON::XS</a></li>\n\n<li><a href=\"https://metacpan.org/pod/JSON::PP\">JSON::PP</a></li>\n\n<li><a href=\"https://metacpan.org/pod/YAML\">YAML</a></li>\n\n<li><a href=\"https://metacpan.org/pod/TOML\">TOML</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Text::Markdown\">Text::Markdown</a></li></ul>"
+        },
+        {
+            "title": "Date & Time",
+            "name": "date-time",
+            "html": "<p><em>Libraries for working with dates and times</em></p><ul><li><a href=\"https://metacpan.org/pod/Time::Piece\">Time::Piece</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Time::Moment\">Time::Moment</a></li>\n\n<li><a href=\"https://metacpan.org/pod/DateTime\">DateTime</a></li></ul>"
+        },
+        {
+            "title": "Email",
+            "name": "email",
+            "html": "<p><em>Libraries that implement email creation and sending</em></p><ul><li><a href=\"https://metacpan.org/pod/Email::Sender\">Email::Sender</a></li></ul>"
+        },
+        {
+            "title": "File Manipulation",
+            "name": "file-manipulation",
+            "html": "<ul><li><a href=\"https://metacpan.org/pod/Path::Tiny\">Path::Tiny</a> - Simple object-oriented file manipulation.</li></ul>"
+        },
+        {
+            "title": "Images",
+            "name": "images",
+            "html": "<p><em>Libraries for manipulating images.</em></p><ul><li><a href=\"https://metacpan.org/pod/Imager\">Imager</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Image::Magick\">Image::Magick</a> - An object-oriented interface to ImageMagick&#39;s image composing libraries.</li></ul>"
+        },
+        {
+            "title": "Args",
+            "name": "args",
+            "html": "<p><em>Libraries for argument manifestation and validation.</em></p><ul><li><a href=\"https://metacpan.org/pod/Smart::Args\">Smart::Args</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Data::Validator\">Data::Validator</a> - Rule based validator on type constraint system.</li>\n\n<li><a href=\"https://metacpan.org/pod/Params::Validate\">Params::Validate</a> - Validate method/function parameters.</li></ul>"
+        },
+        {
+            "title": "Logging",
+            "name": "logging",
+            "html": "<p><em>Libraries for generating and working with log files</em></p><ul><li><a href=\"https://metacpan.org/pod/Log::Dispatch\">Log::Dispatch</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Log::Log4perl\">Log::Log4perl</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Log::Minimal\">Log::Minimal</a></li></ul>"
+        },
+        {
+            "title": "Module Development",
+            "name": "module-development",
+            "html": "<p><em>Libraries that simplify and improve Perl module development</em></p><ul><li><a href=\"http://dzil.org/\">Dist::Zilla</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Minilla\">Minilla</a> - CPAN module authoring tool</li></ul>"
+        },
+        {
+            "title": "Network",
+            "name": "network",
+            "html": "<p><em>Libraries that help when you are dealing with computer networks</em></p><ul><li><a href=\"https://metacpan.org/pod/NetAddr::MAC\">NetAddr::MAC</a> - Handle MAC addresses</li></ul>"
+        },
+        {
+            "title": "ORM",
+            "name": "orm",
+            "html": "<p><em>Libraries that implement Object-Relational Mapping or datamapping techniques</em></p><ul><li><a href=\"https://metacpan.org/pod/DBIx::Class\">DBIx::Class</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Rose::DB\">Rose::DB</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Teng\">Teng</a></li></ul>"
+        },
+        {
+            "title": "Queueing",
+            "name": "queueing",
+            "html": "<p><em>Message Queue, Job Queue System..</em></p><ul><li>RDBMS Base<ul><li><a href=\"https://metacpan.org/pod/TheSchwartz\">TheSchwartz</a></li><li><a href=\"https://metacpan.org/pod/Qudo\">Qudo</a></li></ul></li>\n\n<li>Memory Base<ul><li><a href=\"https://metacpan.org/pod/Gearman\">Gearman</a></li></ul></li></ul>"
+        },
+        {
+            "title": "Package Management",
+            "name": "package-management",
+            "html": "<p><em>Libraries for package and dependency management</em></p><ul><li><a href=\"https://metacpan.org/pod/App::cpanminus\">App::cpanminus</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Carton\">Carton</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Pinto\">Pinto</a> - Powerful local CPAN repos</li></ul>"
+        },
+        {
+            "title": "Processes and Threads",
+            "name": "processes-and-threads",
+            "html": "<p><em>Libraries for managing processes and threads</em></p><ul><li><a href=\"https://metacpan.org/pod/Parallel::ForkManager\">Parallel::ForkManager</a> A simple parallel processing fork manager</li>\n\n<li><a href=\"https://metacpan.org/pod/Parallel::Prefork\">Parallel::Prefork</a> A simple prefork server framework</li>\n\n<li><a href=\"https://metacpan.org/pod/Proclet\">Proclet</a> Minimalistic supervisor, a Perl port of <a href=\"https://github.com/ddollar/foreman\">foreman</a></li></ul>"
+        },
+        {
+            "title": "Profiling",
+            "name": "profiling",
+            "html": "<p><em>Libraries for examining run-time activity of your program</em></p><ul><li><a href=\"https://metacpan.org/pod/Devel::NYTProf\">Devel::NYTProf</a> - Code profiler.</li>\n\n<li><a href=\"https://metacpan.org/pod/Devel::KYTProf\">Devel::KYTProf</a> - Very light profiler for I/Os such as HTTP request-responses and SQL queries.</li></ul>"
+        },
+        {
+            "title": "Protocol",
+            "name": "protocol",
+            "html": "<p><em>Protocol clients and libraries</em></p><ul><li><a href=\"https://metacpan.org/pod/Net-DHCP\">Net::DHCP</a> - Send and recieve DHCP packets</li>\n\n<li><a href=\"https://metacpan.org/pod/LWP::UserAgent\">LWP::UserAgent</a> - Popular HTTP(S) Client</li>\n\n<li><a href=\"https://metacpan.org/pod/Furl\">Furl</a> - Faster HTTP(S) Client</li>\n\n<li><a href=\"https://metacpan.org/pod/HTTP::Tiny\">HTTP::Tiny</a> - Minimal and fast client. Included in the standard packages.</li></ul>"
+        },
+        {
+            "title": "Template Engines",
+            "name": "template-engines",
+            "html": "<p><em>Libraries and tools for templating</em></p><ul><li><a href=\"https://metacpan.org/pod/Text::Template\">Text::Templates</a> - Templates with embedded perl</li>\n\n<li><a href=\"https://metacpan.org/pod/Text::Xslate\">Text::Xslate</a> - Faster template engine with XS. Support multiple syntaxes.</li>\n\n<li><a href=\"https://metacpan.org/pod/Text::MicroTemplate\">Text::MicroTemplate</a> - Fast, simple and safe template engine written in pure-Perl and core modules.</li>\n\n<li><a href=\"https://metacpan.org/pod/Text::MicroTemplate::Extended\">Text::MicroTemplate::Extended</a> - Extended Text::MicroTemplate.</li>\n\n<li><a href=\"https://metacpan.org/pod/Tiffany\">Tiffany</a> - Generic interface for template engines. It makes it easy to use multiple template engines.</li></ul>"
+        },
+        {
+            "title": "Testing",
+            "name": "testing",
+            "html": "<p><em>Libraries for testing codebases and generating test data.</em></p><ul><li><p>Testing Frameworks</p><ul><li><a href=\"https://metacpan.org/pod/Test::More\">Test::More</a></li><li><a href=\"https://metacpan.org/pod/Test::Class\">Test::Class</a> - Class-based testing. Support &quot;setup&quot; and &quot;teardown&quot;.</li><li><a href=\"https://metacpan.org/pod/Test::Deep\">Test::Deep</a> - Test deep and complex data structures with great flexibility.</li><li><a href=\"https://metacpan.org/pod/Test::Deep::Mather\">Test::Deep::Matcher</a></li><li><a href=\"https://metacpan.org/pod/Test::BDD::Cucumber\">Test::BDD::Cucumber</a> - implementation of the popular Cucumber framework in Perl</li><li><a href=\"https://metacpan.org/pod/Test::Base\">Test::Base</a> - A Data Driven Testing Framework</li><li><p><a href=\"https://metacpan.org/pod/Test::Base::Less\">Test::Base::Less</a> - Limited version of Test::Base</p></li></ul></li>\n\n<li><p>Mock</p><ul><li><a href=\"https://metacpan.org/pod/Test::Mock::Guard\">Test::Mock::Guard</a> - Mocking package subroutines.</li><li><a href=\"https://metacpan.org/pod/Test::Mock::Time\">Test::Mock::Time</a></li><li><a href=\"https://metacpan.org/pod/Test::Time\">Test::Time</a> - Simple module for faking system time.</li><li><a href=\"https://metacpan.org/pod/Test::Fatal\">Test::Fatal</a> - Simple module for verifying exceptions.</li><li><a href=\"https://metacpan.org/pod/Test::Exception\">Test::Exception</a></li><li><a href=\"https://metacpan.org/pod/Test::mysqld\">Test::mysqld</a></li><li><p><a href=\"https://metacpan.org/pod/Test::TCP\">Test::TCP</a> - Launch temporary TCP Server</p></li></ul></li>\n\n<li><p>Coverage</p><ul><li><a href=\"https://metacpan.org/pod/Devel::Cover\">Devel::Cover</a></li><li><a href=\"https://metacpan.org/pod/Devel::Cover::Report::Coveralls\">Devel::Cover::Report::Coveralls</a> Report to Coveralls</li></ul></li></ul>"
+        },
+        {
+            "title": "Tools",
+            "name": "tools",
+            "html": "<p><em>Some useful tools</em></p><ul><li><a href=\"https://metacpan.org/pod/Reply\">Reply</a> - Read-eval-print-loop(REPL) command-line tool.</li>\n\n<li><a href=\"https://metacpan.org/pod/Data::Printer\">Data::Printer</a> - Colored pretty-print of Perl data structures and objects.</li>\n\n<li><a href=\"https://metacpan.org/pod/App::Ack\">App::Ack</a> - ack is a tool like grep, optimized for programmers.</li>\n\n<li><a href=\"https://metacpan.org/pod/App::Nopaste\">App::Nopaste</a> - Post to various pastebins from the CLI</li></ul>"
+        },
+        {
+            "title": "Web Frameworks",
+            "name": "web-frameworks",
+            "html": "<p><em>Libraries for developing Web applications</em></p><ul><li><a href=\"https://metacpan.org/pod/Amon2\">Amon2</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Mojolicious\">Mojolicious</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Kossy\">Kossy</a> - A Web framework with simple interface.</li>\n\n<li><a href=\"https://metacpan.org/pod/Dancer\">Dancer</a> (<a href=\"http://perldancer.org/\">Official site</a>)</li>\n\n<li><a href=\"https://metacpan.org/pod/Dancer2\">Dancer2</a></li>\n\n<li><a href=\"https://metacpan.org/pod/Catalyst\">Catalyst</a></li></ul>"
+        }
+    ],
+    "repoTitle": "Awesome Perl",
+    "data": "# Awesome Perl\n\nA curated list of awesome Perl5 frameworks, libraries and software. Inspired by [awesome-go](https://github.com/avelino/awesome-go).\n\nNot Perl6 modules ;-P\n\n### Another module list\n\nWe also recommend these lists.\n\n* [Task::Kensho](https://github.com/EnlightenedPerlOrganisation/task-kensho \"Task::Kensho\")\n* Many Task::** Modules. (ex. Task::Plack, Task::BeLike::<AuthorName>...)\n\n### Contents\n\n- [Awesome Perl](#awesome-perl)\n    - [Benchmarks](#benchmarks)\n    - [CUI](#cui)\n    - [Class Builder](#class-builder)\n    - [Database](#database)\n    - [Database Drivers](#database-drivers)\n    - [Data Format](#data-format)\n    - [Date & Time](#date--time)\n    - [File Manipulation](#file-manipulation)\n    - [Images](#images)\n    - [Logging](#logging)\n    - [Module Development](#module-development)\n    - [Network](#network)\n    - [ORM](#orm)\n    - [Package Management](#package-management)\n    - [Processes and Threads](#processes-and-threads)\n    - [Profiling](#profiling)\n    - [Protocol](#protocol)\n    - [Template Engines](#template-engines)\n    - [Testing](#testing)\n    - [Tools](#tools)\n    - [Web Frameworks](#web-frameworks)\n        - [Middlewares](#middlewares)\n\n## Benchmarks\n\n*Libraries for benchmarking*\n\n* [Dumbbench](http://metacpan.org/pod/Dumbbench)\n* [Benchmark](http://metacpan.org/pod/Benchmark)\n* [Parallel::Benchmark](http://metacpan.org/pod/Parallel::Benchmark) - Benchmark in multiprocesses\n\n## CUI\n\n*Libraries for developing CUI applications*\n\n* [Getopt::Long](https://metacpan.org/pod/Getopt::Long)\n\n## Class Builder\n\n*Libraries to support writing classes and meta programming*\n\n* [Class::Accessor::Lite](https://metacpan.org/pod/Class::Accessor::Lite) - Simple accessor generator.\n* [Class::Accessor::Lite::Lazy](https://metacpan.org/pod/Class::Accessor::Lite::Lazy) - Generate lazy accessors.\n* [Moo](https://metacpan.org/pod/Moo) - Class builder supporting meta programming.\n* [Mouse](https://metacpan.org/pod/Mouse) - Yet another class builder like Moo/Moose.\n\n## Container\n\n*Libraries for Singleton Pattern implementation.*\n\n* [Object::Container](https://metacpan.org/pod/Object::Container)\n\n## Database\n\n*Libraries for dealing with relational databases*\n\n* [DBI](https://metacpan.org/pod/DBI)\n* [DBIx::Connector](https://metacpan.org/pod/DBIx::Connector) - Fast, safe DBI connection and transaction management\n* [DBIx::Sunny](https://metacpan.org/pod/DBIx::Sunny) - Useful DBI Wrapper\n* [DBIx::TransactionManager](https://metacpan.org/pod/DBIx::TransactionManager)\n* [DBIx::Handler](https://metacpan.org/pod/DBIx::Handler) - Fork-safe DBI handler\n* [DBIx::Inspector](https://metacpan.org/pod/DBIx::Inspector)\n* [DBIx::QueryLog](https://metacpan.org/pod/DBIx::QueryLog)\n\n## Database Drivers\n\n*Libraries for using specific database products*\n\n* Relational Databases\n    * [DBD::mysql](https://metacpan.org/pod/DBD::mysql)\n    * [DBD::Pg](https://metacpan.org/pod/DBD::Pg) - PostgreSQL driver for DBI.\n    * [DBD::SQLite](https://metacpan.org/pod/DBD::SQLite)\n\n* NoSQL Databases\n    * [Mango](https://metacpan.org/pod/Mango) - Pure-Perl non-blocking I/O MongoDB driver\n    * [Cache::Memcached::Fast](https://metacpan.org/pod/Cache::Memcached::Fast)\n    * [Redis](https://metacpan.org/pod/Redis)\n    * [Redis::Fast](https://metacpan.org/pod/Redis::Fast) - Perl wrapper around hiredis driver\n    * [UnQLite](https://metacpan.org/pod/UnQLite)\n\n## Data Format\n\n*Libraries for serializing, formatting and parsing*\n\n* [Sereal](https://metacpan.org/pod/Sereal)\n* [Storable](https://metacpan.org/pod/Storable)\n* [Data::MessagePack](https://metacpan.org/pod/Data::MessagePack)\n* [Data::Dumper](https://metacpan.org/pod/Data::Dumper::Simple) - Reduce and faster Data::Dumper and eval() equivalent\n* [XML::LibXML](https://metacpan.org/pod/XML::LibXML)\n* [JSON::XS](https://metacpan.org/pod/JSON::XS)\n* [JSON::PP](https://metacpan.org/pod/JSON::PP)\n* [YAML](https://metacpan.org/pod/YAML)\n* [TOML](https://metacpan.org/pod/TOML)\n* [Text::Markdown](https://metacpan.org/pod/Text::Markdown)\n\n## Date & Time\n\n*Libraries for working with dates and times*\n\n* [Time::Piece](https://metacpan.org/pod/Time::Piece)\n* [Time::Moment](https://metacpan.org/pod/Time::Moment)\n* [DateTime](https://metacpan.org/pod/DateTime)\n\n## Email\n\n*Libraries that implement email creation and sending*\n\n* [Email::Sender](https://metacpan.org/pod/Email::Sender)\n\n## File Manipulation\n\n* [Path::Tiny](https://metacpan.org/pod/Path::Tiny) - Simple object-oriented file manipulation.\n\n## Images\n\n*Libraries for manipulating images.*\n\n* [Imager](https://metacpan.org/pod/Imager)\n* [Image::Magick](https://metacpan.org/pod/Image::Magick) - An object-oriented interface to ImageMagick's image composing libraries.\n\n## Args\n\n*Libraries for argument manifestation and validation.*\n\n* [Smart::Args](https://metacpan.org/pod/Smart::Args)\n* [Data::Validator](https://metacpan.org/pod/Data::Validator) - Rule based validator on type constraint system.\n* [Params::Validate](https://metacpan.org/pod/Params::Validate) - Validate method/function parameters.\n\n## Logging\n\n*Libraries for generating and working with log files*\n\n* [Log::Dispatch](https://metacpan.org/pod/Log::Dispatch)\n* [Log::Log4perl](https://metacpan.org/pod/Log::Log4perl)\n* [Log::Minimal](https://metacpan.org/pod/Log::Minimal)\n\n\n## Module Development\n\n*Libraries that simplify and improve Perl module development*\n\n* [Dist::Zilla](http://dzil.org/)\n* [Minilla](https://metacpan.org/pod/Minilla) - CPAN module authoring tool\n\n## Network\n\n*Libraries that help when you are dealing with computer networks*\n\n* [NetAddr::MAC](https://metacpan.org/pod/NetAddr::MAC) - Handle MAC addresses\n\n## ORM\n\n*Libraries that implement Object-Relational Mapping or datamapping techniques*\n\n* [DBIx::Class](https://metacpan.org/pod/DBIx::Class)\n* [Rose::DB](https://metacpan.org/pod/Rose::DB)\n* [Teng](https://metacpan.org/pod/Teng)\n\n## Queueing\n\n*Message Queue, Job Queue System..*\n\n* RDBMS Base\n    * [TheSchwartz](https://metacpan.org/pod/TheSchwartz)\n    * [Qudo](https://metacpan.org/pod/Qudo)\n* Memory Base\n    * [Gearman](https://metacpan.org/pod/Gearman)\n\n## Package Management\n\n*Libraries for package and dependency management*\n\n* [App::cpanminus](https://metacpan.org/pod/App::cpanminus)\n* [Carton](https://metacpan.org/pod/Carton)\n* [Pinto](https://metacpan.org/pod/Pinto) - Powerful local CPAN repos\n\n## Processes and Threads\n\n*Libraries for managing processes and threads*\n\n* [Parallel::ForkManager](https://metacpan.org/pod/Parallel::ForkManager) A simple parallel processing fork manager\n* [Parallel::Prefork](https://metacpan.org/pod/Parallel::Prefork) A simple prefork server framework\n* [Proclet](https://metacpan.org/pod/Proclet) Minimalistic supervisor, a Perl port of [foreman](https://github.com/ddollar/foreman)\n\n## Profiling\n\n*Libraries for examining run-time activity of your program*\n\n* [Devel::NYTProf](https://metacpan.org/pod/Devel::NYTProf) - Code profiler.\n* [Devel::KYTProf](https://metacpan.org/pod/Devel::KYTProf) - Very light profiler for I/Os such as HTTP request-responses and SQL queries.\n\n## Protocol\n\n*Protocol clients and libraries*\n\n* [Net::DHCP](https://metacpan.org/pod/Net-DHCP) - Send and recieve DHCP packets\n* [LWP::UserAgent](https://metacpan.org/pod/LWP::UserAgent) - Popular HTTP(S) Client\n* [Furl](https://metacpan.org/pod/Furl) - Faster HTTP(S) Client\n* [HTTP::Tiny](https://metacpan.org/pod/HTTP::Tiny) - Minimal and fast client. Included in the standard packages.\n\n## Template Engines\n\n*Libraries and tools for templating*\n\n* [Text::Templates](https://metacpan.org/pod/Text::Template) - Templates with embedded perl\n* [Text::Xslate](https://metacpan.org/pod/Text::Xslate) - Faster template engine with XS. Support multiple syntaxes.\n* [Text::MicroTemplate](https://metacpan.org/pod/Text::MicroTemplate) - Fast, simple and safe template engine written in pure-Perl and core modules.\n* [Text::MicroTemplate::Extended](https://metacpan.org/pod/Text::MicroTemplate::Extended) - Extended Text::MicroTemplate.\n* [Tiffany](https://metacpan.org/pod/Tiffany) - Generic interface for template engines. It makes it easy to use multiple template engines.\n\n## Testing\n\n*Libraries for testing codebases and generating test data.*\n\n* Testing Frameworks\n    * [Test::More](https://metacpan.org/pod/Test::More)\n    * [Test::Class](https://metacpan.org/pod/Test::Class) - Class-based testing. Support \"setup\" and \"teardown\".\n    * [Test::Deep](https://metacpan.org/pod/Test::Deep) - Test deep and complex data structures with great flexibility.\n    * [Test::Deep::Matcher](https://metacpan.org/pod/Test::Deep::Mather)\n    * [Test::BDD::Cucumber](https://metacpan.org/pod/Test::BDD::Cucumber) - implementation of the popular Cucumber framework in Perl\n    * [Test::Base](https://metacpan.org/pod/Test::Base) - A Data Driven Testing Framework\n    * [Test::Base::Less](https://metacpan.org/pod/Test::Base::Less) - Limited version of Test::Base\n\n* Mock\n    * [Test::Mock::Guard](https://metacpan.org/pod/Test::Mock::Guard) - Mocking package subroutines.\n    * [Test::Mock::Time](https://metacpan.org/pod/Test::Mock::Time)\n    * [Test::Time](https://metacpan.org/pod/Test::Time) - Simple module for faking system time.\n    * [Test::Fatal](https://metacpan.org/pod/Test::Fatal) - Simple module for verifying exceptions.\n    * [Test::Exception](https://metacpan.org/pod/Test::Exception)\n    * [Test::mysqld](https://metacpan.org/pod/Test::mysqld)\n    * [Test::TCP](https://metacpan.org/pod/Test::TCP) - Launch temporary TCP Server\n\n* Coverage\n    * [Devel::Cover](https://metacpan.org/pod/Devel::Cover)\n    * [Devel::Cover::Report::Coveralls](https://metacpan.org/pod/Devel::Cover::Report::Coveralls) Report to Coveralls\n\n## Tools\n\n*Some useful tools*\n\n* [Reply](https://metacpan.org/pod/Reply) - Read-eval-print-loop(REPL) command-line tool.\n* [Data::Printer](https://metacpan.org/pod/Data::Printer) - Colored pretty-print of Perl data structures and objects.\n* [App::Ack](https://metacpan.org/pod/App::Ack) - ack is a tool like grep, optimized for programmers.\n* [App::Nopaste](https://metacpan.org/pod/App::Nopaste) - Post to various pastebins from the CLI\n\n## Web Frameworks\n\n*Libraries for developing Web applications*\n\n* [Amon2](https://metacpan.org/pod/Amon2)\n* [Mojolicious](https://metacpan.org/pod/Mojolicious)\n* [Kossy](https://metacpan.org/pod/Kossy) - A Web framework with simple interface.\n* [Dancer](https://metacpan.org/pod/Dancer) ([Official site](http://perldancer.org/))\n* [Dancer2](https://metacpan.org/pod/Dancer2)\n* [Catalyst](https://metacpan.org/pod/Catalyst)\n\n### Middlewares\n\n*Libraries for creating HTTP middlewares.*\n\n* [Plack](https://metacpan.org/pod/Plack) - PSGI server implementation and utilities for Web applications.\n* [Starlet](https://metacpan.org/pod/Starlet) - High-performance PSGI Server\n* [Starman](https://metacpan.org/pod/Starman) - High-performance preforking PSGI/Plack web server\n* [Twiggy](https://metacpan.org/pod/Twiggy) - Event-driven PSGI application server\n* [Server::Starter](https://metacpan.org/pod/Server::Starter) - Process manager with the \"graceful restart\" feature.\n\n# Other Awesome Lists\n\nOther amazingly awesome lists can be found in \n\n* [emijrp/awesome-awesome](https://github.com/emijrp/awesome-awesome)\n* [fleveque/awesome-awesomes](https://github.com/fleveque/awesome-awesomes)\n* [sindresorhus/awesome](https://github.com/sindresorhus/awesome)\n* [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)\n* [t3chnoboy/awesome-awesome-awesome](https://github.com/t3chnoboy/awesome-awesome-awesome)\n\n# How to contribute?\n\nPlease read [CONTRIBUTING.md](CONTRIBUTING.md) \n",
+    "author": "hachiojipm",
+    "repoName": "awesome-perl"
+}

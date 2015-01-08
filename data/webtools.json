@@ -1,0 +1,78 @@
+{
+    "title": "Web Tools",
+    "url": "https://github.com/lvwzhen/tools",
+    "readme": "https://raw.githubusercontent.com/lvwzhen/tools/master/README.md",
+    "headingLevel": 3,
+    "name": "webtools",
+    "sections": [
+        {
+            "title": "Response",
+            "name": "response",
+            "html": "<ul><li><a href=\"http://www.responsinator.com/\">Responsinator</a></li>\n\n<li><a href=\"http://lab.maltewassermann.com/viewport-resizer/\">viewport-resizer</a></li>\n\n<li><a href=\"http://mediaqueri.es/\">Media Queri</a></li></ul>"
+        },
+        {
+            "title": "Placeholder",
+            "name": "placeholder",
+            "html": "<ul><li><a href=\"http://placehold.it/\">placehold.it</a></li>\n\n<li><a href=\"http://temp.im/\">temp.im</a></li>\n\n<li><a href=\"http://lorempixel.com/\">lorempixel</a></li>\n\n<li><a href=\"http://dummyimage.com/\">dummyimage</a></li>\n\n<li><a href=\"http://placekitten.com/\">placekitten</a></li></ul>"
+        },
+        {
+            "title": "Favicon",
+            "name": "favicon",
+            "html": "<ul><li><a href=\"http://www.favicon.cc/\">favicon.cc</a></li>\n\n<li><a href=\"http://favicon-generator.org/\">favicon-generator</a></li>\n\n<li><a href=\"http://www.xiconeditor.com/\">xiconeditor</a></li>\n\n<li><a href=\"http://tool.lu/favicon/\">tool.lu favicon</a></li>\n\n<li><a href=\"http://www.bitbug.net/\">bitbug</a></li></ul>"
+        },
+        {
+            "title": "CDN",
+            "name": "cdn",
+            "html": "<ul><li><a href=\"http://www.staticfile.org/\">staticfile</a></li>\n\n<li><a href=\"http://open.bootcss.com/\">bootcss cdn</a></li>\n\n<li><a href=\"http://www.cdnjs.cn/\">cdnjs.cn</a></li>\n\n<li><a href=\"http://cdnjs.com/\">cdnjs</a></li>\n\n<li><a href=\"http://jscdn.upai.com/\">upai</a></li>\n\n<li><a href=\"http://cdn.code.baidu.com/\">Baidu cdn</a></li>\n\n<li><a href=\"http://libs.useso.com/\">360 cdn</a></li>\n\n<li><a href=\"http://code.jquery.com/\">jquery cdn</a></li>\n\n<li><a href=\"http://lib.sinaapp.com/\">lib.sinaapp</a></li>\n\n<li><a href=\"http://www.jsdelivr.com/\">jsDelivr</a></li></ul>"
+        },
+        {
+            "title": "CSS",
+            "name": "css",
+            "html": "<ul><li><a href=\"http://apps.eky.hk/css-triangle-generator/zh-hant\">css-triangle-generator</a></li>\n\n<li><a href=\"http://css3lib.alloyteam.com/\">css3lib</a></li>\n\n<li><a href=\"http://www.csszengarden.com/\">csszengarden</a></li>\n\n<li><a href=\"http://www.css88.com/tool/css3Preview/\">css3Preview</a></li>\n\n<li><a href=\"http://www.colorzilla.com/gradient-editor/\">CSS Gradient Generator</a></li>\n\n<li><a href=\"http://prefixmycss.com/\">prefixmycss</a></li>\n\n<li><a href=\"http://tool.lu/css/\">cssBeutify</a></li></ul>"
+        },
+        {
+            "title": "Image compression",
+            "name": "image-compression",
+            "html": "<ul><li><a href=\"http://www.punypng.com/\">punypng</a></li>\n\n<li><a href=\"http://www.webresizer.com/resizer/\">webresizer</a></li>\n\n<li><a href=\"https://tinypng.com\">TinyPNG</a></li>\n\n<li><a href=\"http://www.smushit.com/ysmush.it/\">smushit</a></li>\n\n<li><a href=\"http://alloyteam.github.io/AlloyPhoto/\">AlloyPhoto</a></li>\n\n<li><a href=\"https://compressor.io/\">Compressor.io</a></li></ul>"
+        },
+        {
+            "title": "JavaScript",
+            "name": "javascript",
+            "html": "<ul><li><a href=\"http://tool.lu/js/\">jsBeutify</a></li>\n\n<li><a href=\"http://jsbeautifier.org/\">jsbeautifier</a></li>\n\n<li><a href=\"http://jsfiddle.net/\">jsfiddle</a></li>\n\n<li><a href=\"http://jsbin.com/\">jsbin</a></li>\n\n<li><a href=\"http://bonsaiden.github.io/JavaScript-Garden/\">JavaScript Garden</a></li></ul>"
+        },
+        {
+            "title": "Pagespeed",
+            "name": "pagespeed",
+            "html": "<ul><li><a href=\"https://chrome.google.com/webstore/detail/gplegfbjlmmehdoakndmohflojccocli\">PageSpeed</a></li>\n\n<li><a href=\"https://addons.mozilla.org/zh-cn/firefox/addon/yslow/\">YSlow</a></li>\n\n<li><a href=\"http://alibench.com/\">Alibench</a></li>\n\n<li><a href=\"http://pagespeed.webkaka.com/\">Webkaka</a></li>\n\n<li><a href=\"https://www.modern.ie/en-us/report\">Modern IE Reporting tool</a></li></ul>"
+        },
+        {
+            "title": "Color",
+            "name": "color",
+            "html": "<ul><li><a href=\"http://nipponcolors.com/\">nipponcolors</a></li>\n\n<li><a href=\"http://flatuicolors.com/\">flatuicolors</a></li>\n\n<li><a href=\"http://ios7colors.com/\">ios7colors</a></li>\n\n<li><a href=\"http://lokeshdhakar.com/projects/color-thief/\">Color Thief</a></li>\n\n<li><a href=\"http://www.color-hex.com/\">color-hex</a></li>\n\n<li><a href=\"https://github.com/mrmrs/colors\">colors</a></li>\n\n<li><a href=\"http://ylbook.com/cms/web/chuantongsecai/chuantongsecai.htm\">chuantongsecai</a></li>\n\n<li><a href=\"http://llllll.li/randomColor/\">randomColor</a></li>\n\n<li><a href=\"http://www.checkman.io/please/\">Please JS</a></li>\n\n<li><a href=\"http://colourco.de\">colourco.de</a></li>\n\n<li><a href=\"http://www.flatuicolorpicker.com/\">flatuicolorpicker</a></li></ul>"
+        },
+        {
+            "title": "Font",
+            "name": "font",
+            "html": "<ul><li><a href=\"https://www.google.com/fonts\">Google Fonts</a></li>\n\n<li><a href=\"http://www.dafont.com/\">dafont</a></li>\n\n<li><a href=\"http://www.youziku.com/\">youziku</a></li>\n\n<li><a href=\"http://www.qiuziti.com/\">qiuziti</a></li>\n\n<li><a href=\"http://www.fonts2u.com/index.html\">fonts2u</a></li>\n\n<li><a href=\"http://webfonts.fonts.com/\">webfonts</a></li>\n\n<li><a href=\"http://www.justfont.com/\">justfont</a></li>\n\n<li><a href=\"https://github.com/lvwzhen/iconpark\">iconpark</a></li>\n\n<li><a href=\"http://www.fontsquirrel.com/\">FontSquirrel</a></li>\n\n<li><a href=\"http://fontface.ninja/\">Fontface Ninja</a></li></ul>"
+        },
+        {
+            "title": "API Debugging",
+            "name": "api-debugging",
+            "html": "<ul><li><a href=\"http://hurl.it\">Hurl.it</a></li>\n\n<li><a href=\"http://requestb.in/\">requestb.in</a> </li></ul>"
+        },
+        {
+            "title": "API Doc",
+            "name": "api-doc",
+            "html": "<ul><li><a href=\"http://jquery.bootcss.com/\">Jquery API</a></li>\n\n<li><a href=\"http://overapi.com/\">OverAPI</a></li>\n\n<li><a href=\"http://devdocs.io/\">devdocs</a></li>\n\n<li><a href=\"http://tool.oschina.net/apidocs\">oschina apidoc</a></li></ul>"
+        },
+        {
+            "title": "Git Host",
+            "name": "git-host",
+            "html": "<ul><li><a href=\"https://github.com/\">GitHub</a></li>\n\n<li><a href=\"https://bitbucket.org/\">Bitbucket</a></li>\n\n<li><a href=\"https://about.gitlab.com/\">GitLab</a></li>\n\n<li><a href=\"https://gitcafe.com/\">GitCafe</a></li>\n\n<li><a href=\"http://git.oschina.net/\">Git@OSC</a></li></ul>"
+        }
+    ],
+    "repoTitle": "Tools",
+    "data": "# Tools\n\n>Tools for web\n\n### Response\n\n* [Responsinator](http://www.responsinator.com/)\n* [viewport-resizer](http://lab.maltewassermann.com/viewport-resizer/)\n* [Media Queri](http://mediaqueri.es/)\n\n### Placeholder\n\n* [placehold.it](http://placehold.it/)\n* [temp.im](http://temp.im/)\n* [lorempixel](http://lorempixel.com/)\n* [dummyimage](http://dummyimage.com/)\n* [placekitten](http://placekitten.com/)\n\n### Favicon\n\n* [favicon.cc](http://www.favicon.cc/)\n* [favicon-generator](http://favicon-generator.org/)\n* [xiconeditor](http://www.xiconeditor.com/)\n* [tool.lu favicon](http://tool.lu/favicon/)\n* [bitbug](http://www.bitbug.net/)\n\n### CDN\n\n* [staticfile](http://www.staticfile.org/)\n* [bootcss cdn](http://open.bootcss.com/)\n* [cdnjs.cn](http://www.cdnjs.cn/)\n* [cdnjs](http://cdnjs.com/)\n* [upai](http://jscdn.upai.com/)\n* [Baidu cdn](http://cdn.code.baidu.com/)\n* [360 cdn](http://libs.useso.com/)\n* [jquery cdn](http://code.jquery.com/)\n* [lib.sinaapp](http://lib.sinaapp.com/)\n* [jsDelivr](http://www.jsdelivr.com/)\n\n### CSS\n\n* [css-triangle-generator](http://apps.eky.hk/css-triangle-generator/zh-hant)\n* [css3lib](http://css3lib.alloyteam.com/)\n* [csszengarden](http://www.csszengarden.com/)\n* [css3Preview](http://www.css88.com/tool/css3Preview/)\n* [CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)\n* [prefixmycss](http://prefixmycss.com/)\n* [cssBeutify](http://tool.lu/css/)\n\n### Image compression\n\n* [punypng](http://www.punypng.com/)\n* [webresizer](http://www.webresizer.com/resizer/)\n* [TinyPNG](https://tinypng.com)\n* [smushit](http://www.smushit.com/ysmush.it/)\n* [AlloyPhoto](http://alloyteam.github.io/AlloyPhoto/)\n* [Compressor.io](https://compressor.io/)\n\n### JavaScript\n\n* [jsBeutify](http://tool.lu/js/)\n* [jsbeautifier](http://jsbeautifier.org/)\n* [jsfiddle](http://jsfiddle.net/)\n* [jsbin](http://jsbin.com/)\n* [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)\n\n### Pagespeed\n\n* [PageSpeed](https://chrome.google.com/webstore/detail/gplegfbjlmmehdoakndmohflojccocli)\n* [YSlow](https://addons.mozilla.org/zh-cn/firefox/addon/yslow/)\n* [Alibench](http://alibench.com/)\n* [Webkaka](http://pagespeed.webkaka.com/)\n* [Modern IE Reporting tool](https://www.modern.ie/en-us/report)\n\n### Color\n\n* [nipponcolors](http://nipponcolors.com/)\n* [flatuicolors](http://flatuicolors.com/)\n* [ios7colors](http://ios7colors.com/)\n* [Color Thief](http://lokeshdhakar.com/projects/color-thief/)\n* [color-hex](http://www.color-hex.com/)\n* [colors](https://github.com/mrmrs/colors)\n* [chuantongsecai](http://ylbook.com/cms/web/chuantongsecai/chuantongsecai.htm)\n* [randomColor](http://llllll.li/randomColor/)\n* [Please JS](http://www.checkman.io/please/)\n* [colourco.de](http://colourco.de)\n* [flatuicolorpicker](http://www.flatuicolorpicker.com/)\n\n### Font\n\n* [Google Fonts](https://www.google.com/fonts)\n* [dafont](http://www.dafont.com/)\n* [youziku](http://www.youziku.com/)\n* [qiuziti](http://www.qiuziti.com/)\n* [fonts2u](http://www.fonts2u.com/index.html)\n* [webfonts](http://webfonts.fonts.com/)\n* [justfont](http://www.justfont.com/)\n* [iconpark](https://github.com/lvwzhen/iconpark)\n* [FontSquirrel](http://www.fontsquirrel.com/)\n* [Fontface Ninja](http://fontface.ninja/)\n\n### API Debugging\n\n* [Hurl.it](http://hurl.it)\n* [requestb.in](http://requestb.in/) \n\n### API Doc\n\n* [Jquery API](http://jquery.bootcss.com/)\n* [OverAPI](http://overapi.com/)\n* [devdocs](http://devdocs.io/)\n* [oschina apidoc](http://tool.oschina.net/apidocs)\n\n### Git Host\n\n* [GitHub](https://github.com/)\n* [Bitbucket](https://bitbucket.org/)\n* [GitLab](https://about.gitlab.com/)\n* [GitCafe](https://gitcafe.com/)\n* [Git@OSC](http://git.oschina.net/)\n\n\n",
+    "author": "lvwzhen",
+    "repoName": "tools"
+}
