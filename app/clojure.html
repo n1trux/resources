@@ -1,0 +1,538 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Clojure | Curated Resources</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><a href="/">Back to all Resources</a></h3>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sections</h3>
+                </div>
+                <div class="list-group">
+                        <a class="list-group-item" href="#web-framework">Web Framework</a>
+                        <a class="list-group-item" href="#dependency-injection">Dependency injection</a>
+                        <a class="list-group-item" href="#package-management">Package management</a>
+                        <a class="list-group-item" href="#date-and-time">Date and Time</a>
+                        <a class="list-group-item" href="#gui">GUI</a>
+                        <a class="list-group-item" href="#audio">Audio</a>
+                        <a class="list-group-item" href="#http">HTTP</a>
+                        <a class="list-group-item" href="#database">Database</a>
+                        <a class="list-group-item" href="#connection-pools">Connection pools</a>
+                        <a class="list-group-item" href="#structural-migrations">Structural Migrations</a>
+                        <a class="list-group-item" href="#redis">Redis</a>
+                        <a class="list-group-item" href="#json">JSON</a>
+                        <a class="list-group-item" href="#database-cli">Database Cli</a>
+                        <a class="list-group-item" href="#orm-and-sql-generation">ORM and SQL generation</a>
+                        <a class="list-group-item" href="#security">Security</a>
+                        <a class="list-group-item" href="#restful-api">RESTful API</a>
+                        <a class="list-group-item" href="#html-manipulation">HTML Manipulation</a>
+                        <a class="list-group-item" href="#data-validation">Data Validation</a>
+                        <a class="list-group-item" href="#type-system">Type System</a>
+                        <a class="list-group-item" href="#async-processing">Async processing</a>
+                        <a class="list-group-item" href="#monads">Monads</a>
+                        <a class="list-group-item" href="#websocket">WebSocket</a>
+                        <a class="list-group-item" href="#testing">Testing</a>
+                        <a class="list-group-item" href="#code-analysis-and-linter">Code Analysis and Linter</a>
+                        <a class="list-group-item" href="#science-and-data-analysis">Science and Data Analysis</a>
+                        <a class="list-group-item" href="#computer-vision">Computer Vision</a>
+                        <a class="list-group-item" href="#natural-language-processing">Natural Language Processing</a>
+                        <a class="list-group-item" href="#editor-plugins">Editor Plugins</a>
+                        <a class="list-group-item" href="#literate-programming">Literate Programming</a>
+                        <a class="list-group-item" href="#miscellaneous">Miscellaneous</a>
+                        <a class="list-group-item" href="#debugging">Debugging</a>
+                        <a class="list-group-item" href="#guides">Guides</a>
+                        <a class="list-group-item" href="#websites">Websites</a>
+                        <a class="list-group-item" href="#twitter">Twitter</a>
+                        <a class="list-group-item" href="#misc">Misc</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="page-header">
+                <h1>
+                    Awesome Clojure <small>Curated by <a href="https://github.com/razum2um/awesome-clojure">razum2um</a></small>
+                </h1>
+            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="web-framework"></a>Web Framework</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Actually don&#39;t search rails/django here, but compose them by yourself</em></p><ul><li><a href="https://github.com/webnf/webnf">Web Non-Framework</a></li>
+
+<li><a href="http://www.luminusweb.net/">Luminus</a></li>
+
+<li><a href="http://www.joodoweb.com/">Joodo</a></li>
+
+<li><a href="https://github.com/zubairq/coils">Coils</a></li>
+
+<li><a href="https://github.com/weavejester/duct">Duct</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="dependency-injection"></a>Dependency injection</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Managed lifecycle of stateful objects</em>
+
+ </p><ul><li><a href="https://github.com/stuartsierra/component">Component</a></li>
+
+<li><a href="https://github.com/danielsz/system">System</a></li>
+
+<li><a href="https://github.com/weavejester/duct">Duct</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="package-management"></a>Package management</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for package and dependency management.</em></p><ul><li><a href="https://github.com/technomancy/leiningen">Leiningen</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="date-and-time"></a>Date and Time</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for working with dates and times.</em></p><ul><li><a href="https://github.com/clj-time/clj-time">clj-time</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="gui"></a>GUI</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/aaronc/fx-clj">fx-clj</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="audio"></a>Audio</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://overtone.github.io/">Overtone</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="http"></a>HTTP</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for working with HTTP.</em></p><ul><li><a href="https://github.com/dakrone/clj-http">clj-http</a></li>
+
+<li><a href="http://http-kit.org/">http-kit</a></li>
+
+<li><a href="https://github.com/ring-clojure/ring">ring</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database"></a>Database</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Databases and database client libraries</em></p><ul><li><a href="http://www.datomic.com/">Datomic</a></li>
+
+<li><a href="https://github.com/niwibe/clojure.jdbc">clojure.jdbc</a></li>
+
+<li><a href="https://github.com/robashton/cravendb">cravendb</a></li>
+
+<li><a href="http://clojuremongodb.info/">Mongo</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="connection-pools"></a>Connection pools</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Database connection pools</em></p><ul><li><a href="https://github.com/tomekw/hikari-cp">hikari-cp</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="structural-migrations"></a>Structural Migrations</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Keeps database and others in sync</em></p><ul><li><a href="https://github.com/budu/lobos">Lobos</a></li>
+
+<li><a href="https://github.com/weavejester/ragtime">Ragtime</a></li>
+
+<li><a href="https://github.com/pjstadig/migratus">Migratus</a></li>
+
+<li><a href="https://github.com/macourtney/drift">Drift</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="redis"></a>Redis</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/ptaoussanis/carmine">carmine</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="json"></a>JSON</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/dakrone/cheshire">cheshire</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database-cli"></a>Database Cli</h2>
+                    </div>
+                    <div class="panel-body">
+                        
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="orm-and-sql-generation"></a>ORM and SQL generation</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>DSL for SQL generaion.</em></p><ul><li><a href="http://sqlkorma.com/">Korma</a></li>
+
+<li><a href="https://github.com/stch-library/sql">stch-library/sql</a></li>
+
+<li><a href="https://github.com/r0man/sqlingvo">sqlingvo</a></li>
+
+<li><a href="https://github.com/jkk/honeysql">honeysql</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="security"></a>Security</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Authentication, authorization and other security related libraries.</em></p><ul><li><a href="https://github.com/niwibe/buddy">Buddy</a></li>
+
+<li><a href="https://github.com/cemerick/friend">Friend</a></li>
+
+<li><a href="https://github.com/juxt/cylon">Cylon</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="restful-api"></a>RESTful API</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for developing RESTful APIs.</em></p><ul><li><a href="http://clojure-liberator.github.io/liberator/">Liberator</a></li>
+
+<li><a href="https://github.com/metosin/compojure-api">compojure-api</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="html-manipulation"></a>HTML Manipulation</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for working with HTML.</em></p><ul><li><a href="https://github.com/cgrand/enlive/wiki">Enlive</a></li>
+
+<li><a href="https://github.com/weavejester/hiccup">hiccup</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="data-validation"></a>Data Validation</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for validating data.</em></p><ul><li><a href="http://clojurevalidations.info/">Validateur</a></li>
+
+<li><a href="http://clojurevalidations.info/">Prismatic&#39;s schema</a></li>
+
+<li><a href="https://github.com/friemen/domaintypes">domaintypes</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="type-system"></a>Type System</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Optional type system for Clojure</em></p><ul><li><a href="https://github.com/clojure/core.typed">core.typed</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="async-processing"></a>Async processing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/clojure/core.async/">core.async</a></li>
+
+<li><a href="https://github.com/puniverse/pulsar">pulsar</a></li>
+
+<li><a href="https://github.com/ztellman/lamina">lamina</a></li>
+
+<li><a href="https://github.com/ztellman/aleph">aleph</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="monads"></a>Monads</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/niwibe/cats">cats</a></li>
+
+<li><a href="https://github.com/clojure/algo.monads">algo.monads</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="websocket"></a>WebSocket</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/ptaoussanis/sente">Sente</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="testing"></a>Testing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://jayfields.com/expectations/">Expectations</a></li>
+
+<li><a href="https://github.com/marick/Midje">Midje</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="code-analysis-and-linter"></a>Code Analysis and Linter</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/technomancy/slamhound">Slamhound</a></li>
+
+<li><a href="https://github.com/jonase/eastwood">eastwood</a></li>
+
+<li><a href="https://github.com/jonase/kibit">kibit</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="science-and-data-analysis"></a>Science and Data Analysis</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/incanter/incanter">Incanter</a></li>
+
+<li><a href="http://cascalog.org/">Cascalog</a></li>
+
+<li><a href="https://github.com/MichaelDrogalis/onyx">Onyx</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="computer-vision"></a>Computer Vision</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/antoniogarrote/clj-tesseract">clj-tesseract</a></li>
+
+<li><a href="http://nakkaya.com/vision.html">vision</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="natural-language-processing"></a>Natural Language Processing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/dakrone/clojure-opennlp">clojure-opennlp</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="editor-plugins"></a>Editor Plugins</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/clojure-emacs/cider">CIDER</a></li>
+
+<li><a href="https://github.com/tpope/vim-fireplace">vim-fireplace</a></li>
+
+<li><a href="https://github.com/dgrnbrg/vim-redl">vim-redl</a></li>
+
+<li><a href="https://cursiveclojure.com/">Cursive (IntelliJ)</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="literate-programming"></a>Literate Programming</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/gdeer81/marginalia">marginalia</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="miscellaneous"></a>Miscellaneous</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/ztellman/clj-tuple">clj-tuple</a></li>
+
+<li><a href="https://github.com/scgilardi/slingshot">slingshot</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="debugging"></a>Debugging</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/GeorgeJahad/debug-repl">debug-repl</a></li>
+
+<li><a href="https://github.com/pallet/ritz">ritz</a></li>
+
+<li><a href="https://github.com/dgrnbrg/redl">redl</a></li>
+
+<li><a href="https://github.com/technomancy/limit-break">limit-break</a></li>
+
+<li><a href="https://github.com/dgrnbrg/spyscope">spyscope</a></li>
+
+<li><a href="https://github.com/razum2um/aprint">aprint</a></li>
+
+<li><a href="https://github.com/AvisoNovate/pretty">pretty</a></li>
+
+<li><a href="https://github.com/magnars/prone">prone</a></li>
+
+<li><a href="https://github.com/bhauman/lein-figwheel">figwheel</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="guides"></a>Guides</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://yogthos.github.io/ClojureDistilled.html">Clojure Distilled</a></li>
+
+<li><a href="https://github.com/clojure-cookbook/clojure-cookbook">clojure-cookbook</a></li>
+
+<li><a href="http://www.unexpected-vortices.com/clojure/brief-beginners-guide/index.html">A Brief Beginner&#39;s Guide To Clojure</a></li>
+
+<li><a href="http://www.braveclojure.com/">Clojure for the Brave and True</a></li>
+
+<li><a href="http://aphyr.com/tags/Clojure-from-the-ground-up">Clojure from the ground up</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="websites"></a>Websites</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://clojuredocs.org">clojuredocs</a></li>
+
+<li><a href="http://crossclj.info/">crossclj</a></li>
+
+<li><a href="http://clojure-doc.org/">clojure-doc</a></li>
+
+<li><a href="http://www.clojuresphere.com/">Clojure Sphere</a></li>
+
+<li><a href="http://grimoire.arrdem.com/">Grimoire</a></li>
+
+<li><a href="http://www.clojure-toolbox.com/">The Clojure Toolbox</a></li>
+
+<li><a href="http://web.clojurerepl.com/">InstaREPL Online</a></li>
+
+<li><a href="https://clojure.zeef.com/vlad.bokov">ZEEF/Clojure</a></li>
+
+<li><a href="http://www.4clojure.com/">4clojure</a></li>
+
+<li><a href="http://www.tryclj.com/">Try Clojure</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="twitter"></a>Twitter</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li>[oss<em>clj](https://twitter.com/oss</em>clj)</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="misc"></a>Misc</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/functional-koans/clojure-koans">koans</a></li></ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="quick-links">
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=watch&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=fork&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li class="tweet-btn">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+        </ul>
+        <p>Built by <a href="https://github.com/arshad">@arshad</a></p>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <a href="https://github.com/curated/resources"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>

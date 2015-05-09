@@ -1,0 +1,555 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Haskell | Curated Resources</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><a href="/">Back to all Resources</a></h3>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sections</h3>
+                </div>
+                <div class="list-group">
+                        <a class="list-group-item" href="#_basics">_Basics</a>
+                        <a class="list-group-item" href="#algorithmics">Algorithmics</a>
+                        <a class="list-group-item" href="#audio-music-sound">Audio, Music & Sound</a>
+                        <a class="list-group-item" href="#category-theory">Category Theory</a>
+                        <a class="list-group-item" href="#compilers">Compilers</a>
+                        <a class="list-group-item" href="#concurrency-parallelism">Concurrency & Parallelism</a>
+                        <a class="list-group-item" href="#cryptography-hashing">Cryptography & Hashing</a>
+                        <a class="list-group-item" href="#data-access">Data Access</a>
+                        <a class="list-group-item" href="#data-formats">Data Formats</a>
+                        <a class="list-group-item" href="#data-science">Data Science</a>
+                        <a class="list-group-item" href="#data-structures">Data Structures</a>
+                        <a class="list-group-item" href="#database">Database</a>
+                        <a class="list-group-item" href="#development-tools">Development Tools</a>
+                        <a class="list-group-item" href="#distributed-computing">Distributed Computing</a>
+                        <a class="list-group-item" href="#documentation">Documentation</a>
+                        <a class="list-group-item" href="#editors">Editors</a>
+                        <a class="list-group-item" href="#extensions">Extensions</a>
+                        <a class="list-group-item" href="#games">Games</a>
+                        <a class="list-group-item" href="#gui">GUI</a>
+                        <a class="list-group-item" href="#graphics">Graphics</a>
+                        <a class="list-group-item" href="#network">Network</a>
+                        <a class="list-group-item" href="#number-theory">Number Theory</a>
+                        <a class="list-group-item" href="#web-frameworks">Web / Frameworks</a>
+                        <a class="list-group-item" href="#text-processing">Text Processing</a>
+                        <a class="list-group-item" href="#messaging">Messaging</a>
+                        <a class="list-group-item" href="#languages">Languages</a>
+                        <a class="list-group-item" href="#operating-systems">Operating Systems</a>
+                        <a class="list-group-item" href="#platforms">Platforms</a>
+                        <a class="list-group-item" href="#programming">Programming</a>
+                        <a class="list-group-item" href="#science">Science</a>
+                        <a class="list-group-item" href="#streaming-processing">Streaming Processing</a>
+                        <a class="list-group-item" href="#websites">Websites</a>
+                        <a class="list-group-item" href="#community">Community</a>
+                        <a class="list-group-item" href="#courses">Courses</a>
+                        <a class="list-group-item" href="#packages">Packages</a>
+                        <a class="list-group-item" href="#tutorials">Tutorials</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="page-header">
+                <h1>
+                    Awesome Haskell <small>Curated by <a href="https://github.com/krispo/awesome-haskell">krispo</a></small>
+                </h1>
+            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="_basics"></a>_Basics</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/platform/contents.html">The Haskell Platform</a> - a comprehensive, robust development environment for programming in Haskell.</li>
+
+<li><a href="http://www.haskell.org/ghc/">GHC</a> - the state-of-the-art optimizing native code compiler for Haskell.</li>
+
+<li><a href="http://www.haskell.org/ghc/docs/latest/html/users_guide/ghci.html">GHCi</a> - a bytecode interpreter and interactive REPL environment for Haskell.</li>
+
+<li><a href="http://www.haskell.org/cabal/">Cabal</a> - a system for building and packaging Haskell libraries and programs. </li>
+
+<li><a href="http://www.haskell.org/haddock/">Haddock</a> - a tool for automatically generating documentation from annotated Haskell source code.</li>
+
+<li><a href="http://www.haskell.org/happy/">Happy</a> - The Parser Generator for Haskell.</li>
+
+<li><a href="http://www.haskell.org/alex/">Alex</a> - a lexical analyser generator for Haskell.</li>
+
+<li><a href="http://hackage.haskell.org/">Hackage</a> - the Haskell community&#39;s central package archive.</li>
+
+<li><a href="http://www.haskell.org/hoogle/">Hoogle</a> - a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.</li>
+
+<li><a href="http://holumbus.fh-wedel.de/hayoo/hayoo.html">Hayoo</a> - will search all packages from Hackage, including all function and type definitions.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="algorithmics"></a>Algorithmics</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Theorem_provers">Theorem Provers</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="audio-music-sound"></a>Audio, Music & Sound</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Music_and_sound">Audio, music and sound</a> - official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="category-theory"></a>Category Theory</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://hackage.haskell.org/packages/#cat:Adjunctions">Adjunctions</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Algebra">Algebra</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Categories">Categories</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Combinators">Combinators</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Comonads">Comonads</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Composition">Compisition</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Computer Algebra">Computer Algebra</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Constraints">Constraints</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Functors">Functors</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Monad">Monad</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Monads">Monads</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Semigroups">Semigroups</a> - a curated Hackage list.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="compilers"></a>Compilers</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Compilers_and_interpreters">Compilers &amp; Interpreters</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Compiler_tools">Compiler construction, lexing, parsing, pretty printing</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="concurrency-parallelism"></a>Concurrency & Parallelism</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Concurrency_and_parallelism">Concurrency &amp; Parallelism</a> - Official Website Info.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="cryptography-hashing"></a>Cryptography & Hashing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Cryptography">Cryptography &amp; Hashing</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="data-access"></a>Data Access</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/facebook/Haxl">Haxl</a> - a library for efficient, concurrent, concise data access.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="data-formats"></a>Data Formats</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://hackage.haskell.org/packages/#cat:JSON">JSON</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:PDF">PDF</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:XML">XML</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:RSS">RSS</a> - a curated Hackage list.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="data-science"></a>Data Science</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Linguistics">Linguistics and natural language processing</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Robotics">Robotics</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="data-structures"></a>Data Structures</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Data_structures">Data Structures &amp; IO Libraries</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database"></a>Database</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Database_interfaces">Database Interfaces</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="development-tools"></a>Development Tools</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Development_Libraries_and_Tools">Development Libraries and Tools</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="distributed-computing"></a>Distributed Computing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://hackage.haskell.org/packages/#cat:Distributed Computing">Distributed Computing</a> - a curated Hackage list.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="documentation"></a>Documentation</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://hackage.haskell.org/packages/#cat:Documentation">Documentation</a> - a curated Hackage list.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="editors"></a>Editors</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Editors">Editors written in Haskell</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Editors">editors for Haskell</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="extensions"></a>Extensions</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Extended_Haskell">Extended Haskell</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="games"></a>Games</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Games">Games</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="gui"></a>GUI</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/GUI_libraries">Graphical User Interface (GUI) Libraries</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="graphics"></a>Graphics</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Graphics">Graphics</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="network"></a>Network</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Network">Network</a> - Official Website Resources</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="number-theory"></a>Number Theory</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://hackage.haskell.org/packages/#cat:Number Theory">Number Theory</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Numeric">Numeric</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Numerical">Numerical</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Math">Math</a> - a curated Hackage list.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="web-frameworks"></a>Web / Frameworks</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Web/Servers">Web Servers</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Web/Frameworks">Web Frameworks</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Web/Cloud">Cloud</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Web/Deploy">Deploy</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Web/Libraries">Libraries</a> - Official Website Resources.</li>
+
+<li><a href="">Interfaces to Frameworks</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Web/Databases_and_Persistence">Database adn Persistence</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Web/Testing_and_Verification">Testing and Verification</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Web/Content_Management">CMS</a> - Official Website Resources for Content Management Systems (CMS).</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="text-processing"></a>Text Processing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> - is a library for converting from one markup format to another, and a command-line tool that uses this library.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="messaging"></a>Messaging</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://stomp.github.io/">Stomp</a> - is the Simple (or Streaming) Text Orientated Messaging Protocol. <a href="http://hackage.haskell.org/packages/#cat:Stomp">Resources</a>.</li>
+
+<li><a href="https://github.com/hreinhardt/amqp">amqp</a> - client library for AMQP servers (currently only RabbitMQ).</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:IRC">IRC</a> - a curated Hackage list for Internet Relay Chat (IRC).</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:IRC Client">IRC Client</a> - a curated Hackage list.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="languages"></a>Languages</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages">Tools for interfacing with other languages</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="operating-systems"></a>Operating Systems</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Operating_system">Operating systems and systems programming</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="platforms"></a>Platforms</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://hackage.haskell.org/packages/#cat:.NET">.NET</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Apple">Apple</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:JVM">JVM</a> - a curated Hackage list.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:Mobile">Mobile</a> - a curated Hackage list.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="programming"></a>Programming</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Generic_programming">Generic Programming</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="science"></a>Science</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Bioinformatics">Bioinformatics</a> - Official Website Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Mathematics">Mathematics &amp; Physics</a> - Official Website Resources.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="streaming-processing"></a>Streaming Processing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/snoyberg/conduit">Conduit</a> - a streaming data library. <a href="http://hackage.haskell.org/packages/#cat:Conduit">Resources</a>.</li>
+
+<li><a href="http://hackage.haskell.org/packages/#cat:IO-Streams">IO-Streams</a> - a curated Hackage list.</li>
+
+<li><a href="https://github.com/Gabriel439/Haskell-Pipes-Library">Pipes</a> - is a clean and powerful stream processing library that lets you build and connect reusable streaming components. <a href="http://hackage.haskell.org/packages/#cat:Pipes">Resources</a>.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="websites"></a>Websites</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Haskell">The Haskell Programming Language</a></li>
+
+<li><a href="http://tryhaskell.org/">Try Haskell</a> - Haskell Online.</li>
+
+<li><a href="https://www.fpcomplete.com/school">School of Haskell</a> - Learning Haskell.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="community"></a>Community</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.reddit.com/r/haskell/">Reddit</a></li>
+
+<li><a href="http://stackoverflow.com/questions/tagged?tagnames=haskell">Stackoverflow</a></li>
+
+<li><a href="https://plus.google.com/communities/104818126031270146189">G+</a></li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Mailing_lists">Mailing lists</a></li>
+
+<li><a href="http://www.haskell.org/haskellwiki/IRC_channel">IRC channels</a></li>
+
+<li><a href="http://www.haskell.org/haskellwiki/User_groups">Local user groups</a></li>
+
+<li><a href="http://planet.haskell.org/">Planet Haskell</a></li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Haskell_Communities_and_Activities_Report">Haskell Communities and Activities Report</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="courses"></a>Courses</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://www.edx.org/course/delftx/delftx-fp101x-introduction-functional-2126">Introduction to Functional Programming</a> - Fall 2014 MOOC on edX by DelftX featuring Haskell as the primary language of focus.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="packages"></a>Packages</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://hackage.haskell.org/">Hackage</a> - is the Haskell community&#39;s central package archive.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries">Application &amp; Libraries</a> - Official collections and Guide.</li>
+
+<li><a href="http://www.haskell.org/hoogle/">Hoogle</a> - is a Haskell API search engine, which allows you to search many standard Haskell libraries by either function name, or by approximate type signature.</li>
+
+<li><a href="http://holumbus.fh-wedel.de/hayoo/hayoo.html">Hayoo</a> - will search all packages from Hackage, including all function and type definitions.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="tutorials"></a>Tutorials</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.haskell.org/haskellwiki/Learning_Haskell">Learn Haskell</a> - Official Learning Resources.</li>
+
+<li><a href="http://www.haskell.org/haskellwiki/Books">Books</a> &amp; <a href="http://www.haskell.org/haskellwiki/Tutorials">Tutorials</a></li>
+
+<li><a href="https://github.com/bitemyapp/learnhaskell">learnhaskell</a> - Haskell Learning.</li>
+
+<li><a href="http://dev.stephendiehl.com/hask/">wiwinwlh</a> - amazing guide for all kinds of things.</li>
+
+<li><a href="http://learnyouahaskell.com/chapters">LearnYouHaskell</a> - Learn You a Haskell for Great Good!</li>
+
+<li><a href="http://www.haskell.org/onlinereport/">Revised report</a> - Haskell 98 Language and Libraries. The Revised Report.</li></ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="quick-links">
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=watch&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=fork&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li class="tweet-btn">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+        </ul>
+        <p>Built by <a href="https://github.com/arshad">@arshad</a></p>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <a href="https://github.com/curated/resources"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>

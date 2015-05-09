@@ -1,0 +1,569 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>iOS | Curated Resources</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><a href="/">Back to all Resources</a></h3>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sections</h3>
+                </div>
+                <div class="list-group">
+                        <a class="list-group-item" href="#contents">Contents</a>
+                        <a class="list-group-item" href="#cache">Cache</a>
+                        <a class="list-group-item" href="#core-data">Core Data</a>
+                        <a class="list-group-item" href="#database">Database</a>
+                        <a class="list-group-item" href="#hud">HUD</a>
+                        <a class="list-group-item" href="#images">Images</a>
+                        <a class="list-group-item" href="#json">JSON</a>
+                        <a class="list-group-item" href="#logging">Logging</a>
+                        <a class="list-group-item" href="#maps">Maps</a>
+                        <a class="list-group-item" href="#networking">Networking</a>
+                        <a class="list-group-item" href="#push">Push</a>
+                        <a class="list-group-item" href="#passbook">Passbook</a>
+                        <a class="list-group-item" href="#text">Text</a>
+                        <a class="list-group-item" href="#ui">UI</a>
+                        <a class="list-group-item" href="#websocket">WebSocket</a>
+                        <a class="list-group-item" href="#code-quality">Code Quality</a>
+                        <a class="list-group-item" href="#tdd-bdd">TDD / BDD</a>
+                        <a class="list-group-item" href="#ui-testing">UI Testing</a>
+                        <a class="list-group-item" href="#beta-distribution">Beta Distribution</a>
+                        <a class="list-group-item" href="#plugins">Plugins</a>
+                        <a class="list-group-item" href="#package-manager">Package Manager</a>
+                        <a class="list-group-item" href="#themes">Themes</a>
+                        <a class="list-group-item" href="#websites">Websites</a>
+                        <a class="list-group-item" href="#videos">Videos</a>
+                        <a class="list-group-item" href="#ui">UI</a>
+                        <a class="list-group-item" href="#news-blogs-and-feeds">News, Blogs and Feeds</a>
+                        <a class="list-group-item" href="#uikit-references">UIKit references</a>
+                        <a class="list-group-item" href="#components-and-packages">Components and Packages</a>
+                        <a class="list-group-item" href="#forums-and-discuss-lists">Forums and discuss lists</a>
+                        <a class="list-group-item" href="#tutorials-and-keynotes">Tutorials and Keynotes</a>
+                        <a class="list-group-item" href="#ios-ui-template">iOS UI Template</a>
+                        <a class="list-group-item" href="#prototyping">Prototyping</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="page-header">
+                <h1>
+                    Awesome iOS <small>Curated by <a href="https://github.com/vsouza/awesome-ios">vsouza</a></small>
+                </h1>
+            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="contents"></a>Contents</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><p><a href="#libraries-and-frameworks">Library and Frameworks</a></p><ul><li><a href="#cache">Cache</a></li><li><a href="#core-data">Core Data</a></li><li><a href="#database">Database</a></li><li><a href="#hud">HUD</a></li><li><a href="#images">Images</a></li><li><a href="#json">JSON</a></li><li><a href="#logging">Logging</a></li><li><a href="#maps">Maps</a></li><li><a href="#networking">Networking</a></li><li><a href="#push">Push</a></li><li><a href="#passbook">Passbook</a></li><li><a href="#text">Text</a></li><li><a href="#ui">UI</a></li><li><a href="#websocket">Websocket</a></li><li><p><a href="#code-quality">Code Quality</a></p></li><li><p><a href="#project-setup">Project setup</a></p></li><li><a href="#dependency-manager">Dependency Manager</a></li><li><a href="#testing">Testing</a><ul><li><a href="#tdd--bdd">TDD / BDD</a></li><li><a href="#ui-testing">UI Testing</a></li><li><a href="#beta-distribution">Beta Distribution</a></li></ul></li><li><a href="#toolchains">Toolchains</a></li><li><a href="#rapid-development">Rapid Development</a></li><li><a href="#deployment">Deployment</a></li><li><p><a href="#xcode">Xcode</a></p><ul><li><a href="#plugins">Plugins</a></li><li><a href="#package-manager">Package Manager</a></li><li><p><a href="#themes">Themes</a></p></li></ul></li><li><p><a href="#swift">Swift</a></p><ul><li><a href="#websites">Websites</a></li><li><a href="#videos">Videos</a></li><li><p><a href="#ui">UI</a></p></li></ul></li><li><p><a href="#style-guides">Style Guides</a></p></li><li><p><a href="#good-websites">Good Websites</a></p><ul><li><a href="#news-blogs-and-feeds">News, Blogs and Feeds</a></li><li><a href="#uikit-references">UIKIt references</a></li><li><a href="#components-and-packages">Components and Packages</a></li><li><a href="#forums-and-discuss-lists">Forums and discuss lists</a></li><li><a href="#tutorials-and-keynotes">Tutorials and Keynotes</a></li><li><p><a href="#prototyping">Prototyping</a></p></li></ul></li><li><p><a href="#twitter">Twitter</a></p></li><li><a href="#other-awesome-lists">Other Awesome Lists</a></li><li><a href="#contributing">Contributing</a></li></ul></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="cache"></a>Cache</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/steipete/SDURLCache">SDURLCache</a> - URLCache subclass with on-disk cache support on iPhone/iPad.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="core-data"></a>Core Data</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/jayway/CWCoreData">CWCoreData</a> - Additions and utilities to make it concurrency easier with the Core Data framework.</li>
+
+<li><a href="https://github.com/mneorr/Objective-Record">Objective-Record</a> - Objective Record is a lightweight ActiveRecord way of managing Core Data objects.</li>
+
+<li><a href="https://github.com/magicalpanda/MagicalRecord">Magical Record</a> -  Super Awesome Easy Fetching for Core Data.</li>
+
+<li><a href="https://github.com/soffes/SSDataKit">SSDataKit</a> - Eliminate your Core Data boilerplate code</li>
+
+<li><a href="https://github.com/martydill/ios-queryable">ios-queryable</a> - ios-queryable is an implementation of IQueryable/IEnumerable for Core Data</li>
+
+<li><a href="https://github.com/apparentsoft/ReactiveCoreData">ReactiveCoreData</a> - ReactiveCoreData (RCD) is an attempt to bring Core Data into the ReactiveCocoa (RAC) world.</li>
+
+<li><a href="https://github.com/drewmccormack/ensembles">Ensembles</a> - A synchronization framework for Core Data.</li>
+
+<li><a href="https://github.com/OliverLetterer/SLRESTfulCoreData">SLRESTfulCoreData</a> - Objc naming conventions, autogenerated accessors at runtime, URL substitutions and intelligent attribute mapping.</li>
+
+<li><a href="https://github.com/rentzsch/mogenerator">Mogenerator</a> - Automatic Core Data code generation.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database"></a>Database</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/realm/realm-cocoa">Realm</a> - The alternative to CoreData and SQLite: Simple, modern and fast.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="hud"></a>HUD</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/jdg/MBProgressHUD">MBProgressHUD</a> - Drop-in class for displays a translucent HUD with an indicator and/or labels while work is being done in a background thread.</li>
+
+<li><a href="https://github.com/samvermette/SVProgressHUD">SVProgressHUD</a> - A clean and lightweight progress HUD for your iOS app.</li>
+
+<li><a href="https://github.com/relatedcode/ProgressHUD">ProgressHUD</a> - ProgressHUD is a lightweight and easy-to-use HUD.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="images"></a>Images</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/BradLarson/GPUImage">GPU Image</a> - An open source iOS framework for GPU-based image and video processing.</li>
+
+<li><a href="https://github.com/gdawg/uiimage-dsp">UIImage DSP</a> - IOS UIImage processing functions using the vDSP/Accellerate framework for speed.</li>
+
+<li><a href="http://www.appcoda.com/qr-code-ios-programming-tutorial/">QR Code Scanner</a> - QR Code implementation</li>
+
+<li><a href="https://github.com/nicklockwood/AsyncImageView">AsyncImageView</a> - Simple extension of UIImageView for loading and displaying images asynchronously without lock up the UI.</li>
+
+<li><a href="https://github.com/rs/SDWebImage">SDWebImage</a> - Asynchronous image downloader with cache support with an UIImageView category</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="json"></a>JSON</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/johnezang/JSONKit">JSONKit</a> - Objective-C JSON</li>
+
+<li><a href="https://github.com/TouchCode/TouchJSON">TouchJSON</a> - A humane JSON Objective-C un-framework.</li>
+
+<li><a href="https://github.com/stig/json-framework">JSON-Framework</a> -  This framework implements a strict JSON parser and generator in Objective-C.</li>
+
+<li><a href="https://github.com/Mantle/Mantle">Mantle</a> - Model framework for Cocoa and Cocoa Touch.</li>
+
+<li><a href="https://github.com/gonzalezreal/Groot">Groot</a> - Convert JSON dictionaries and arrays to and from Core Data managed objects.</li>
+
+<li><a href="https://github.com/krzysztofzablocki/KZPropertyMapper">KZPropertyMapper</a> - Data mapping and validation with minimal amount of code.</li>
+
+<li><a href="https://github.com/icanzilb/JSONModel">JSONModel</a> - Magical Data Modelling Framework for JSON. Create rapidly powerful, atomic and smart data model classes.</li>
+
+<li><a href="https://github.com/SwiftyJSON/SwiftyJSON">SwiftyJSON</a> - The better way to deal with JSON data in Swift.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="logging"></a>Logging</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/CocoaLumberjack/CocoaLumberjack">CocoaLumberjack</a> - A fast &amp; simple, yet powerful &amp; flexible logging framework for Mac and iOS</li>
+
+<li><a href="https://github.com/fpillet/NSLogger">NSLogger</a> - a high perfomance logging utility which displays traces emitted by client applications running on Mac OS X, iOS and Android.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="maps"></a>Maps</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/route-me/route-me">Route-me</a> - Open source map library for iOS.</li>
+
+<li><a href="https://github.com/mapbox/mapbox-ios-sdk">MapBox</a> - Mapbox iOS SDK, an open source alternative to MapKit.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="networking"></a>Networking</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a> - A delightful iOS and OS X networking framework.</li>
+
+<li><a href="http://restkit.org/">RestKit</a> - RestKit is an Objective-C framework for iOS that aims to make interacting with RESTful web services simple, fast and fun.</li>
+
+<li><a href="https://github.com/foursquare/FSNetworking">FSNetworking</a> - Foursquare iOS networking library</li>
+
+<li><a href="https://github.com/pokeb/asi-http-request">ASIHTTPRequest</a> - Easy to use CFNetwork wrapper for HTTP requests, Objective-C, Mac OS X and iPhone.</li>
+
+<li><a href="https://github.com/gonzalezreal/Overcoat">Overcoat</a> - Overcoat is a small but powerful library that makes creating REST clients simple and fun.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="push"></a>Push</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/mattt/Orbiter">Orbiter</a> - Push Notification Registration for iOS.</li>
+
+<li><a href="https://github.com/KrauseFx/PEM">PEM</a> - Tired of manually creating and maintaining your push certification profiles?</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="passbook"></a>Passbook</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/frozon/passbook">passbook</a> - Passbook gem let&#39;s you create pkpass for passbook iOS 6+.</li>
+
+<li><a href="https://github.com/nomad/dubai">Dubai</a> - Generate and Preview Passbook Passes.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="text"></a>Text</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/twitter/twitter-text-objc">Twitter Text Obj</a> - An Objective-C implementation of Twitter&#39;s text processing library.</li>
+
+<li><a href="http://nimbuskit.info/">Nimbus</a> - Nimbus is a toolkit for experienced iOS software designers.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="ui"></a>UI</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/skywinder/ActionSheetPicker-3.0/">ActionSheetPicker-3.0</a> - Quickly reproduce the dropdown UIPickerView / ActionSheet functionality on iOS.</li>
+
+<li><a href="https://github.com/Grouper/FlatUIKit">FlatUIKit</a> - A collection of awesome flat UI components for iOS.</li>
+
+<li><a href="https://github.com/jverdi/JVFloatLabeledTextField">JVFloatLabeledTextField</a> - UITextField subclass with floating labels.</li>
+
+<li><a href="https://github.com/StyleShare/SSBouncyButton">SSBouncyButton</a> - iOS7-style bouncy button UI component.</li>
+
+<li><a href="https://github.com/jessesquires/JSQMessagesViewController">JSQMessagesViewController</a> - An elegant messages UI library for iOS.</li>
+
+<li><a href="https://github.com/toursprung/TSMessages">TSMessages</a> - Show notification views on top of screen such as success, error, warning or messages for iOS.</li>
+
+<li><a href="https://github.com/NZN/NZAlertView">NZAlertView</a> - Simple and intuitive alert view. Similar to push notification effect.</li>
+
+<li><a href="https://github.com/MortimerGoro/MGSwipeTableCell">MGSwipeTableCell</a> - UITableViewCell subclass that allows to display swippable buttons with a variety of transitions.</li>
+
+<li><a href="https://github.com/alexruperez/ARAutocompleteTextView">ARAutocompleteTextView</a> - subclass of UITextView that automatically displays text suggestions in real-time. Perfect for email Textviews</li>
+
+<li><a href="https://github.com/tdginternet/TGCameraViewController">TGCameraViewController</a> - Custom camera with AVFoundation. Beautiful, light and easy to integrate with iOS projects.</li>
+
+<li><a href="https://github.com/ariok/BWWalkthrough">BWWalkthrough</a> - Class that helps you create Walkthroughs pages</li>
+
+<li><a href="https://github.com/evnaz/ENSwiftSideMenu">ENSwiftSideMenu</a> - A simple side menu for iOS 7/8 written in Swift.</li>
+
+<li><a href="https://github.com/modocache/MDCSwipeToChoose">MDCSwipeToChoose</a> - Swipe to &quot;like&quot; or &quot;dislike&quot; any view, just like Tinder.app. Build a flashcard app, a photo viewer, and more, in minutes, not hours!</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="websocket"></a>WebSocket</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/square/SocketRocket">Socket Rocket</a> - A conforming Objective-C WebSocket client library.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="code-quality"></a>Code Quality</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/krzysztofzablocki/KZBootstrap">KZBootstrap</a> - Set of scripts and annotations that generate extra compile time errors and warnings on bad code quality.</li>
+
+<li><a href="https://github.com/krzysztofzablocki/KZAsserts">KZAsserts</a> - Set of custom assertions that automatically generate NSError&#39;s, allow for both Assertions in Debug and Error handling in Release builds, with beatiful DSL.</li>
+
+<li><a href="https://gist.github.com/steipete/5664345">PSPDFUIKitMainThreadGuard</a> - Simple snippet generating assertions when UIKit is used on background threads.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="tdd-bdd"></a>TDD / BDD</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/kiwi-bdd/Kiwi">Kiwi</a> - A behavior-driven development library for iOS development.</li>
+
+<li><a href="https://github.com/specta/specta">Specta</a> - A light-weight TDD / BDD framework for Objective-C &amp; Cocoa.</li>
+
+<li><a href="https://github.com/Quick/Quick">Quick</a> - A behavior-driven development framework for Swift and Objective-C.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="ui-testing"></a>UI Testing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/mokemokechicken/CrashMonkey">CrashMonkey</a> - Monkey Test Tool For iOS.</li>
+
+<li><a href="http://appium.io/">appium</a> - Appium is an open source test automation framework for use with native and hybrid mobile apps.</li>
+
+<li><a href="https://github.com/jollychang/robotframework-appiumlibrary">robotframework-appiumlibrary</a> - AppiumLibrary is an appium testing library for RobotFramework.</li>
+
+<li><a href="http://cukes.info/">Cucumber</a> - Behavior driver development for iOS.</li>
+
+<li><a href="https://github.com/kif-framework/KIF">Kif</a> - An iOS Functional Testing Framework.</li>
+
+<li><a href="https://github.com/inkling/Subliminal">Subliminal</a> - An understated approach to iOS integration testing.</li>
+
+<li><a href="https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/Introduction/Introduction.html">UIAutomation</a> - JavaScript library to write test scripts that exercise your app’s user interface elements while the app runs on a connected device.</li>
+
+<li><a href="http://ios-driver.github.io/ios-driver/index.html">ios-driver</a> - Test any IOS native, hybrid, or mobile web application using Selenium / WebDriver.</li>
+
+<li><a href="http://www.zucchiniframework.org/">Zucchini</a> - A visual iOS testing framework that loves your apps.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="beta-distribution"></a>Beta Distribution</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://www.crashlytics.com/">Crashlytics</a> - A crash reporting and beta testing service.</li>
+
+<li><a href="https://testflightapp.com/">TestFlight</a> - A free mobile platform for developers, managers and testers.</li>
+
+<li><a href="https://developer.apple.com/testflight/">TestFlight Beta Testing</a> - The beta testing service hosted on iTunes Connect (requires iOS 8 or later).</li>
+
+<li><a href="http://hockeyapp.net/">HockeyApp</a> - With HockeyApp, you can distribute beta versions of your app, collect live crash reports, get feedback from users, and analyze test coverage.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="plugins"></a>Plugins</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/stefanceriu/SCXcodeMiniMap">SCXcodeMiniMap</a> - SCXcodeMiniMap is a plugin that adds a source editor MiniMap to Xcode.</li>
+
+<li><a href="https://github.com/larsxschneider/ShowInGitHub">Show in Github</a> - Xcode plugin to open the GitHub page of the commit of the currently selected line in the editor window.</li>
+
+<li><a href="https://github.com/neonichu/BBUFullIssueNavigator">BBUFullIssueNavigator</a> - Xcode plugin for showing all issue content in the issue navigator.</li>
+
+<li><a href="https://github.com/neonichu/BBUDebuggerTuckAway">BBUDebuggerTuckAway</a> - Xcode plugin for auto-hiding the debugger once you start typing in the source code editor.</li>
+
+<li><a href="https://github.com/stefanceriu/SCXcodeSwitchExpander">SCXcodeSwitchExpander</a> - SCXcodeSwitchExpander is a small Xcode plugin that expands switch statements by inserting missing cases.</li>
+
+<li><a href="https://github.com/onevcat/VVDocumenter-Xcode">VVDocumenter-Xcode</a> - Xcode plug-in which helps you write Javadoc style documents easier.</li>
+
+<li><a href="https://github.com/qfish/XAlign">XAlign</a> - An amazing Xcode plugin to align regular code. It can align anything by using custom alignment patterns.</li>
+
+<li><a href="https://github.com/kattrali/cocoapods-xcode-plugin">Cocoapods Xcode Plugin</a> - Dependency management helper for your CocoaPods, right in Xcode.</li>
+
+<li><a href="https://github.com/ksuther/KSImageNamed-Xcode">KSImageNamed-Xcode</a> - Xcode plug-in that provides autocomplete for imageNamed: calls.</li>
+
+<li><a href="https://github.com/omz/ColorSense-for-Xcode">ColorSense-for-Xcode</a> - Plugin for Xcode to make working with colors more visual.</li>
+
+<li><a href="https://github.com/limejelly/Backlight-for-XCode">Backlight-for-XCode</a> - Highlights the current editing line in Xcode</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="package-manager"></a>Package Manager</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://alcatraz.io/">Alcatraz</a> - The package manager for Xcode.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="themes"></a>Themes</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/zenorocha/dracula-theme">Dracula Theme</a> - A dark theme for Xcode</li>
+
+<li><a href="https://github.com/hdoria/xcode-themes">Xcode themes list</a> - Color themes for Xcode.</li>
+
+<li><a href="https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode/">Solarized-Dark-for-Xcode</a> - Solarized Dark Theme for Xcode 5.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="websites"></a>Websites</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://developer.apple.com/swift/blog/">Apple&#39;s Swift Blog</a> - Offical Swift blog from Apple.</li>
+
+<li><a href="https://github.com/Wolg/awesome-swift">Awesome-swift</a> - A curated list of awesome Swift frameworks, libraries and software.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="videos"></a>Videos</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw/videos">Brian Advent youtube channel</a> - Swift tutorials Youtube Channel.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="ui"></a>UI</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/devxoul/JLToast">JLToast</a> - Toast for iOS with very simple interface. Written in Swift.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="news-blogs-and-feeds"></a>News, Blogs and Feeds</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://bgr.com/ios-7/">BGR</a></li>
+
+<li><a href="http://www.imore.com/">iMore</a></li>
+
+<li><a href="http://lifehacker.com/tag/ios">Lifehacker</a></li>
+
+<li><a href="http://www.icodeblog.com/">iCode Blog</a></li>
+
+<li><a href="http://nshipster.com">NSHipster</a></li>
+
+<li><a href="http://www.objc.io">Objc.io</a></li>
+
+<li><a href="http://asciiwwdc.com">AsciiWWDC</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="uikit-references"></a>UIKit references</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://iosfonts.com/">iOS Fonts</a></li>
+
+<li><a href="https://gist.github.com/mattt/5135521">UIAppearance list</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="components-and-packages"></a>Components and Packages</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.cocoacontrols.com">Cocoa Controls</a></li>
+
+<li><a href="http://cocoapods.org/">Cocoa Pods</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="forums-and-discuss-lists"></a>Forums and discuss lists</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://iphonedevsdk.com/">iPhone Dev SDK Forum</a></li>
+
+<li><a href="http://stackoverflow.com/questions/tagged/ios">&quot;iOS&quot; on Stackoverflow</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="tutorials-and-keynotes"></a>Tutorials and Keynotes</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.appcoda.com">AppCoda</a></li>
+
+<li><a href="http://www.raywenderlich.com">Ray Wenderlich</a></li>
+
+<li><a href="http://www.tutorialspoint.com/ios/">Tutorials Point</a></li>
+
+<li><a href="http://codewithchris.com/">Code with Cris</a></li>
+
+<li><a href="http://www.cocoawithlove.com/">Cocoa with Love</a></li>
+
+<li><a href="http://www.cimgf.com/">Cocoa is my Girlfriend</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="ios-ui-template"></a>iOS UI Template</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://appicontemplate.com/ios8">App Icon Template</a></li>
+
+<li><a href="http://www.teehanlax.com/tools/iphone">iOS 8 GUI PSD Template</a></li>
+
+<li><a href="http://www.invisionapp.com/tethr">iOS UI Design Kit</a></li>
+
+<li><a href="http://iosdesign.ivomynttinen.com/">iOS Design Guidelines</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="prototyping"></a>Prototyping</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://www.fluidui.com">FluidUI</a></li>
+
+<li><a href="http://proto.io">Proto.io</a></li></ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="quick-links">
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=watch&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=fork&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li class="tweet-btn">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+        </ul>
+        <p>Built by <a href="https://github.com/arshad">@arshad</a></p>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <a href="https://github.com/curated/resources"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>

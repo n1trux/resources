@@ -1,0 +1,1015 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Go | Curated Resources</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><a href="/">Back to all Resources</a></h3>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sections</h3>
+                </div>
+                <div class="list-group">
+                        <a class="list-group-item" href="#audiomusic">Audio/Music</a>
+                        <a class="list-group-item" href="#authentication-oauth">Authentication & OAuth</a>
+                        <a class="list-group-item" href="#css-preprocessors">CSS Preprocessors</a>
+                        <a class="list-group-item" href="#cui">CUI</a>
+                        <a class="list-group-item" href="#database">Database</a>
+                        <a class="list-group-item" href="#database-drivers">Database Drivers</a>
+                        <a class="list-group-item" href="#date-time">Date & Time</a>
+                        <a class="list-group-item" href="#distributed-systems">Distributed Systems</a>
+                        <a class="list-group-item" href="#email">Email</a>
+                        <a class="list-group-item" href="#embeddable-scripting-languages">Embeddable Scripting Languages</a>
+                        <a class="list-group-item" href="#forms">Forms</a>
+                        <a class="list-group-item" href="#game-development">Game Development</a>
+                        <a class="list-group-item" href="#generation-generics">Generation & Generics</a>
+                        <a class="list-group-item" href="#gui">GUI</a>
+                        <a class="list-group-item" href="#hardware">Hardware</a>
+                        <a class="list-group-item" href="#images">Images</a>
+                        <a class="list-group-item" href="#logging">Logging</a>
+                        <a class="list-group-item" href="#machine-learning">Machine Learning</a>
+                        <a class="list-group-item" href="#messaging">Messaging</a>
+                        <a class="list-group-item" href="#miscellaneous">Miscellaneous</a>
+                        <a class="list-group-item" href="#natural-language-processing">Natural Language Processing</a>
+                        <a class="list-group-item" href="#networking">Networking</a>
+                        <a class="list-group-item" href="#opengl">OpenGL</a>
+                        <a class="list-group-item" href="#orm">ORM</a>
+                        <a class="list-group-item" href="#package-management">Package Management</a>
+                        <a class="list-group-item" href="#science-and-data-analysis">Science and Data Analysis</a>
+                        <a class="list-group-item" href="#serialization">Serialization</a>
+                        <a class="list-group-item" href="#template-engines">Template Engines</a>
+                        <a class="list-group-item" href="#testing">Testing</a>
+                        <a class="list-group-item" href="#text-processing">Text Processing</a>
+                        <a class="list-group-item" href="#thirdparty-apis">Third-party APIs</a>
+                        <a class="list-group-item" href="#utilities">Utilities</a>
+                        <a class="list-group-item" href="#version-control">Version Control</a>
+                        <a class="list-group-item" href="#video">Video</a>
+                        <a class="list-group-item" href="#web-frameworks">Web Frameworks</a>
+                        <a class="list-group-item" href="#code-analysis">Code Analysis</a>
+                        <a class="list-group-item" href="#editor-plugins">Editor Plugins</a>
+                        <a class="list-group-item" href="#software-packages">Software Packages</a>
+                        <a class="list-group-item" href="#benchmarks">Benchmarks</a>
+                        <a class="list-group-item" href="#conferences">Conferences</a>
+                        <a class="list-group-item" href="#ebooks">E-Books</a>
+                        <a class="list-group-item" href="#twitter">Twitter</a>
+                        <a class="list-group-item" href="#websites">Websites</a>
+                        <a class="list-group-item" href="#windows">Windows</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="page-header">
+                <h1>
+                    Awesome Go <small>Curated by <a href="https://github.com/avelino/awesome-go">avelino</a></small>
+                </h1>
+            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="audiomusic"></a>Audio/Music</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for manipulating audio.</em></p><ul><li><a href="https://github.com/eaburns/flac">flac</a> - A native Go FLAC decoder.</li>
+
+<li><a href="https://github.com/krig/go-sox">go-sox</a> - libsox bindings for go.</li>
+
+<li><a href="https://code.google.com/p/portaudio-go/">PortAudio</a> - Go bindings for the PortAudio audio I/O library.</li>
+
+<li><a href="https://github.com/rakyll/portmidi">portmidi</a> - Go bindings for PortMidi.</li>
+
+<li><a href="https://github.com/mccoyst/vorbis">vorbis</a> - A &quot;native&quot; Go Vorbis decoder (uses CGO, but has no dependencies).</li>
+
+<li><a href="https://github.com/mdlayher/waveform">waveform</a> - Go package capable of generating waveform images from audio streams.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="authentication-oauth"></a>Authentication & OAuth</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for implementing authentications schemes.</em></p><ul><li><a href="https://github.com/smartystreets/go-aws-auth">Go-AWS-Auth</a> - AWS (Amazon Web Services) request signing library.</li>
+
+<li><a href="https://github.com/bradrydzewski/go.auth">go.auth</a> - Authentication API for Go web applications.</li>
+
+<li><a href="https://github.com/square/go-jose">go-jose</a> - A fairly complete implementation of the JOSE working group&#39;s JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.</li>
+
+<li><a href="https://github.com/mikespook/gorbac">gorbac</a> - provides a lightweight role-based access control (RBAC) implementation in Golang.</li>
+
+<li><a href="https://github.com/goji/httpauth">httpauth</a> - HTTP Authentication middleware.</li>
+
+<li><a href="https://github.com/dgrijalva/jwt-go">jwt-go</a> - Golang implementation of JSON Web Tokens (JWT).</li>
+
+<li><a href="https://github.com/golang/oauth2">oauth2</a> - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.</li>
+
+<li><a href="https://github.com/RangelReale/osin">osin</a> - Golang OAuth2 server library.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="css-preprocessors"></a>CSS Preprocessors</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for preprocessing CSS files</em></p><ul><li><a href="https://github.com/yosssi/gcss">gcss</a> - Pure Go CSS Preprocessor.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="cui"></a>CUI</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for building CUI Applications</em></p><ul><li><a href="https://github.com/ttacon/chalk">chalk</a> - Intuitive package for prettifying terminal/console output.</li>
+
+<li><a href="https://github.com/fatih/color">color</a> - Versatile package for colored terminal output.</li>
+
+<li><a href="https://github.com/daviddengcn/go-colortext">go-colortext</a> - Go library for color output in terminals.</li>
+
+<li><a href="https://github.com/nsf/termbox-go">termbox-go</a> - Termbox is a library for creating cross-platform text-based interfaces.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database"></a>Database</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Generic data structures and algorithms for databases in Go.</em></p><ul><li><a href="https://github.com/willf/bitset">bitset</a> - Go package implementing bitsets.</li>
+
+<li><a href="https://github.com/dataence/bloom">bloom</a> - Bloom filters implemented in Go.</li>
+
+<li><a href="https://github.com/dataence/encoding">encoding</a> - Integer Compression Libraries for Go.</li>
+
+<li><a href="https://github.com/smartystreets/mafsa">mafsa</a> - MA-FSA implementation with Minimal Perfect Hashing</li>
+
+<li><a href="https://github.com/gansidui/skiplist">skiplist</a> - Skiplist implementation in Go</li>
+
+<li><a href="https://github.com/derekparker/trie">trie</a> - Trie implementation in Go</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database-drivers"></a>Database Drivers</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for connecting and operating databases. (see <a href="#testing">Testing</a> for mock drivers)</em></p><ul><li><p>Relational Databases</p><ul><li><a href="https://github.com/mattn/go-adodb">go-adodb</a> - Microsoft ActiveX Object DataBase driver for go that using database/sql.</li><li><a href="https://github.com/denisenkom/go-mssqldb">go-mssqldb</a> - Microsoft MSSQL driver prototype in go language.</li><li><a href="https://github.com/mattn/go-oci8">go-oci8</a> - Oracle driver for go that using database/sql.</li><li><a href="https://github.com/lxn/go-pgsql">go-pgsql</a> - A PostgreSQL client package for the Go Programming Language.</li><li><a href="https://github.com/go-sql-driver/mysql">go-sql-driver/mysql</a> - MySQL driver for Go.</li><li><a href="https://github.com/mattn/go-sqlite3">go-sqlite3</a> - SQLite3 driver for go that using database/sql.</li><li><p><a href="https://github.com/lib/pq">pq</a> - Pure Go Postgres driver for database/sql.</p></li></ul></li>
+
+<li><p>NoSQL Databases</p><ul><li><a href="https://github.com/aerospike/aerospike-client-go">aerospike-client-go</a> - Aerospike client in Go language.</li><li><a href="https://github.com/google/cayley">cayley</a> - A graph database with support for multiple backends.</li><li><a href="https://github.com/couchbaselabs/go-couchbase">go-couchbase</a> - Couchbase client in Go</li><li><a href="https://github.com/dancannon/gorethink">gorethink</a> - Go language driver for RethinkDB</li><li><a href="https://github.com/bradfitz/gomemcache/">gomemcache</a> - memcache client library for the Go programming language.</li><li><a href="http://godoc.org/labix.org/v2/mgo">mgo</a> - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.</li><li><a href="https://github.com/cihangir/neo4j">neo4j</a> - Neo4j Rest API Bindings for Golang</li><li><a href="https://github.com/davemeehan/Neo4j-GO">Neo4j-GO</a> - Neo4j REST Client in golang.</li><li><a href="https://github.com/garyburd/redigo">redigo</a> - Redigo is a Go client for the Redis database.</li><li><p><a href="https://github.com/hoisie/redis">redis</a> - A simple, powerful Redis client for Go.</p></li></ul></li>
+
+<li><p>Search and Analytic Databases</p><ul><li><a href="https://github.com/blevesearch/bleve">bleve</a> - A modern text indexing library for go.</li><li><a href="https://github.com/olivere/elastic">elastic</a> - Elasticsearch client for Google Go.</li><li><a href="https://github.com/mattbaird/elastigo">elastigo</a> - A Elasticsearch client library.</li><li><a href="https://github.com/belogik/goes">goes</a> - A library to interact with Elasticsearch.</li></ul></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="date-time"></a>Date & Time</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for working with dates and times.</em></p><ul><li><a href="https://github.com/jinzhu/now">now</a> - Now is a time toolkit for golang.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="distributed-systems"></a>Distributed Systems</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Packages that help with building Distributed Systems.</em></p><ul><li><a href="https://github.com/goraft/raft">goraft</a> - A Go implementation of the Raft distributed consensus protocol.</li>
+
+<li><a href="https://github.com/hashicorp/raft">raft</a> - Golang implementation of the Raft consensus protocol, by HashiCorp.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="email"></a>Email</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that implement email creation and sending</em></p><ul><li><a href="https://github.com/jordan-wright/email">email</a> - A robust and flexible email library for Go.</li>
+
+<li><a href="https://github.com/go-gomail/gomail/">Gomail</a> - Gomail is a very simple and powerful package to send emails.</li>
+
+<li><a href="https://github.com/mailhog/MailHog">MailHog</a> - Email and SMTP testing with web and API interface</li>
+
+<li><a href="https://github.com/mailhog/smtp">smtp</a> - SMTP server protocol state machine</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="embeddable-scripting-languages"></a>Embeddable Scripting Languages</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Embedding other languages inside your go code</em></p><ul><li><a href="https://github.com/PuerkitoBio/agora">agora</a> - Dynamically typed, embeddable programming language in Go</li>
+
+<li><a href="https://github.com/mattn/anko">anko</a> - Scriptable interpreter written in Go</li>
+
+<li><a href="https://github.com/jcla1/gisp">gisp</a> - Simple LISP in Go</li>
+
+<li><a href="https://github.com/aarzilli/golua">golua</a> - Go bindings for Lua C API</li>
+
+<li><a href="https://github.com/sbinet/go-python">go-python</a> - naive go bindings to the CPython C-API</li>
+
+<li><a href="https://github.com/robertkrimen/otto">otto</a> - A JavaScript interpreter written in Go</li>
+
+<li><a href="https://github.com/idada/v8.go/">v8-go</a> - V8 JavaScript engine bindings for Go</li>
+
+<li><a href="https://github.com/ian-kent/purl">purl</a> - Perl 5.18.2 embedded in Go</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="forms"></a>Forms</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for working with forms.</em></p><ul><li><a href="https://github.com/robfig/bind">bind</a>  - Bind form data to any Go values</li>
+
+<li><a href="https://github.com/mholt/binding">binding</a> - Binds form and JSON data from net/http Request to struct.</li>
+
+<li><a href="https://github.com/monoculum/formam">formam</a> - decode form&#39;s values into a struct.</li>
+
+<li><a href="https://github.com/justinas/nosurf">nosurf</a> - A CSRF protection middleware for Go.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="game-development"></a>Game Development</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Awesome game development libraries.</em></p><ul><li><a href="https://github.com/vova616/GarageEngine">GarageEngine</a> - 2d game engine written in Go working on OpenGL.</li>
+
+<li><a href="https://github.com/runningwild/glop">glop</a> - Glop (Game Library Of Power) is a fairly simple cross-platform game library.</li>
+
+<li><a href="https://github.com/ungerik/go3d">go3d</a> - A performance oriented 2D/3D math package for Go</li>
+
+<li><a href="https://github.com/beefsack/go-astar">go-astar</a> - Go implementation of the A* path finding algorithm</li>
+
+<li><a href="https://github.com/GlenKelley/go-collada">go-collada</a> - Go package for working with the Collada file format.</li>
+
+<li><a href="https://github.com/xtaci/gonet">gonet</a> - A game server skeleton implemented with golang</li>
+
+<li><a href="https://github.com/name5566/leaf">Leaf</a> - A lightweight game server framework</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="generation-generics"></a>Generation & Generics</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Tools to enhance the language with features like generics via code generation</em></p><ul><li><a href="https://github.com/clipperhouse/gen">gen</a> - Code generation tool for ‘generics’-like functionality.</li>
+
+<li><a href="https://github.com/ahmetalpbalkan/go-linq">go-linq</a> - .NET LINQ-like query methods for Go.</li>
+
+<li><a href="https://github.com/ungerik/pkgreflect">pkgreflect</a> - A Go preprocessor for package scoped reflection.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="gui"></a>GUI</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for building GUI Applications</em></p><ul><li><a href="http://mattn.github.io/go-gtk/">go-gtk</a> - Go bindings for GTK</li>
+
+<li><a href="https://github.com/conformal/gotk3">gotk3</a> - Go bindings for GTK3.</li>
+
+<li><a href="https://github.com/go-qml/qml">go-qml</a> - QML support for the Go language</li>
+
+<li><a href="https://github.com/andlabs/ui">ui</a> - Platform-native GUI library for Go.</li>
+
+<li><a href="https://github.com/lxn/walk">walk</a> - Windows application library kit for Go.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="hardware"></a>Hardware</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for interacting with hardware.</em></p><ul><li><a href="https://github.com/hybridgroup/gobot">gobot</a> - Framework for robotics, physical computing, and the Internet of Things</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="images"></a>Images</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for manipulating images.</em></p><ul><li>[geo<em>pattern](https://github.com/pravj/geo</em>pattern) - Create beautiful generative image patterns from a string.</li>
+
+<li><a href="https://github.com/disintegration/gift">gift</a> - Package of image processing filters.</li>
+
+<li><a href="https://github.com/ungerik/go-cairo">go-cairo</a> - Go binding for the cairo graphics library.</li>
+
+<li><a href="https://github.com/bolknote/go-gd">go-gd</a> - Go binding for GD library</li>
+
+<li><a href="https://github.com/koyachi/go-nude">go-nude</a> - Nudity detection with Go.</li>
+
+<li><a href="https://github.com/lazywei/go-opencv">go-opencv</a> - Go bindings for OpenCV.</li>
+
+<li><a href="https://github.com/jyotiska/go-webcolors">go-webcolors</a> - Port of webcolors library from Python to Go.</li>
+
+<li><a href="https://github.com/hawx/img">img</a> - A selection of image manipulation tools.</li>
+
+<li><a href="https://github.com/gographics/imagick">imagick</a> - Go binding to ImageMagick&#39;s MagickWand C API.</li>
+
+<li><a href="https://github.com/disintegration/imaging">imaging</a> - Simple Go image processing package.</li>
+
+<li><a href="https://github.com/nfnt/resize">resize</a> - Image resizing for the Go with common interpolation methods.</li>
+
+<li><a href="https://github.com/bamiaux/rez">rez</a> - Image resizing in pure Go and SIMD.</li>
+
+<li><a href="https://github.com/muesli/smartcrop">smartcrop</a> - Finds good crops for arbitrary images and crop sizes</li>
+
+<li><a href="https://github.com/ajstarks/svgo">svgo</a> - Go Language Library for SVG generation.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="logging"></a>Logging</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for generating and working with log files.</em></p><ul><li><a href="https://github.com/golang/glog">glog</a> - Leveled execution logs for Go.</li>
+
+<li><a href="https://github.com/chzyer/gologex">gologex</a> - An golang log lib, supports tracking and level, wrap by standard log lib</li>
+
+<li><a href="https://github.com/siddontang/go-log">go-log</a> - Log lib supports level and multi handlers.</li>
+
+<li><a href="https://github.com/ian-kent/go-log">go-log</a> - A log4j implementation in Go.</li>
+
+<li><a href="https://github.com/apsdehal/go-logger">go-logger</a> - Simple logger of Go Programs, with level handlers.</li>
+
+<li><a href="https://github.com/nubo/hiprus">hiprus</a> - <a href="https://github.com/sirupsen/logrus">logrus</a> plug-in to send errors to a channel in <a href="https://hipchat.com">Hipchat</a>.</li>
+
+<li><a href="https://github.com/sirupsen/logrus">logrus</a> - Structured, pluggable logging for Go.</li>
+
+<li><a href="https://github.com/sebest/logrusly">logrusly</a> - <a href="https://github.com/sirupsen/logrus">logrus</a> plug-in to send errors to a <a href="https://www.loggly.com/">Loggly</a>.</li>
+
+<li><a href="https://github.com/natefinch/lumberjack">lumberjack</a> - Simple rolling logger, implements io.WriteCloser.</li>
+
+<li><a href="https://github.com/cihub/seelog">seelog</a> -   logging functionality with flexible dispatching, filtering, and formatting.</li>
+
+<li><a href="https://github.com/johntdyer/slackrus">slackrus</a> - <a href="https://github.com/sirupsen/logrus">logrus</a> plug-in to send errors to a channel in <a href="https://slack.com">Slack</a>.</li>
+
+<li><a href="https://github.com/alexcesaro/log">stdlog</a> - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="machine-learning"></a>Machine Learning</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for Machine Learning.</em></p><ul><li><a href="https://github.com/jbrukh/bayesian">bayesian</a> - Naive Bayesian Classification for Golang.</li>
+
+<li><a href="https://github.com/ryanbressler/CloudForest">CloudForest</a> - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.</li>
+
+<li><a href="https://github.com/goml/gobrain">gobrain</a> - Neural Networks written in go</li>
+
+<li><a href="https://github.com/white-pony/go-fann">go-fann</a> - Go bindings for Fast Artificial Neural Networks(FANN) library.</li>
+
+<li><a href="https://github.com/thoj/go-galib">go-galib</a> - Genetic Algorithms library written in Go / golang</li>
+
+<li><a href="https://github.com/danieldk/golinear">golinear</a> - liblinear bindings for Go</li>
+
+<li><a href="https://github.com/sjwhitworth/golearn">GoLearn</a> - General Machine Learning library for Go.</li>
+
+<li><a href="https://github.com/daviddengcn/go-pr">go-pr</a> - Pattern recognition package in Go lang.</li>
+
+<li><a href="https://github.com/timkaye11/goRecommend">goRecommend</a> - Recommendation Algorithms library written in Go.</li>
+
+<li><a href="https://github.com/datastream/libsvm">libsvm</a> - libsvm golang version derived work based on LIBSVM 3.14.</li>
+
+<li><a href="https://code.google.com/p/mlgo/">mlgo</a> - This project aims to provide minimalistic machine learning algorithms in Go.</li>
+
+<li><a href="https://github.com/schuyler/neural-go">neural-go</a> - A multilayer perceptron network implemented in Go, with training via backpropagation.</li>
+
+<li><a href="https://code.google.com/p/probab/">probab</a> - Probability distribution functions. Bayesian inference. Written in pure Go.</li>
+
+<li><a href="https://github.com/muesli/regommend">regommend</a> - Recommendation &amp; collaborative filtering engine</li>
+
+<li><a href="https://github.com/eaigner/shield">shield</a> - Bayesian text classifier with flexible tokenizers and storage backends for Go</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="messaging"></a>Messaging</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that implement messaging systems</em></p><ul><li><a href="https://github.com/godbus/dbus">dbus</a> - Native Go bindings for D-Bus.</li>
+
+<li><a href="https://github.com/asaskevich/EventBus">EventBus</a> - The lightweight event bus with async compatibility.</li>
+
+<li><a href="https://github.com/bitly/go-nsq">go-nsq</a> - the official Go package for NSQ</li>
+
+<li><a href="https://github.com/Terry-Mao/gopush-cluster">gopush-cluster</a> - gopush-cluster is a go push server cluster.</li>
+
+<li><a href="https://github.com/apcera/nats">NATS</a> - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.</li>
+
+<li><a href="https://github.com/Shopify/sarama">sarama</a> - A Go library for Apache Kafka.</li>
+
+<li><a href="https://github.com/uniqush/uniqush-push">Uniqush-Push</a> - A redis backed unified push service for server-side notifications to mobile devices.</li>
+
+<li><a href="https://github.com/pebbe/zmq4">zmq4</a> - A Go interface to ZeroMQ version 4. Also available for <a href="https://github.com/pebbe/zmq3">version 3</a> and <a href="https://github.com/pebbe/zmq2">version 2</a>.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="miscellaneous"></a>Miscellaneous</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>These libraries were placed here because none of the other categories seemed to fit</em></p><ul><li><a href="https://github.com/artyom/autoflags">autoflags</a> - Go package to automatically define command line flags from struct fields</li>
+
+<li>[browscap<em>go](https://github.com/fromYukki/browscap</em>go) - GoLang Library for <a href="http://browscap.org/">Browser Capabilities Project</a>.</li>
+
+<li><a href="https://github.com/ian-kent/envconf">envconf</a> - Configuration from environment</li>
+
+<li><a href="https://github.com/ian-kent/gofigure">gofigure</a> - Go application configuration made easy</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="natural-language-processing"></a>Natural Language Processing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for working with human languages.</em></p><ul><li><a href="https://code.google.com/p/go-eco/">go-eco</a> - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.</li>
+
+<li><a href="https://github.com/rjohnsondev/golibstemmer">golibstemmer</a> - Go bindings for the snowball libstemmer library including porter 2</li>
+
+<li><a href="https://github.com/nuance/go-nlp">go-nlp</a> - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.</li>
+
+<li><a href="https://github.com/reiver/go-porterstemmer">go-porterstemmer</a> - A native Go clean room implementation of the Porter Stemming algorithm.</li>
+
+<li><a href="https://github.com/agonopol/go-stem">go-stem</a> - Implementation of the porter stemming algorithm.</li>
+
+<li><a href="https://github.com/fiam/gounidecode">gounidecode</a> - Unicode transliterator (also known as unidecode) for Go</li>
+
+<li><a href="https://github.com/goodsign/icu">icu</a> - Cgo binding for icu4c C library detection and conversion functions. Guaranteed compatibility with version 50.1.</li>
+
+<li><a href="https://github.com/goodsign/libtextcat">libtextcat</a> - Cgo binding for libtextcat C library. Guaranteed compatibility with version 2.2.</li>
+
+<li><a href="https://github.com/awsong/MMSEGO">MMSEGO</a> - This is a GO implementation of <a href="http://technology.chtsai.org/mmseg/">MMSEG</a> which a Chinese word splitting algorithm.</li>
+
+<li><a href="https://github.com/Rookii/paicehusk">paicehusk</a> - Golang implementation of the Paice/Husk Stemming Algorithm</li>
+
+<li><a href="https://github.com/a2800276/porter">porter</a> - This is a fairly straighforward port of Martin Porter&#39;s C implementation of the Porter stemming algorithm.</li>
+
+<li><a href="https://github.com/goodsign/snowball">snowball</a> - Snowball stemmer port (cgo wrapper) for Go. Provides word stem extraction functionality <a href="http://snowball.tartarus.org/">Snowball native</a>.</li>
+
+<li><a href="https://github.com/dchest/stemmer">stemmer</a> - Stemmer packages for Go programming language. Includes English and German stemmers.</li>
+
+<li><a href="https://github.com/pebbe/textcat">textcat</a> - A Go package for n-gram based text categorization, with support for utf-8 and raw text</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="networking"></a>Networking</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for working with various layers of the network</em></p><ul><li><a href="https://github.com/miekg/dns">dns</a> - Go library for working with DNS</li>
+
+<li><a href="https://code.google.com/p/gopacket">gopacket</a> - A Go library for packet processing with libpacp bindings</li>
+
+<li><a href="https://github.com/akrennmair/gopcap">gopcap</a> - A Go wrapper for libpcap</li>
+
+<li><a href="https://github.com/soniah/gosnmp">gosnmp</a> - Native Go library for performing SNMP actions</li>
+
+<li><a href="https://github.com/gansidui/gotcp">gotcp</a> - A Go package for quickly writing tcp applications</li>
+
+<li><a href="https://github.com/ian-kent/linkio">linkio</a> - Network link speed simulation for Reader/Writer interfaces</li>
+
+<li><a href="https://github.com/aybabtme/portproxy">portproxy</a> - Simple TCP proxy which adds CORS support to API&#39;s which don&#39;t support it.</li>
+
+<li>[tcp<em>server](https://github.com/firstrow/tcp</em>server) - A Go library for building tcp servers faster</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="opengl"></a>OpenGL</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for using OpenGL in Go.</em></p><ul><li><a href="https://github.com/go-gl/gl">gl</a> - Go bindings for OpenGL. Requires an external dependency GLEW.</li>
+
+<li><a href="https://github.com/go-gl/glfw3">glfw3</a> - Go bindings for GLFW 3.</li>
+
+<li><a href="https://github.com/go-gl/glow">glow</a> - Go binding generator and bindings for OpenGL.</li>
+
+<li><a href="https://github.com/go-gl/mathgl">mathgl</a> - Pure Go math package specialized for 3D math, with inspiration from GLM.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="orm"></a>ORM</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that implement Object-Relational Mapping or datamapping techniques.</em></p><ul><li><a href="https://github.com/astaxie/beedb">BeeDB</a> - go ORM,support database/sql interface，pq/mysql/sqlite.</li>
+
+<li><a href="https://github.com/jinzhu/gorm">GORM</a> - The fantastic ORM library for Golang, aims to be developer friendly.</li>
+
+<li><a href="https://github.com/coopernurse/gorp">gorp</a> - Go Relational Persistence, ORM-ish library for Go.</li>
+
+<li><a href="https://github.com/eaigner/hood">hood</a> - Database agnostic ORM for Go.</li>
+
+<li><a href="https://github.com/coocood/qbs">QBS</a> - Stands for Query By Struct. A Go ORM.</li>
+
+<li><a href="https://github.com/upper/db">upper.io/db</a> - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.</li>
+
+<li><a href="https://github.com/go-xorm/xorm">Xorm</a> - Simple and powerful ORM for Go.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="package-management"></a>Package Management</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for package and dependency management.</em></p><ul><li><a href="https://github.com/tools/godep">godep</a> - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.</li>
+
+<li><a href="https://github.com/mattn/gom">gom</a> - Go Manager - bundle for go.</li>
+
+<li><a href="https://github.com/nitrous-io/goop">goop</a> - A simple dependency manager for Go (golang), inspired by Bundler.</li>
+
+<li><a href="https://github.com/gpmgo/gopm">gopm</a> - Go Package Manager</li>
+
+<li><a href="https://github.com/pote/gpm">gpm</a> - Barebones dependency manager for Go.</li>
+
+<li><a href="https://github.com/DamnWidget/VenGO">VenGO</a> - create and manage exportable isolated go virtual environments</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="science-and-data-analysis"></a>Science and Data Analysis</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for scientific computing and data analyzing.</em></p><ul><li><a href="https://github.com/ziutek/blas">blas</a> - Implementation of BLAS (Basic Linear Algebra Subprograms)</li>
+
+<li><a href="https://github.com/skelterjohn/geom">geom</a> - 2D geometry for golang</li>
+
+<li><a href="https://code.google.com/p/gocomplex/">gocomplex</a> - A complex number library for the Go programming language.</li>
+
+<li><a href="https://code.google.com/p/go-fn/">go-fn</a> - Mathematical functions written in Go language, that are not covered by math pkg</li>
+
+<li><a href="https://github.com/anschelsc/gofrac">gofrac</a> - A (goinstallable) fractions library for go with support for basic arithmetic.</li>
+
+<li><a href="https://code.google.com/p/go-gt/">go-gt</a> - Graph theory algorithms written in &quot;Go&quot; language</li>
+
+<li><a href="https://github.com/skelterjohn/go.matrix">go.matrix</a> - linear algebra for go</li>
+
+<li><a href="https://code.google.com/p/gostat/">gostat</a> - A statistics library for the go language</li>
+
+<li><a href="https://github.com/gyuho/goraph">goraph</a> - A pure Go graph theory library(data structure, algorith visualization)</li>
+
+<li><a href="https://code.google.com/p/mudlark-go-pkgs/">mudlark-go</a> - A collection of packages providing (hopefully) useful code for use in software using Google&#39;s Go programming language.</li>
+
+<li><a href="https://code.google.com/p/plotinum/">plotinum</a> - Plotinum provides an API for building and drawing plots in Go.</li>
+
+<li><a href="https://github.com/nytlabs/streamtools">streamtools</a> - general purpose, graphical tool for dealing with streams of data.</li>
+
+<li><a href="https://github.com/spate/vectormath">vectormath</a> - Vectormath for Go, an adaptation of the scalar C functions from Sony&#39;s Vector Math library, as found in the Bullet-2.79 source code.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="serialization"></a>Serialization</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries and tools for binary serialization</em></p><ul><li><a href="https://github.com/2tvenom/cbor">cbor</a> - Golang library for working with cbor binary format</li>
+
+<li><a href="https://github.com/gogo/protobuf">gogoprotobuf</a> - Protocol Buffers for Go with Gadgets</li>
+
+<li><a href="https://github.com/golang/protobuf">goprotobuf</a> - Go support, in the form of a library and protocol compiler plugin, for Google&#39;s protocol buffers.</li>
+
+<li><a href="https://github.com/yvasiyarov/php_session_decoder">php<em>session</em>decoder</a> - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="template-engines"></a>Template Engines</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries and tools for templating and lexing.</em></p><ul><li><a href="https://github.com/yosssi/ace">ace</a> - Ace is an HTML template engine for Go, inspired by Slim and Jade. Ace is a refinement of Gold.</li>
+
+<li><a href="https://github.com/eknkc/amber">amber</a> - Amber is an elegant templating engine for Go Programming Language It is inspired from HAML and Jade.</li>
+
+<li><a href="https://github.com/benbjohnson/ego">ego</a> - A lightweight templating language that lets you write templates in Go. Templates are translated into Go and compiled.</li>
+
+<li><a href="https://github.com/ziutek/kasia.go">kasia.go</a> - Templating system for HTML and other text documents - go implementation.</li>
+
+<li><a href="https://github.com/hoisie/mustache">mustache</a> - A Go implementation of the Mustache template language.</li>
+
+<li><a href="https://github.com/flosch/pongo2">pongo2</a> - A Django-like template-engine for Go.</li>
+
+<li><a href="https://github.com/sipin/gorazor">Razor</a> - Razor view engine for Golang.</li>
+
+<li><a href="https://github.com/robfig/soy">Soy</a> - Closure templates (aka Soy templates) for Go, following the <a href="https://developers.google.com/closure/templates/">official spec</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="testing"></a>Testing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for testing codebases and generating test data.</em></p><ul><li><p>Testing Frameworks</p><ul><li><a href="https://github.com/bmizerany/assert">assert</a> - Asserts to Go testing</li><li><a href="http://onsi.github.io/ginkgo/">ginkgo</a> - BDD Testing Framework for Go</li><li><a href="https://github.com/franela/goblin">goblin</a> - Mocha like testing framework fo Go</li><li><a href="http://labix.org/gocheck">gocheck</a> - A more advanced testing framework alternative to gotest.</li><li><a href="https://github.com/smartystreets/goconvey/">GoConvey</a> - BDD-style framework with web UI and live reload</li><li><a href="https://github.com/zimmski/go-mutesting">go-mutesting</a> - Mutation testing for Go source code</li><li><a href="https://github.com/orfjackal/gospec">GoSpec</a> - BDD-style testing framework for the Go programming language.</li><li><a href="https://github.com/stesla/gospecify">gospecify</a> - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.</li><li><a href="https://github.com/rdrdr/hamcrest">Hamcrest</a> - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.</li><li><a href="https://github.com/yookoala/restit">restit</a> - A Go micro framework to help writing RESTful API integration test.</li><li><p><a href="https://github.com/stretchr/testify">Testify</a> - A sacred extension to the standard go testing package.</p></li></ul></li>
+
+<li><p>Mock</p><ul><li><a href="https://github.com/maxbrunsfeld/counterfeiter">counterfeiter</a> - Tool for generating self-contained mock objects</li><li><a href="https://code.google.com/p/gomock/">gomock</a> - Mocking framework for the Go programming language.</li><li><a href="https://github.com/tv42/mockhttp.go">mockhttp.go</a> - Mock object for Go http.ResponseWriter</li><li><p><a href="https://github.com/DATA-DOG/go-sqlmock">go-sqlmock</a> - Mock SQL driver for testing database interactions</p></li></ul></li>
+
+<li><p>Fuzzing and delta-debugging/reducing/shrinking</p><ul><li><a href="https://github.com/google/gofuzz">gofuzz</a> - A library for populating go objects with random values</li><li><a href="https://github.com/arschles/gogenerate">gogenerate</a> - A Scalacheck-like library for Go</li><li><a href="https://github.com/zimmski/tavor">Tavor</a> - A generic fuzzing and delta-debugging framework</li></ul></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="text-processing"></a>Text Processing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for parsing and manipulating texts.</em></p><ul><li>Specific Formats<ul><li><a href="https://github.com/russross/blackfriday">blackfriday</a> - Markdown processor in Go<ul><li><a href="http://godoc.org/github.com/shurcooL/go/github_flavored_markdown">github<em>flavored</em>markdown</a> - GitHub Flavored Markdown renderer in Go.</li></ul></li><li><a href="https://github.com/microcosm-cc/bluemonday">bluemonday</a> - HTML Sanitizer</li><li><a href="https://github.com/endeveit/enca">enca</a> - Minimal cgo bindings for <a href="http://cihar.com/software/enca/">libenca</a>.</li><li><a href="https://code.google.com/p/gographviz">gographviz</a> - Parses the Graphviz DOT language.</li><li><a href="https://github.com/dustin/go-humanize">go-humanize</a> - Formatters for time, numbers, and memory size to human readable format.</li><li><a href="https://github.com/jteeuwen/go-pkg-rss">go-pkg-rss</a> - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.</li><li><a href="https://github.com/jteeuwen/go-pkg-xmlx">go-pkg-xmlx</a> - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.</li><li><a href="https://github.com/PuerkitoBio/goquery">GoQuery</a> - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.</li><li><a href="https://github.com/zach-klippenstein/goregen">goregen</a> - A library for generating random strings from regular expressions.</li><li><a href="https://github.com/mattn/go-runewidth">go-runewidth</a> - Functions to get fixed width of the character or string.</li><li><a href="https://github.com/endeveit/guesslanguage">guesslanguage</a> - Functions to determine the natural language of a unicode text.</li><li><a href="https://github.com/gosimple/slug">slug</a> - URL-friendly slugify with multiple languages support.</li><li><a href="https://github.com/BurntSushi/toml">toml</a> - TOML configuration format (encoder/decoder with reflection).</li></ul></li>
+
+<li>Utility<ul><li><a href="https://github.com/bndr/gotabulate">gotabulate</a> - Easily pretty-print your tabular data with Go.</li><li><a href="https://github.com/asaskevich/govalidator">govalidator</a> - package of string validators and sanitizers for Go lang.</li></ul></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="thirdparty-apis"></a>Third-party APIs</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for accessing third party APIs.</em></p><ul><li><a href="https://github.com/stripe/aws-go">aws-go</a> - An incredibly experimental, automatically generated set of AWS clients in Go.</li>
+
+<li><a href="https://github.com/huandu/facebook">facebook</a> - Go Library that supports the Facebook Graph API</li>
+
+<li><a href="https://github.com/google/go-github">github</a> - Go library for accessing the GitHub API.</li>
+
+<li><a href="https://github.com/mitchellh/goamz">goamz</a> - Popular fork of <a href="https://launchpad.net/goamz">goamz</a> which adds some missing API calls to certain packages.</li>
+
+<li><a href="https://github.com/michiwend/gomusicbrainz">GoMusicBrainz</a> - a Go MusicBrainz WS2 client library</li>
+
+<li><a href="https://github.com/jsgilmore/gostorm">gostorm</a> - GoStorm is a Go library that implements the communications protocol required to write Storm spouts and Bolts in Go that communicate with the Storm shells.</li>
+
+<li><a href="https://github.com/andybons/hipchat">hipchat</a> - This project implements a golang client library for the Hipchat API.</li>
+
+<li><a href="https://github.com/daneharrigan/hipchat">hipchat (xmpp)</a> - A golang package to communicate with HipChat over XMPP.</li>
+
+<li><a href="https://github.com/dukex/mixpanel">mixpanel</a> - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.</li>
+
+<li><a href="https://github.com/Omie/rrdaclient">rrdaclient</a> - Go Library to access statdns.com API, which is in turn RRDA API. DNS Queries over HTTP.</li>
+
+<li><a href="https://github.com/rapito/go-shopify">shopify</a> - Go Library to make CRUD request to the Shopify API.</li>
+
+<li><a href="https://github.com/sergiotapia/smitego">smite</a> - Go package to wraps access to the Smite game API.</li>
+
+<li><a href="https://github.com/jamieomatthews/gosnap">snapchat</a> - Go wrapper for the snapchat API</li>
+
+<li><a href="https://github.com/rapito/go-spotify">spotify</a> - Go Library to access Spotify WEB API.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="utilities"></a>Utilities</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>General utilities and tools to make your life easier.</em></p><ul><li><a href="https://github.com/codegangsta/cli">cli</a> - A small package for building command line apps in Go.</li>
+
+<li><a href="https://github.com/tcnksm/cli-init">cli-init</a> - The easy way to start building Golang command-line application.</li>
+
+<li><a href="https://github.com/rakyll/coop">coop</a> - Cheat sheet for some of the common concurrent flows in Go.</li>
+
+<li><a href="https://github.com/derekparker/delve">delve</a> - Go debugger.</li>
+
+<li><a href="https://github.com/dropbox/godropbox">godropbox</a> - Common libraries for writing Go services/applications from Dropbox.</li>
+
+<li><a href="https://github.com/bndr/gopencils">gopencils</a> - Small and simple package to easily consume REST APIs.</li>
+
+<li><a href="https://github.com/michiwend/goplaceholder">goplaceholder</a> - a small golang lib to generate placeholder images</li>
+
+<li><a href="https://github.com/franela/goreq">goreq</a> - Minimal and simple request library for Go language.</li>
+
+<li><a href="https://github.com/parnurzeal/gorequest">gorequest</a> - Simplified HTTP client with rich features for Go.</li>
+
+<li><a href="https://github.com/subosito/gotenv">gotenv</a> - Load environment variables from <code>.env</code> or any <code>io.Reader</code> in Go</li>
+
+<li><a href="https://github.com/visionmedia/go-debug">go-debug</a> - Conditional debug logging for Golang libraries &amp; applications</li>
+
+<li><a href="https://github.com/ungerik/go-dry">go-dry</a> - DRY (don&#39;t repeat yourself) package for Go.</li>
+
+<li><a href="https://github.com/tobyhede/go-underscore">go-underscore</a> - A useful collection of helpfully functional Go collection utilities.</li>
+
+<li><a href="https://github.com/jaschaephraim/lrserver">lrserver</a> - LiveReload server for Go</li>
+
+<li><a href="https://github.com/sanbornm/mp">mp</a> - A simple cli email parser. It currently takes stdin and outputs JSON.</li>
+
+<li><a href="https://github.com/inconshreveable/ngrok">ngrok</a> - Introspected tunnels to localhost.</li>
+
+<li><a href="https://github.com/xta/okrun">okrun</a> - go run error steamroller</li>
+
+<li><a href="https://github.com/peco/peco">peco</a> - Simplistic interactive filtering tool</li>
+
+<li><a href="https://github.com/davecheney/profile">profile</a> - Simple profiling support package for Go</li>
+
+<li><a href="https://github.com/mozillazg/request">request</a> - Go HTTP Requests for Humans™.</li>
+
+<li><a href="https://github.com/briandowns/spinner">spinner</a> - Go package to easily provide a terminal spinner with options.</li>
+
+<li><a href="https://github.com/jmoiron/sqlx">sqlx</a> - provides a set of extensions on top of the excellent built-in database/sql package</li>
+
+<li><a href="https://github.com/tealeg/xlsx">xlsx</a> - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="version-control"></a>Version Control</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for version control.</em></p><ul><li><a href="https://github.com/libgit2/git2go">git2go</a> - Go bindings for libgit2.</li>
+
+<li><a href="https://github.com/sourcegraph/go-vcs">go-vcs</a> - manipulate and inspect VCS repositories in Go.</li>
+
+<li><a href="https://github.com/beyang/hgo">hgo</a> - Hgo is a collection of Go packages providing read-access to local Mercurial repositories.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="video"></a>Video</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for manipulating video.</em></p><ul><li><a href="https://github.com/go-av/codec">aac/h264</a> - Golang aac/h264 encoder and decoder.</li>
+
+<li><a href="https://github.com/3d0c/gmf">gmf</a> - Go bindings for FFmpeg av* libraries.</li>
+
+<li><a href="https://github.com/ziutek/gst">gst</a> - Go bindings for GStreamer.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="web-frameworks"></a>Web Frameworks</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Full stack web frameworks.</em></p><ul><li><a href="https://github.com/astaxie/beego">Beego</a> - beego is an open-source, high-performance web framework for the Go programming language.</li>
+
+<li><a href="https://github.com/squiidz/bone">Bone</a> - Lightning Fast HTTP Multiplexer.</li>
+
+<li><a href="https://github.com/gin-gonic/gin">Gin</a> - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.</li>
+
+<li><a href="https://github.com/bahlo/goat">Goat</a> - A minimalistic REST API server in Go</li>
+
+<li><a href="https://github.com/ian-kent/goose">goose</a> - Server Sent Events in Go</li>
+
+<li><a href="https://github.com/gocraft/web">gocraft/web</a> - A mux and middleware package in Go.</li>
+
+<li><a href="https://github.com/zenazn/goji">Goji</a> - Goji is a minimalistic web framework for Golang that&#39;s high in antioxidants.</li>
+
+<li><a href="https://github.com/rainycape/gondola">Gondola</a> - The web framework for writing faster sites, faster</li>
+
+<li><a href="https://github.com/gorilla/">Gorilla</a> - Gorilla is a web toolkit for the Go programming language.</li>
+
+<li><a href="https://github.com/codehack/go-relax">go-relax</a> - A framework of pluggable components to build RESTful API&#39;s</li>
+
+<li><a href="https://github.com/ungerik/go-rest">go-rest</a> - A small and evil REST framework for Go</li>
+
+<li><a href="https://github.com/julienschmidt/httprouter">httprouter</a> - A high performance router. Use this and the standard http handlers to form a very high performance web framework.</li>
+
+<li><a href="https://github.com/Unknwon/macaron">Macaron</a> - Macaron is a high productive and modular design web framework in Go.</li>
+
+<li><a href="https://github.com/paulbellamy/mango">mango</a> - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.</li>
+
+<li><a href="https://github.com/go-martini/martini">Martini</a> - Martini is a powerful package for quickly writing modular web applications/services in Golang.</li>
+
+<li><a href="https://github.com/imdario/medeina">medeina</a> - Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba.</li>
+
+<li><a href="https://github.com/bmizerany/pat">pat</a> - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.</li>
+
+<li><a href="https://github.com/revel/revel">Revel</a> - A high-productivity web framework for the Go language.</li>
+
+<li><a href="http://sawsij.com/">sawsij</a> - lightweight, open-source web framework for building high-performance, data-driven web applications.</li>
+
+<li><a href="https://github.com/rcrowley/go-tigertonic">tigertonic</a> - A Go framework for building JSON web services inspired by Dropwizard</li>
+
+<li><a href="https://github.com/pilu/traffic">traffic</a> - Sinatra inspired regexp/pattern mux and web framework for Go.</li>
+
+<li><a href="https://github.com/hoisie/web">web.go</a> - A simple framework to write webapps in Go.</li>
+
+<li><a href="https://github.com/daryl/zeus">zeus</a> - A very simple and fast HTTP router for Go.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="code-analysis"></a>Code Analysis</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://godoc.org/code.google.com/p/rspace.cmd/doc">doc</a> - Go documentation tool that produces an alternative doc format.</li>
+
+<li><a href="https://github.com/kisielk/errcheck">errcheck</a> - Errcheck is a program for checking for unchecked errors in Go programs.</li>
+
+<li><a href="https://github.com/davecheney/gcvis">gcvis</a> - Visualise Go program GC trace data in real time.</li>
+
+<li><a href="https://github.com/yuroyoro/goast-viewer">goast-viewer</a> - Web based Golang AST visualizer.</li>
+
+<li><a href="http://gocover.io/">GoCover.io</a> - GoCover.io offers the code coverage of any golang package as a service.</li>
+
+<li><a href="http://godoc.org/code.google.com/p/go.tools/cmd/goimports">goimports</a> - Tool to fix (add, remove) your Go imports automatically.</li>
+
+<li><a href="https://github.com/golang/lint">GoLint</a> - Golint is a linter for Go source code.</li>
+
+<li><a href="http://go-lint.appspot.com/">Golint online</a> - Lints online Go source files on GitHub, Bitbucket and Google Project Hosting using the golint package.</li>
+
+<li><a href="https://github.com/mccoyst/validate">validate</a> - Automatically validates struct fields with tags.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="editor-plugins"></a>Editor Plugins</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/go-lang-plugin-org/go-lang-idea-plugin">go-lang-idea-plugin</a> Go plugin for IntelliJ IDEA.</li>
+
+<li><a href="https://github.com/nsf/gocode">gocode</a> - An autocompletion daemon for the Go programming language</li>
+
+<li><a href="https://github.com/DisposaBoy/GoSublime">GoSublime</a> - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.</li>
+
+<li><a href="https://github.com/velour/velour">velour</a> - An IRC client for the acme editor.</li>
+
+<li><a href="https://github.com/rjohnsondev/vim-compiler-go">vim-compiler-go</a> - A Vim plugin to highlight syntax errors on save.</li>
+
+<li><a href="https://github.com/fatih/vim-go">vim-go</a> - Go development plugin for Vim.</li>
+
+<li><a href="https://github.com/eaburns/Watch">Watch</a> - Runs a command in an acme win on file changes.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="software-packages"></a>Software Packages</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>Software written in Go.</p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="benchmarks"></a>Benchmarks</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/davecheney/autobench">autobench</a> - Framework to compare the performance between different Go versions.</li>
+
+<li><a href="https://github.com/PuerkitoBio/gocostmodel">gocostmodel</a> - Benchmarks of common basic operations for the Go language.</li>
+
+<li><a href="https://github.com/julienschmidt/go-http-routing-benchmark">go-http-routing-benchmark</a> - Go HTTP request router benchmark and comparison.</li>
+
+<li><a href="https://github.com/amscanne/golang-micro-benchmarks">golang-micro-benchmarks</a> - Tiny collection of Go micro benchmarks. The intent is to compare some language features to others.</li>
+
+<li><a href="https://github.com/alecthomas/go_serialization_benchmarks">go<em>serialization</em>benchmarks</a> - Benchmarks of Go serialization methods.</li>
+
+<li><a href="https://github.com/hgfischer/go-type-assertion-benchmark">go-type-assertion-benchmark</a> - Naive performance test of two ways to do type assertion in Go.</li>
+
+<li><a href="https://github.com/jimrobinson/kvbench">kvbench</a> - Key/Value database benchmark.</li>
+
+<li><a href="https://github.com/fawick/speedtest-resize">speedtest-resize</a> - Compare various Image resize algorithms for the Go language.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="conferences"></a>Conferences</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.dotgo.io">dotGo</a></li>
+
+<li><a href="http://www.gophercon.com/">GopherCon</a></li>
+
+<li><a href="http://www.gophercon.in/">GopherCon India</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="ebooks"></a>E-Books</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://leanpub.com/GoNotebook/read">A Go Developer&#39;s Notebook</a></li>
+
+<li><a href="http://www.golang-book.com/">An Introduction to Programming in Go</a></li>
+
+<li><a href="http://astaxie.gitbooks.io/build-web-application-with-golang/">Build Web Application with Golang</a></li>
+
+<li><a href="http://codegangsta.gitbooks.io/building-web-apps-with-go/">Building Web Apps With Go</a></li>
+
+<li><a href="http://golangbootcamp.com">Go Bootcamp</a></li>
+
+<li><a href="http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf">Learning Go</a></li>
+
+<li><a href="http://jan.newmarch.name/go/">Network Programming With Go</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="twitter"></a>Twitter</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://twitter.com/golang">@golang</a></li>
+
+<li>[@golang<em>news](https://twitter.com/golang</em>news)</li>
+
+<li><a href="https://twitter.com/golangweekly">@golangweekly</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="websites"></a>Websites</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/bayandin/awesome-awesomeness">awesome-awesomeness</a> - List of other amazingly awesome lists.</li>
+
+<li><a href="https://github.com/lukasz-madon/awesome-remote-job">Awesome Remote Job</a> - A curated list of awesome remote jobs. A lot of them is looking for Go hackers.</li>
+
+<li><a href="https://flipboard.com/section/the-golang-magazine-bVP7nS">Flipboard - Go Magazine</a> - A collection of Go articles and tutorials.</li>
+
+<li><a href="http://blog.golang.org">Go Blog</a> - The official Go blog</li>
+
+<li><a href="http://godoc.org/">godoc.org</a> - Documentation for open source Go packages.</li>
+
+<li><a href="https://github.com/mholt/golang-graphics">golang-graphics</a> - A collection of Go images, graphics, and art</li>
+
+<li><a href="https://groups.google.com/forum/#!forum/golang-nuts">golang-nuts</a> - Go mailing list</li>
+
+<li><a href="https://code.google.com/p/go-wiki/wiki/Projects">Go Projects</a> - List of projects on the Go community wiki</li>
+
+<li><a href="https://gowalker.org">gowalker.org</a> - Go Project API documentation.</li>
+
+<li><a href="http://www.reddit.com/r/golang">r/Golang</a> - News about Go.</li>
+
+<li><a href="https://github.com/trending?l=go">Trending Go repositories on GitHub today</a> - Good place to find new Go libraries.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="windows"></a>Windows</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/mattn/go-ole">go-ole</a> - Win32 OLE implementation for golang</li></ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="quick-links">
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=watch&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=fork&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li class="tweet-btn">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+        </ul>
+        <p>Built by <a href="https://github.com/arshad">@arshad</a></p>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <a href="https://github.com/curated/resources"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>

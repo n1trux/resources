@@ -1,0 +1,632 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Lua | Curated Resources</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><a href="/">Back to all Resources</a></h3>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sections</h3>
+                </div>
+                <div class="list-group">
+                        <a class="list-group-item" href="#implementations-interpreters-and-bindings">Implementations, Interpreters, and Bindings</a>
+                        <a class="list-group-item" href="#package-managers">Package Managers</a>
+                        <a class="list-group-item" href="#debugging-and-profiling">Debugging and Profiling</a>
+                        <a class="list-group-item" href="#ides-and-plugins">IDEs and Plugins</a>
+                        <a class="list-group-item" href="#utility-belts">Utility Belts</a>
+                        <a class="list-group-item" href="#game-engines">Game Engines</a>
+                        <a class="list-group-item" href="#game-development">Game Development</a>
+                        <a class="list-group-item" href="#logging">Logging</a>
+                        <a class="list-group-item" href="#web-platforms">Web Platforms</a>
+                        <a class="list-group-item" href="#openresty">OpenResty</a>
+                        <a class="list-group-item" href="#commandline-utilities">Command-line Utilities</a>
+                        <a class="list-group-item" href="#concurrency-and-multithreading">Concurrency and Multithreading</a>
+                        <a class="list-group-item" href="#templating">Templating</a>
+                        <a class="list-group-item" href="#documentation">Documentation</a>
+                        <a class="list-group-item" href="#objectoriented-programming">Object-oriented Programming</a>
+                        <a class="list-group-item" href="#filesystem-and-os">Filesystem and OS</a>
+                        <a class="list-group-item" href="#time-and-date">Time and Date</a>
+                        <a class="list-group-item" href="#image-manipulation">Image Manipulation</a>
+                        <a class="list-group-item" href="#digital-signal-processing">Digital Signal Processing</a>
+                        <a class="list-group-item" href="#hardware-and-embedded-systems">Hardware and Embedded Systems</a>
+                        <a class="list-group-item" href="#math-and-scientific-computing">Math and Scientific Computing</a>
+                        <a class="list-group-item" href="#parsing">Parsing</a>
+                        <a class="list-group-item" href="#humanize">Humanize</a>
+                        <a class="list-group-item" href="#compression">Compression</a>
+                        <a class="list-group-item" href="#network">Network</a>
+                        <a class="list-group-item" href="#data-stores">Data Stores</a>
+                        <a class="list-group-item" href="#testing">Testing</a>
+                        <a class="list-group-item" href="#foreign-function-interfaces">Foreign Function Interfaces</a>
+                        <a class="list-group-item" href="#analysis-tools-and-asts">Analysis Tools and ASTs</a>
+                        <a class="list-group-item" href="#experimental-etc">Experimental, etc</a>
+                        <a class="list-group-item" href="#scriptable-by-lua">Scriptable by Lua</a>
+                        <a class="list-group-item" href="#miscellaneous">Miscellaneous</a>
+                        <a class="list-group-item" href="#references">References</a>
+                        <a class="list-group-item" href="#style-guides">Style Guides</a>
+                        <a class="list-group-item" href="#tutorials">Tutorials</a>
+                        <a class="list-group-item" href="#articles">Articles</a>
+                        <a class="list-group-item" href="#talks-slides">Talks & Slides</a>
+                        <a class="list-group-item" href="#books">Books</a>
+                        <a class="list-group-item" href="#other-lists">Other Lists</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="page-header">
+                <h1>
+                    Awesome Lua <small>Curated by <a href="https://github.com/LewisJEllis/awesome-lua">LewisJEllis</a></small>
+                </h1>
+            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="implementations-interpreters-and-bindings"></a>Implementations, Interpreters, and Bindings</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.lua.org/download.html">Lua</a> - Lua&#39;s original ANSI C interpreter.</li>
+
+<li><a href="http://luajit.org/luajit.html">LuaJIT</a> - High-performance Just-In-Time compiler for Lua.</li>
+
+<li><a href="https://code.google.com/p/llvm-lua/">LLVM-Lua</a> - Compiles Lua to LLVM.</li>
+
+<li><a href="https://github.com/kripken/lua.vm.js">lua.vm.js</a> - Lua VM on the web; a direct port of the C interpreter via LLVM, emscripten, and asm.js.</li>
+
+<li><a href="https://github.com/gamesys/moonshine">Moonshine</a> - A Lua VM implemented in JavaScript. Slower than lua.vm.js, but with better docs, examples, and JS interfacing.</li>
+
+<li><a href="https://github.com/xebecnan/UniLua">UniLua</a> - A pure C# implementation of Lua 5.2, focused on compatibility with the Unity game engine.</li>
+
+<li><a href="https://github.com/scoder/lupa">lupa</a> - Python bindings to LuaJIT2.</li>
+
+<li><a href="https://github.com/aarzilli/golua">golua</a> - Golang bindings to the Lua C API.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="package-managers"></a>Package Managers</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://luarocks.org/en">LuaRocks</a> - Allows you to install Lua modules as packages called &quot;rocks&quot;, which contain version and dependency information. Much like npm or pip.</li>
+
+<li><a href="https://rocks.moonscript.org/">MoonRocks</a> - Public Lua rock repository, website, and uploading tool. Default server used by LuaRocks.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="debugging-and-profiling"></a>Debugging and Profiling</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://gist.github.com/perky/2838755">ProFi</a> - Simple profiler that works with LuaJIT and produces a report file.</li>
+
+<li><a href="https://github.com/geoffleyland/luatrace">luatrace</a> - Toolset for tracing/analyzing/profiling script execution and generating detailed reports.</li>
+
+<li><a href="https://github.com/ignacio/StackTracePlus">StackTracePlus</a> - Drop-in upgrade to Lua&#39;s stack traces which adds local context and improves readability.</li>
+
+<li><a href="https://github.com/pkulchenko/MobDebug">MobDebug</a> - Powerful remote debugger with breakpoints and stack inspection. Used by ZeroBraneStudio.</li>
+
+<li><a href="https://github.com/rxi/lovebird">lovebird</a> - Browser-based debug console. Originally made for LÖVE, but works in any project with LuaSocket support.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="ides-and-plugins"></a>IDEs and Plugins</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.eclipse.org/koneki/ldt/">Lua Development Tools</a> - Eclipse plugin which provides code completion, debugging, and more. Built on Metalua.</li>
+
+<li><a href="https://bitbucket.org/sylvanaar2/lua-for-idea/wiki/Home">Lua for IDEA</a> - IntelliJ IDEA plugin which, among other things, provides code completion, smart highlighting, and experimental debugging.</li>
+
+<li><a href="http://studio.zerobrane.com/">ZeroBraneStudio</a> - Lightweight, customizable, cross-platform Lua-dedicated IDE with code completion and analysis, written in Lua. Has broad debugging support for numerous Lua engines.</li>
+
+<li><a href="http://babelua.codeplex.com/">Babelua</a> - Lua editor/debugger, extension for Visual Studio 2012/2013. Has code highlight, auto-completion, syntax checking and formatting, file previewing, debugging capabilities integrated into Visual Studio.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="utility-belts"></a>Utility Belts</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/rtsisyk/luafun">Lua Fun</a> - High-performance functional programming library designed for LuaJIT.</li>
+
+<li><a href="https://github.com/Yonaba/Moses">Moses</a> - Functional programming utility belt, inspired by Underscore.js.</li>
+
+<li><a href="https://github.com/stevedonovan/Penlight">Penlight</a> - Broad, heavyweight utility library, inspired by Python&#39;s standard libs. Provides the batteries that Lua doesn&#39;t.</li>
+
+<li><a href="https://github.com/lua-stdlib/lua-stdlib">lua-stdlib</a> - Middle-weight standard library extension; adds some useful data structures, utility functions, and basic functional stuff.</li>
+
+<li><a href="https://github.com/stevedonovan/Microlight">Microlight</a> - A little library of useful Lua functions; the &#39;extra light&#39; version of Penlight.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="game-engines"></a>Game Engines</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://love2d.org/">LÖVE 2D</a> - Desktop game development platform. Cross-platform, feature-complete, well-adopted.</li>
+
+<li><a href="http://coronalabs.com/products/corona-sdk/">Corona SDK</a> - Development platform for iOS and Android. Proprietary, but used by numerous top games and apps, totaling over 150 million downloads.</li>
+
+<li><a href="http://getmoai.com/">MOAI</a> - Open source, cross-platform, mobile game development framework. Minimalist C++ engine powered by Lua scripting.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="game-development"></a>Game Development</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li>Corona<ul><li><a href="http://coronium.io/">Coronium.io</a> - Simple cloud platform supporting analytics, data objects, user management, and more.</li></ul></li>
+
+<li>LÖVE<ul><li><a href="https://github.com/rxi/lurker">lurker</a> - Shortens the iteration cycle by auto-swapping changed Lua files in a running LÖVE project.</li><li><a href="http://vrld.github.io/hump">HUMP</a> - A set of lightweight helpers for LÖVE; a game-oriented utility belt.</li></ul></li>
+
+<li>MOAI<ul><li><a href="http://moaifiddle.com">moaifiddle</a> - Edit and share short scripts for the MOAI game engine and run them in the browser using WebGL.</li></ul></li>
+
+<li><a href="https://github.com/Yonaba/Jumper">Jumper</a> - Fast, lightweight, and easy-to-use pathfinding library for grid-based games.</li>
+
+<li><a href="https://github.com/rxi/lume/">lume</a> - Utility belt library geared toward game development.</li>
+
+<li><a href="https://github.com/Overtorment/NoobHub">NoobHub</a> - Network multiplayer for Corona, LÖVE, and more, following a simple pub-sub model.</li>
+
+<li>Collision detection<ul><li><a href="https://github.com/kikito/bump.lua">bump.lua</a> - Minimal rectangle-based collision detection which handles tunnelling and basic collision resolution.</li><li><a href="http://vrld.github.io/HardonCollider/">HardonCollider</a> - Detect collisions between arbitrarily positioned and rotated shapes of any type.</li></ul></li>
+
+<li>Tweening<ul><li><a href="https://github.com/rxi/flux">flux</a> - A fast, lightweight tweening library for Lua with easing functions and the ability to group tweens together.</li><li><a href="https://github.com/kikito/tween.lua">tween.lua</a> - Small library for tweening, with several easing functions.</li></ul></li>
+
+<li>Examples<ul><li><a href="https://github.com/tylerneylon/termtris">termtris</a> - A tetris clone, written in literate style with &quot;an emphasis on learn-from-ability&quot;.</li><li><a href="https://github.com/tylerneylon/pacpac">PacPac</a> - A Pac-man clone, made with LÖVE.</li><li><a href="https://github.com/Stabyourself/mari0">Mari0</a> - Fusion of Mario and Portal, made with LÖVE. See also its <a href="http://en.wikipedia.org/wiki/Mari0">wikipedia entry</a>.</li></ul></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="logging"></a>Logging</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/moteus/lua-log">log-lua</a> - Asynchronous logging library with pluggable writers for filesystem, network, ZeroMQ, and more.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="web-platforms"></a>Web Platforms</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://openresty.org/">OpenResty</a> - A fast and scalable web application platform created by extending Nginx with Lua. Today&#39;s de-facto Lua web platform, used heavily by Cloudflare, Taobao, Tencent, and others.</li>
+
+<li><a href="http://www.turbolua.org/">turbo</a> - Event-driven, non-blocking, LuaJIT-based framework inspired by Tornado.</li>
+
+<li><a href="http://www.keplerproject.org/">Kepler Project</a> - A collection of web-oriented projects using a common set of standards and components.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="openresty"></a>OpenResty</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li>Core platform<ul><li><a href="http://wiki.nginx.org/HttpLuaModule">ngx_lua</a> - The core piece of OpenResty. Embeds Lua in Nginx and exposes, among other things, the cosocket API for non-blocking sockets (compatible with LuaSocket&#39;s API).</li><li><a href="https://github.com/openresty">OpenResty GitHub Organization</a> - Home of the repositories for ngx<em>lua, ngx</em>openresty, and many related modules.</li></ul></li>
+
+<li>Third-party modules<ul><li><a href="https://github.com/pintsized/lua-resty-http">lua-resty-http</a> - Lua HTTP client driver, built on the cosocket API.</li></ul></li>
+
+<li>Frameworks &amp; tools<ul><li><a href="http://leafo.net/lapis/">Lapis</a> - Full-stack framework for Lua and OpenResty. Like the Django or Rails of Lua. Supports Moonscript.</li><li><a href="https://github.com/pintsized/ledge">ledge</a> - Lua module providing scriptable, RFC-compliant HTTP cache functionality.</li></ul></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="commandline-utilities"></a>Command-line Utilities</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/kikito/ansicolors.lua">ansicolors</a> - Simple function for printing to the console in color.</li>
+
+<li><a href="https://github.com/amireh/lua_cliargs">cliargs</a> - A simple command-line argument parsing module.</li>
+
+<li><a href="https://github.com/hoelzro/lua-term">lua-term</a> - Terminal operations and manipulations.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="concurrency-and-multithreading"></a>Concurrency and Multithreading</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li>Coroutine-based multitasking:<ul><li><a href="https://github.com/xopxe/Lumen">Lumen</a> - Simple concurrent task scheduling.</li><li><a href="https://github.com/lefcha/concurrentlua">ConcurrentLua</a> - Implements an Erlang-style message-passing concurrency model.</li></ul></li>
+
+<li>Multithreading:<ul><li><a href="https://github.com/Neopallium/lua-llthreads">llthreads</a> - A simple wrapper for low-level pthreads &amp; WIN32 threads.</li><li><a href="https://github.com/LuaLanes/lanes">lanes</a> - Library implementing a message passing model with one OS thread per Lua thread.</li><li><a href="https://github.com/askyrme/luaproc">luaproc</a> - Message-passing model which allows multiple threads per OS thread and easily generalizes across a network. See also <a href="http://www.inf.puc-rio.br/~roberto/docs/ry08-05.pdf">the paper</a> where it originated.</li></ul></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="templating"></a>Templating</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://olivinelabs.com/lustache/">lustache</a> - Mustache template implementation.</li>
+
+<li><a href="https://github.com/leafo/etlua">etlua</a> - Embedded Lua templates, ERB-style.</li>
+
+<li><a href="https://github.com/bungle/lua-resty-template">lua-resty-template</a> - Lua-oriented template engine for OpenResty, somewhat Jinja-like.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="documentation"></a>Documentation</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://stevedonovan.github.io/ldoc/">LDoc</a> - Documentation generator which modernizes and extends <a href="http://keplerproject.github.io/luadoc/">LuaDoc</a>.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="objectoriented-programming"></a>Object-oriented Programming</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/Yonaba/30log">30log</a> - Minimalist OOP library with basic classes, inheritance, and mixins in 30 lines.</li>
+
+<li><a href="https://github.com/kikito/middleclass">middleclass</a> - Simple but robust OOP library with inheritance, methods, metamethods, class variables and mixins.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="filesystem-and-os"></a>Filesystem and OS</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://keplerproject.github.io/luafilesystem/">LuaFileSystem</a> - Extends and complements Lua&#39;s built-in set of filesystem functions.</li>
+
+<li><a href="https://github.com/luaposix/luaposix">luaposix</a> - Bindings for POSIX APIs, including curses.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="time-and-date"></a>Time and Date</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/Tieske/date">LuaDate</a> - Date and time module with parsing, formatting, addition/subtraction, localization, and ISO 8601 support.</li>
+
+<li><a href="https://github.com/kikito/cron.lua">cron.lua</a> - Time-related functions for Lua, inspired by JavaScript&#39;s setTimeout and setInterval.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="image-manipulation"></a>Image Manipulation</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/leafo/magick">magick</a> - Lua bindings to ImageMagick for LuaJIT using FFI.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="digital-signal-processing"></a>Digital Signal Processing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/vection/luafft">LuaFFT</a> - An easy to use Fast Fourier Transformation package in pure Lua.</li>
+
+<li><a href="http://worp.zevv.nl/about.html">Worp</a> - Sound/music/DSP engine written for LuaJIT.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="hardware-and-embedded-systems"></a>Hardware and Embedded Systems</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.eluaproject.net/">eLua</a> - Lua, extended with optimizations and specific features for efficient and portable embedded software development.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="math-and-scientific-computing"></a>Math and Scientific Computing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.scilua.org/">SciLua</a> - Numerical/scientific computing framework built on LuaJIT, with an interface to R.</li>
+
+<li><a href="http://torch.ch/">Torch7</a> - Scientific computing framework with wide support for machine learning algorithms, used by Facebook, Google, and more.</li>
+
+<li><a href="http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/">lhf&#39;s Lua Tools</a> - Assorted libraries and tools, many math-related.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="parsing"></a>Parsing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li>JSON<ul><li><a href="https://github.com/mpx/lua-cjson/">lua-cjson</a> - Blazing fast JSON encoding/decoding implemented in C and exposed to Lua.</li><li><a href="https://github.com/harningt/luajson">luajson</a> - JSON encoder/decoder implemented in Lua on top of LPeg.</li><li><a href="http://dkolf.de/src/dkjson-lua.fsl/home">dkjson</a> - JSON encoder/decoder implemented in pure Lua.</li></ul></li>
+
+<li>XML<ul><li><a href="https://matthewwild.co.uk/projects/luaexpat/">LuaExpat</a> - SAX XML parser via binding to the Expat library.</li><li><a href="https://github.com/Phrogz/SLAXML">SLAXML</a> - Pure Lua SAX-like streaming XML parser.</li></ul></li>
+
+<li><a href="https://github.com/gvvaughan/lyaml">lyaml</a> - YAML encoding/decoding via binding to LibYAML.</li>
+
+<li><a href="http://www.inf.puc-rio.br/~roberto/lpeg/">LPeg</a> - A pattern-matching library for Lua, based on Parsing Expression Grammars.</li>
+
+<li><a href="https://github.com/jgm/lunamark">lunamark</a> - Converts Markdown to other textual formats including HTML and LaTeX. Uses LPeg for fast parsing.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="humanize"></a>Humanize</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/kikito/i18n.lua">i18n.lua</a> - Internationalization library with locales, formatting, and pluralization.</li>
+
+<li><a href="https://github.com/kikito/inspect.lua">inspect.lua</a> - Human-readable representation of Lua tables.</li>
+
+<li><a href="https://github.com/pkulchenko/serpent">serpent</a> - Serializer and pretty printer.</li>
+
+<li><a href="https://github.com/gvx/Ser">Ser</a> - Dead simple serializer with good performance.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="compression"></a>Compression</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/brimworks/lua-zlib">lua-zlib</a> - Simple streaming interface to zlib for gzip/gunzip.</li>
+
+<li><a href="https://github.com/brimworks/lua-zip">lua-zip</a> - Lua binding to libzip. Reads and writes zip files.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="network"></a>Network</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/diegonehab/luasocket">LuaSocket</a> - Networking extension which provides a socket API for TCP and UDP, and implements HTTP, FTP, and SMTP.</li>
+
+<li><a href="https://github.com/lipp/lua-websockets">lua-websockets</a> - WebSocket client and server modules. Webserver-agnostic, implemented in Lua on top of LuaSocket.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="data-stores"></a>Data Stores</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.keplerproject.org/luasql/">LuaSQL</a> - Simple interface for connecting to ODBC, ADO, Oracle, MySQL, SQLite and PostgreSQL.</li>
+
+<li><a href="https://github.com/nrk/redis-lua">redis-lua</a> - Pure Lua client library for Redis.</li>
+
+<li><a href="https://github.com/leafo/pgmoon">pgmoon</a> - Lua PostgreSQL driver for OpenResty and others.</li>
+
+<li><a href="https://github.com/openresty/lua-resty-mysql">lua-resty-mysql</a> - Lua MySQL driver for OpenResty.</li>
+
+<li><a href="https://github.com/openresty/lua-resty-redis">lua-resty-redis</a> - Lua Redis client driver for OpenResty.</li>
+
+<li><a href="https://github.com/jbochi/lua-resty-cassandra">lua-resty-cassandra</a> - Lua Cassandra client driver for OpenResty and others.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="testing"></a>Testing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://olivinelabs.com/busted/">busted</a> - BDD-style unit testing framework with great docs and Moonscript support.</li>
+
+<li><a href="https://github.com/norman/telescope">telescope</a> - Flexible and highly customizable testing library.</li>
+
+<li><a href="https://github.com/Olivine-Labs/luassert">luassert</a> - Assertion library extending Lua&#39;s built-in assertions.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="foreign-function-interfaces"></a>Foreign Function Interfaces</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://luajit.org/ext_ffi.html">LuaJIT FFI</a> - LuaJIT&#39;s mechanism for calling external C functions and using C data structures from pure Lua code.</li>
+
+<li><a href="https://github.com/jmckaskill/luaffi">luaffi</a> - Standalone FFI library, compatible with the LuaJIT FFI interface.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="analysis-tools-and-asts"></a>Analysis Tools and ASTs</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://keplerproject.github.io/luacov/">luacov</a> - Simple coverage analyzer, used by busted and telescope for checking test coverage.</li>
+
+<li><a href="https://github.com/mpeterv/luacheck">luacheck</a> - Simple static analyzer which detects accidental globals and undefined or shadowed locals.</li>
+
+<li><a href="https://github.com/fab13n/metalua">Metalua</a> - Pure Lua parser and compiler, used for generating ASTs. A number of other tools make use of the Metalua parser in this way.</li>
+
+<li><a href="https://github.com/davidm/lua-inspect">LuaInspect</a> - Lua&#39;s most powerful code analysis and linting tool, built on Metalua. Used by ZeroBraneStudio, among others.</li>
+
+<li><a href="https://github.com/stravant/LuaMinify">LuaMinify</a> - Minifier which also brings its own static analysis tools, lexer, and parser.</li>
+
+<li><a href="https://github.com/andremm/typedlua">Typed Lua</a> - A typed superset of Lua that compiles to plain Lua.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="experimental-etc"></a>Experimental, etc</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/TannerRogalsky/punchdrunk">punchdrunk.js</a> - Moonshine + LÖVE API reimplementation = run LÖVE games in the browser.</li>
+
+<li><a href="https://github.com/luvit/luvit">luvit</a> - Node.js&#39;s underlying architecture (libUV) with Lua on top instead of JavaScript.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="scriptable-by-lua"></a>Scriptable by Lua</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://mason-larobina.github.io/luakit/">luakit</a> - Fast, small, webkit based browser framework extensible by Lua.</li>
+
+<li><a href="http://mjolnir.io/">mjolnir</a> - OS X desktop environment manager, scripted with Lua. Formerly known as hydra.</li>
+
+<li><a href="https://github.com/skx/kpie">kpie</a> - A scripting utility to juggle windows.</li>
+
+<li><a href="http://lumail.org/">lumail</a> - A console-based mail client, with extensive scripting capabilities.</li>
+
+<li><a href="http://awesome.naquadah.org">AwesomeWM</a> - A highly configurable and extensible window manager for X, scripted and configured by Lua.</li>
+
+<li><a href="http://foicica.com/textadept/">Textadept</a> - Extremely lightweight, customizable, cross-platform editor, written (mostly) in (and scripted by) Lua.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="miscellaneous"></a>Miscellaneous</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://moonscript.org/">MoonScript</a> - Moonscript is a dynamic scripting language that compiles to Lua. It reduces verbosity and provides a rich set of features like comprehensions and classes. Its author calls it &#39;CoffeeScript for Lua&#39;.</li>
+
+<li><a href="http://leafo.net/sitegen/">sitegen</a> - A static site generator which uses MoonScript and supports HTML and Markdown, page grouping, and plugins.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="references"></a>References</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.lua.org/manual/5.2/">Reference Manual</a> - The official definition of the Lua language.</li>
+
+<li><a href="http://lua-users.org/wiki/">lua-users wiki</a> - A large community-maintained collection of Lua information and resources, supplementing the official website.</li>
+
+<li><a href="http://www.luafaq.org/">Lua Unofficial FAQ</a> - Answers all sorts of Lua-related questions, including many of the form &#39;How to ___?&#39;.</li>
+
+<li><a href="http://www.lua.org/lua-l.html">lua-l</a> - The official Lua mailing list, and one of the focal points of the Lua community.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="style-guides"></a>Style Guides</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://lua-users.org/wiki/LuaStyleGuide">Lua-users style guide</a> - A general, high-level style guide; unopinionated, easily agreed on.</li>
+
+<li><a href="https://github.com/Olivine-Labs/lua-style-guide">Olivine style guide</a> - A more opinionated and specific, and therefore more rigorous, guide.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="tutorials"></a>Tutorials</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.coppeliarobotics.com/helpFiles/en/luaCrashCourse.htm">Lua Crash Course</a> - Short crash course readover, or reference for when you forget the basics.</li>
+
+<li><a href="http://tylerneylon.com/a/learn-lua/">Learn Lua in 15 Minutes</a> - A well-commented example file which covers the basics.</li>
+
+<li><a href="http://phrogz.net/lua/LearningLua_FromJS.html">Learning Lua from JS</a> - An overview of the similarities and differences between Lua and JS; a great start for JavaScript folks looking to pick up Lua.</li>
+
+<li><a href="http://lua-users.org/wiki/LuaTutorial">lua-users tutorial</a> - In-depth collection of tutorials aimed at newcomers.</li>
+
+<li><a href="https://github.com/kikito/lua_missions">Lua Missions</a> - A series of &#39;Missions&#39; to work through which are designed to teach aspects of Lua along the way.</li>
+
+<li><a href="http://leafo.net/posts/creating_an_image_server.html">Creating an Image Server</a> - Walks through setting up and using OpenResty to build a simple image processing server; a great starting point for playing with OpenResty.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="articles"></a>Articles</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.debian-administration.org/articles/264">Embedding Lua in C</a> - An introductory walkthrough of embedding Lua in a C program. A bit dated, but still a great walkthrough.</li>
+
+<li><a href="http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts">Lua: Good, bad, and ugly parts</a> - A thorough summary of the good, different, bad, and ugly aspects of Lua, including many subtle quirks, by the author of ZeroBraneStudio.</li>
+
+<li><a href="http://www.thijsschreijer.nl/blog/?p=693">Lua states, libraries, coroutines and memory</a> - Diagrams and explains some more advanced concepts of the Lua VM, particularly when interfacing with C.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="talks-slides"></a>Talks & Slides</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.inf.puc-rio.br/~roberto/talks/index.html">Roberto&#39;s Talks</a> - History of talks given by Lua&#39;s chief architect, with slides for each.</li>
+
+<li><a href="http://www.lua.org/wshop14.html#abstracts">Lua Workshop Talks</a> - High-quality talks are given at each ~annual Lua Workshop, and a history of them is online, slides included.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="books"></a>Books</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://www.lua.org/pil/">Programming in Lua</a> - The authoritative intro to all aspects of Lua programming, written by Lua&#39;s chief architect. Three editions released; first edition available online.</li>
+
+<li><a href="http://www.lua.org/gems/">Programming Gems</a> - A collection of articles covering existing wisdom and practices on programming well in Lua, in a broad variety of use cases.</li>
+
+<li><a href="http://en.wikibooks.org/wiki/Lua_Programming">Lua Programming</a> - A shorter overview of the language, up to date for Lua 5.2, and available online.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="other-lists"></a>Other Lists</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://github.com/forhappy/awesome-lua">awesome-lua</a> by @forhappy - Another list similar to this one. It goes into more depth in a few categories, but has less breadth.</li>
+
+<li><a href="https://sites.google.com/site/marbux/home/where-lua-is-used">Where Lua is Used</a> - A comprehensive list of stand-alone programs written in or extensible using Lua.</li></ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="quick-links">
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=watch&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=fork&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li class="tweet-btn">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+        </ul>
+        <p>Built by <a href="https://github.com/arshad">@arshad</a></p>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <a href="https://github.com/curated/resources"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>

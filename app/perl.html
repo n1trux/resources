@@ -1,0 +1,522 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Perl | Curated Resources</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><a href="/">Back to all Resources</a></h3>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sections</h3>
+                </div>
+                <div class="list-group">
+                        <a class="list-group-item" href="#args">Args</a>
+                        <a class="list-group-item" href="#benchmarks">Benchmarks</a>
+                        <a class="list-group-item" href="#class-builder">Class Builder</a>
+                        <a class="list-group-item" href="#cli">CLI</a>
+                        <a class="list-group-item" href="#container">Container</a>
+                        <a class="list-group-item" href="#data-format">Data Format</a>
+                        <a class="list-group-item" href="#database">Database</a>
+                        <a class="list-group-item" href="#database-drivers">Database Drivers</a>
+                        <a class="list-group-item" href="#date-time">Date & Time</a>
+                        <a class="list-group-item" href="#email">Email</a>
+                        <a class="list-group-item" href="#exception-handling">Exception Handling</a>
+                        <a class="list-group-item" href="#file-manipulation">File Manipulation</a>
+                        <a class="list-group-item" href="#form-frameworks">Form Frameworks</a>
+                        <a class="list-group-item" href="#images">Images</a>
+                        <a class="list-group-item" href="#logging">Logging</a>
+                        <a class="list-group-item" href="#module-development">Module Development</a>
+                        <a class="list-group-item" href="#network">Network</a>
+                        <a class="list-group-item" href="#orm">ORM</a>
+                        <a class="list-group-item" href="#package-management">Package Management</a>
+                        <a class="list-group-item" href="#processes-and-threads">Processes and Threads</a>
+                        <a class="list-group-item" href="#profiling">Profiling</a>
+                        <a class="list-group-item" href="#protocol">Protocol</a>
+                        <a class="list-group-item" href="#queueing">Queueing</a>
+                        <a class="list-group-item" href="#rest-frameworks">REST Frameworks</a>
+                        <a class="list-group-item" href="#template-engines">Template Engines</a>
+                        <a class="list-group-item" href="#testing">Testing</a>
+                        <a class="list-group-item" href="#tools">Tools</a>
+                        <a class="list-group-item" href="#web-frameworks">Web Frameworks</a>
+                        <a class="list-group-item" href="#web-frameworkslike">Web Frameworks-Like</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="page-header">
+                <h1>
+                    Awesome Perl <small>Curated by <a href="https://github.com/hachiojipm/awesome-perl">hachiojipm</a></small>
+                </h1>
+            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="args"></a>Args</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for argument manifestation and validation.</em></p><ul><li><a href="https://metacpan.org/pod/Data::Validator">Data::Validator</a> - Rule based validator on type constraint system.</li>
+
+<li><a href="https://metacpan.org/pod/Params::Validate">Params::Validate</a> - Validate method/function parameters.</li>
+
+<li><a href="https://metacpan.org/pod/Smart::Args">Smart::Args</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="benchmarks"></a>Benchmarks</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for benchmarking</em></p><ul><li><a href="https://metacpan.org/pod/Benchmark">Benchmark</a></li>
+
+<li><a href="https://metacpan.org/pod/Dumbbench">Dumbbench</a></li>
+
+<li><a href="https://metacpan.org/pod/Parallel::Benchmark">Parallel::Benchmark</a> - Benchmark in multiprocesses</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="class-builder"></a>Class Builder</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries to support writing classes and meta programming</em></p><ul><li><a href="https://metacpan.org/pod/Class::Accessor::Lite">Class::Accessor::Lite</a> - Simple accessor generator.</li>
+
+<li><a href="https://metacpan.org/pod/Class::Accessor::Lite::Lazy">Class::Accessor::Lite::Lazy</a> - Generate lazy accessors.</li>
+
+<li><a href="https://metacpan.org/pod/Mo">Mo</a> - Micro Objects. Mo is less.</li>
+
+<li><a href="https://metacpan.org/pod/Moo">Moo</a> - Class builder supporting meta programming.</li>
+
+<li><a href="https://metacpan.org/pod/Moose">Moose</a> - The one and only, Moose</li>
+
+<li><a href="https://metacpan.org/pod/Mouse">Mouse</a> - Yet another class builder like Moo/Moose.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="cli"></a>CLI</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for developing CLI applications</em></p><ul><li><a href="https://metacpan.org/pod/App::Cmd">App::Cmd</a> - Write command line apps with less suffering.</li>
+
+<li><a href="https://metacpan.org/pod/Getopt::Long">Getopt::Long</a> - Extended processing of command line options.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="container"></a>Container</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for Singleton Pattern implementation.</em></p><ul><li><a href="https://metacpan.org/pod/Object::Container">Object::Container</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="data-format"></a>Data Format</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for serializing, formatting and parsing</em></p><ul><li><a href="https://metacpan.org/pod/Data::Dumper::Simple">Data::Dumper::Simple</a> - Reduce and faster Data::Dumper and eval() equivalent</li>
+
+<li><a href="https://metacpan.org/pod/Data::MessagePack">Data::MessagePack</a></li>
+
+<li><a href="https://metacpan.org/pod/JSON::PP">JSON::PP</a></li>
+
+<li><a href="https://metacpan.org/pod/JSON::XS">JSON::XS</a></li>
+
+<li><a href="https://metacpan.org/pod/Sereal">Sereal</a></li>
+
+<li><a href="https://metacpan.org/pod/Storable">Storable</a></li>
+
+<li><a href="https://metacpan.org/pod/Text::Markdown">Text::Markdown</a></li>
+
+<li><a href="https://metacpan.org/pod/TOML">TOML</a></li>
+
+<li><a href="https://metacpan.org/pod/XML::LibXML">XML::LibXML</a></li>
+
+<li><a href="https://metacpan.org/pod/YAML">YAML</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database"></a>Database</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for dealing with relational databases</em></p><ul><li><a href="https://metacpan.org/pod/DBI">DBI</a></li>
+
+<li><a href="https://metacpan.org/pod/DBIx::Connector">DBIx::Connector</a> - Fast, safe DBI connection and transaction management</li>
+
+<li><a href="https://metacpan.org/pod/DBIx::Handler">DBIx::Handler</a> - Fork-safe DBI handler</li>
+
+<li><a href="https://metacpan.org/pod/DBIx::Inspector">DBIx::Inspector</a></li>
+
+<li><a href="https://metacpan.org/pod/DBIx::QueryLog">DBIx::QueryLog</a></li>
+
+<li><a href="https://metacpan.org/pod/DBIx::Sunny">DBIx::Sunny</a> - Useful DBI Wrapper</li>
+
+<li><a href="https://metacpan.org/pod/DBIx::TransactionManager">DBIx::TransactionManager</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database-drivers"></a>Database Drivers</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for using specific database products</em></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="date-time"></a>Date & Time</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for working with dates and times</em></p><ul><li><a href="https://metacpan.org/pod/DateTime">DateTime</a></li>
+
+<li><a href="https://metacpan.org/pod/Time::Moment">Time::Moment</a></li>
+
+<li><a href="https://metacpan.org/pod/Time::Piece">Time::Piece</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="email"></a>Email</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that implement email creation and sending</em></p><ul><li><a href="https://metacpan.org/pod/Email::Sender">Email::Sender</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="exception-handling"></a>Exception Handling</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that assist with and/or provide alternatives to eval{ die() }</em></p><ul><li><a href="https://metacpan.org/pod/autodie">autodie</a> - Replace functions with ones that succeed or die with lexical scope</li>
+
+<li><a href="https://metacpan.org/pod/Exception::Class">Exception::Class</a> - A module that allows you to declare real exception classes in Perl</li>
+
+<li><a href="https://metacpan.org/pod/Throwable">Throwable</a> - a role for classes that can be thrown</li>
+
+<li><a href="https://metacpan.org/pod/Try::Tiny">Try::Tiny</a> - minimal try/catch with proper preservation of $@</li>
+
+<li><a href="https://metacpan.org/pod/TryCatch">TryCatch</a> - first class try catch semantics for Perl, without source filters</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="file-manipulation"></a>File Manipulation</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="https://metacpan.org/pod/Path::Tiny">Path::Tiny</a> - Simple object-oriented file manipulation.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="form-frameworks"></a>Form Frameworks</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that take the boredom &amp; repetition out of (web and UI) forms</em></p><ul><li><a href="https://metacpan.org/pod/Catalyst::Controller::HTML::FormFu">Catalyst::Controller::HTML::FormFu</a> - Use HTML::FormFu in Catalyst</li>
+
+<li><a href="https://metacpan.org/pod/CGI::FormBuilder">CGI::FormBuilder</a> - Easily generate and process stateful forms</li>
+
+<li><a href="https://metacpan.org/pod/Form::Sensible">Form::Sensible</a> - A sensible way to handle form based user interface</li>
+
+<li><a href="https://metacpan.org/pod/Form::Toolkit">Form::Toolkit</a> - A toolkit to build Data centric Forms</li>
+
+<li><a href="https://metacpan.org/pod/HTML::FormFu">HTML::FormFu</a> - HTML Form Creation, Rendering and Validation Framework</li>
+
+<li><a href="https://metacpan.org/pod/HTML::FormFu::ExtJS">HTML::FormFu::ExtJS</a> - ExtJS form generation from HTML::FormFu config files</li>
+
+<li><a href="https://metacpan.org/pod/WWW::Form">WWW::Form</a> - Simple and extendable module that allows developers to handle HTML form input validation and display flexibly and consistently.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="images"></a>Images</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for manipulating images.</em></p><ul><li><a href="https://metacpan.org/pod/Image::Magick">Image::Magick</a> - An object-oriented interface to ImageMagick&#39;s image composing libraries.</li>
+
+<li><a href="https://metacpan.org/pod/Imager">Imager</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="logging"></a>Logging</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for generating and working with log files</em></p><ul><li><a href="https://metacpan.org/pod/Log::Dispatch">Log::Dispatch</a></li>
+
+<li><a href="https://metacpan.org/pod/Log::Log4perl">Log::Log4perl</a></li>
+
+<li><a href="https://metacpan.org/pod/Log::Minimal">Log::Minimal</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="module-development"></a>Module Development</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that simplify and improve Perl module development</em></p><ul><li><a href="https://metacpan.org/pod/Dist::Zilla">Dist::Zilla</a> - <a href="http://dzil.org/">http://dzil.org/</a></li>
+
+<li><a href="https://metacpan.org/pod/Minilla">Minilla</a> - CPAN module authoring tool</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="network"></a>Network</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that help when you are dealing with computer networks</em></p><ul><li><a href="https://metacpan.org/pod/DOCSIS::ConfigFile">DOCSIS::ConfigFile</a> -  Decodes and encodes DOCSIS config files</li>
+
+<li><a href="https://metacpan.org/pod/NetAddr::MAC">NetAddr::MAC</a> - Handle MAC addresses</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="orm"></a>ORM</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries that implement Object-Relational Mapping or datamapping techniques</em></p><ul><li><a href="https://metacpan.org/pod/DBIx::Class">DBIx::Class</a></li>
+
+<li><a href="https://metacpan.org/pod/Rose::DB">Rose::DB</a></li>
+
+<li><a href="https://metacpan.org/pod/Teng">Teng</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="package-management"></a>Package Management</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for package and dependency management</em></p><ul><li><a href="https://metacpan.org/pod/App::cpanminus">App::cpanminus</a></li>
+
+<li><a href="https://metacpan.org/pod/Carton">Carton</a></li>
+
+<li><a href="https://metacpan.org/pod/Pinto">Pinto</a> - Powerful local CPAN repos</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="processes-and-threads"></a>Processes and Threads</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for managing processes and threads</em></p><ul><li><a href="https://metacpan.org/pod/AnyEvent">AnyEvent</a> - the DBI of event loop programming</li>
+
+<li><a href="https://metacpan.org/pod/Parallel::ForkManager">Parallel::ForkManager</a> - A simple parallel processing fork manager</li>
+
+<li><a href="https://metacpan.org/pod/Parallel::Prefork">Parallel::Prefork</a> - A simple prefork server framework</li>
+
+<li><a href="https://metacpan.org/pod/Proclet">Proclet</a> - Minimalistic supervisor, a Perl port of <a href="https://github.com/ddollar/foreman">foreman</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="profiling"></a>Profiling</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for examining run-time activity of your program</em></p><ul><li><a href="https://metacpan.org/pod/Devel::KYTProf">Devel::KYTProf</a> - Very light profiler for I/Os such as HTTP request-responses and SQL queries.</li>
+
+<li><a href="https://metacpan.org/pod/Devel::NYTProf">Devel::NYTProf</a> - Code profiler.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="protocol"></a>Protocol</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Protocol clients and libraries</em></p><ul><li><a href="https://metacpan.org/pod/Furl">Furl</a> - Faster HTTP(S) Client</li>
+
+<li><a href="https://metacpan.org/pod/HTTP::Tiny">HTTP::Tiny</a> - Minimal and fast client. Included in the standard packages.</li>
+
+<li><a href="https://metacpan.org/pod/LWP::UserAgent">LWP::UserAgent</a> - Popular HTTP(S) Client</li>
+
+<li><a href="https://metacpan.org/pod/Net::DHCP">Net::DHCP</a> - Send and recieve DHCP packets</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="queueing"></a>Queueing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Message Queue, Job Queue System..</em></p><ul><li><a href="https://metacpan.org/pod/Gearman">Gearman</a></li>
+
+<li><a href="https://metacpan.org/pod/Qudo">Qudo</a></li>
+
+<li><a href="https://metacpan.org/pod/TheSchwartz">TheSchwartz</a></li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="rest-frameworks"></a>REST Frameworks</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for developing REST applications</em></p><ul><li><a href="https://metacpan.org/pod/Catalyst::Action::REST">Catalyst::Action::REST</a> - Automated REST Method Dispatching</li>
+
+<li><a href="https://metacpan.org/pod/Dancer2::Plugin::REST">Dancer2::Plugin::REST</a> - A plugin for writing RESTful apps with Dancer2</li>
+
+<li><a href="https://metacpan.org/pod/Dancer::Plugin::REST">Dancer::Plugin::REST</a> - A plugin for writing RESTful apps with Dancer</li>
+
+<li><a href="https://metacpan.org/pod/Raisin">Raisin</a> - a REST API micro framework for Perl</li>
+
+<li><a href="https://metacpan.org/pod/Squatting">Squatting</a> - A Camping-inspired Web Microframework for Perl</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="template-engines"></a>Template Engines</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries and tools for templating</em></p><ul><li><a href="https://metacpan.org/pod/Template::Alloy">Template::Alloy</a> - TT2/3, HT, HTE, Tmpl, and Velocity Engine</li>
+
+<li><a href="https://metacpan.org/pod/Template::Toolkit">Template::Toolkit</a> - Very Popular Template Processing System</li>
+
+<li><a href="https://metacpan.org/pod/Text::MicroTemplate">Text::MicroTemplate</a> - Fast, simple and safe template engine written in pure-Perl and core modules.</li>
+
+<li><a href="https://metacpan.org/pod/Text::MicroTemplate::Extended">Text::MicroTemplate::Extended</a> - Extended Text::MicroTemplate.</li>
+
+<li><a href="https://metacpan.org/pod/Text::Template">Text::Template</a> - Templates with embedded perl</li>
+
+<li><a href="https://metacpan.org/pod/Text::Xslate">Text::Xslate</a> - Faster template engine with XS. Supports multiple syntaxes.</li>
+
+<li><a href="https://metacpan.org/pod/Tiffany">Tiffany</a> - Generic interface for template engines. It makes it easy to use multiple template engines.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="testing"></a>Testing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for testing codebases and generating test data.</em></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="tools"></a>Tools</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Some useful tools</em></p><ul><li><a href="https://metacpan.org/pod/App::Ack">App::Ack</a> - ack is a tool like grep, optimized for programmers.</li>
+
+<li><a href="https://metacpan.org/pod/App::Nopaste">App::Nopaste</a> - Post to various pastebins from the CLI</li>
+
+<li><a href="https://metacpan.org/pod/Daiku">Daiku</a> - Make for Perl.</li>
+
+<li><a href="https://metacpan.org/pod/Data::Printer">Data::Printer</a> - Colored pretty-print of Perl data structures and objects.</li>
+
+<li><a href="https://metacpan.org/pod/Reply">Reply</a> - Read-eval-print-loop(REPL) command-line tool.</li>
+
+<li><a href="https://metacpan.org/pod/Riji">Riji</a> - Static site generator using markdown and git mainly for blogging.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="web-frameworks"></a>Web Frameworks</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for developing Web applications</em></p><ul><li><a href="https://metacpan.org/pod/Amon2">Amon2</a></li>
+
+<li><a href="https://metacpan.org/pod/Catalyst">Catalyst</a> - Overflowing with features. Very popular.</li>
+
+<li><a href="https://metacpan.org/pod/Dancer">Dancer</a> (<a href="http://perldancer.org/">Official site</a>)</li>
+
+<li><a href="https://metacpan.org/pod/Dancer2">Dancer2</a></li>
+
+<li><a href="https://metacpan.org/pod/Gantry">Gantry</a> - Web application framework for mod_perl, cgi, etc.</li>
+
+<li><a href="https://metacpan.org/pod/Kossy">Kossy</a> - A Web framework with simple interface.</li>
+
+<li><a href="https://metacpan.org/pod/Mojolicious">Mojolicious</a> - An all in one framework.</li>
+
+<li><a href="https://metacpan.org/pod/Poet">Poet</a> - a modern Perl web framework for Mason developers</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="web-frameworkslike"></a>Web Frameworks-Like</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Somewhere between templates and full on frameworks</em></p><ul><li><a href="https://metacpan.org/pod/Embperl">Embperl</a> - Building dynamic Websites with Perl (sort of like Perl crossed with PHP)</li>
+
+<li><a href="https://metacpan.org/pod/Mason">Mason</a> - Powerful, high-performance templating for the web and beyond</li></ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="quick-links">
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=watch&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=fork&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li class="tweet-btn">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+        </ul>
+        <p>Built by <a href="https://github.com/arshad">@arshad</a></p>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <a href="https://github.com/curated/resources"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>

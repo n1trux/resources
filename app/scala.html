@@ -1,0 +1,466 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Scala | Curated Resources</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><a href="/">Back to all Resources</a></h3>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sections</h3>
+                </div>
+                <div class="list-group">
+                        <a class="list-group-item" href="#database">Database</a>
+                        <a class="list-group-item" href="#web-frameworks">Web Frameworks</a>
+                        <a class="list-group-item" href="#i18n">i18n</a>
+                        <a class="list-group-item" href="#authentication">Authentication</a>
+                        <a class="list-group-item" href="#testing">Testing</a>
+                        <a class="list-group-item" href="#json-manipulation">JSON Manipulation</a>
+                        <a class="list-group-item" href="#serialization">Serialization</a>
+                        <a class="list-group-item" href="#science-and-data-analysis">Science and Data Analysis</a>
+                        <a class="list-group-item" href="#big-data">Big Data</a>
+                        <a class="list-group-item" href="#functional-reactive-programming">Functional Reactive Programming</a>
+                        <a class="list-group-item" href="#modularization-and-dependency-injection">Modularization and Dependency Injection</a>
+                        <a class="list-group-item" href="#distributed-systems">Distributed Systems</a>
+                        <a class="list-group-item" href="#extensions">Extensions</a>
+                        <a class="list-group-item" href="#android">Android</a>
+                        <a class="list-group-item" href="#http">HTTP</a>
+                        <a class="list-group-item" href="#semantic-web">Semantic Web</a>
+                        <a class="list-group-item" href="#metrics-and-monitoring">Metrics and Monitoring</a>
+                        <a class="list-group-item" href="#parsing">Parsing</a>
+                        <a class="list-group-item" href="#sbt-plugins">Sbt plugins</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="page-header">
+                <h1>
+                    Awesome Scala <small>Curated by <a href="https://github.com/lauris/awesome-scala">lauris</a></small>
+                </h1>
+            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="database"></a>Database</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Database access libraries in Scala.</em></p><ul><li><a href="https://github.com/fwbrasil/activate">Activate</a> — Pluggable object persistence in Scala.</li>
+
+<li><a href="https://github.com/sksamuel/elastic4s">Elastic4s</a> - A scala DSL / reactive client for Elasticsearch</li>
+
+<li><a href="https://github.com/websudosuk/phantom">Phantom</a> — Async type safe Scala DSL for Apache Cassandra.</li>
+
+<li><a href="https://github.com/mauricio/postgresql-async">PostgreSQL and MySQL async</a> — Async database drivers to talk to PostgreSQL and MySQL in Scala.</li>
+
+<li><a href="http://reactivecouchbase.org/">ReactiveCouchbase</a> — Reactive Scala Driver for Couchbase. Also includes a Play plug-in. An official plug-in is also in development.</li>
+
+<li><a href="https://github.com/ReactiveMongo/ReactiveMongo">ReactiveMongo</a> — Reactive Scala Driver for MongoDB.</li>
+
+<li><a href="https://github.com/novus/salat/">Salat</a> — ORM for MongoDB. A related Play-plugin is also available.</li>
+
+<li><a href="https://github.com/aselab/scala-activerecord">Scala ActiveRecord</a> — ORM library for scala, inspired by ActiveRecord of Ruby on Rails.</li>
+
+<li><a href="https://github.com/scalikejdbc/scalikejdbc">ScalikeJDBC</a> — A tidy SQL-based DB access library for Scala developers. </li>
+
+<li><a href="https://github.com/slick/slick">Slick</a> — Modern database query and access library for Scala.</li>
+
+<li><a href="https://github.com/sorm/sorm">Sorm</a> — A functional boilerplate-free Scala ORM.</li>
+
+<li><a href="https://github.com/squeryl/squeryl">Squeryl</a> — A Scala DSL for talking with databases with minimum verbosity and maximum type safety.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="web-frameworks"></a>Web Frameworks</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Scala frameworks for web development.</em></p><ul><li><a href="https://github.com/playframework/playframework">Play</a> — Makes it easy to build scalable, fast and real-time web applications with Java &amp; Scala.</li>
+
+<li><a href="https://github.com/lift/framework">Lift</a> — Secure and powerful full stack web framework (<a href="https://github.com/lauris/awesome-scala/pull/19">discussion</a>).</li>
+
+<li><a href="https://github.com/skinny-framework/skinny-framework">Skinny Framework</a> — A full-stack web app framework upon Scalatra for rapid Development in Scala.</li>
+
+<li><a href="https://github.com/scalatra/scalatra">Scalatra</a> — Tiny Scala high-performance, async web framework, inspired by Sinatra.</li>
+
+<li><a href="https://github.com/spray/spray">Spray</a> — A suite of scala libraries for building and consuming RESTful web services on top of Akka.</li>
+
+<li><a href="https://github.com/twitter/finatra">Finatra</a> — A sinatra-inspired web framework for scala, running on top of Finagle.</li>
+
+<li><a href="https://github.com/nafg/reactive">Reactive</a> — FRP and web abstractions, which can be plugged into any web framework (currently only has bindings for Lift).</li>
+
+<li><a href="https://github.com/mesosphere/chaos">Chaos</a> — A lightweight framework for writing REST services in Scala.</li>
+
+<li><a href="http://xitrum-framework.github.io/">Xitrum</a> — An async and clustered Scala web framework and HTTP(S) server fusion on top of Netty, Akka, and Hazelcast.</li>
+
+<li><a href="https://github.com/unfiltered/unfiltered">Unfiltered</a> — A modular set of unopinionated primitives for servicing HTTP and WebSocket requests in Scala.</li>
+
+<li><a href="http://tumblr.github.io/colossus/">Colossus</a> — lightweight framework for building high-performance applications in Scala that require non-blocking network I/O.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="i18n"></a>i18n</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Scala libraries for i18n.</em></p><ul><li><a href="https://github.com/xitrum-framework/scaposer">Scaposer</a> – GNU Gettext .po file loader for Scala.</li>
+
+<li><a href="https://github.com/xitrum-framework/scala-xgettext">scala-xgettext</a> – A compiler plugin that acts like GNU xgettext command to extract i18n strings in Scala source code files to Gettext .po file.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="authentication"></a>Authentication</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for implementing authentications schemes.</em></p><ul><li><a href="https://github.com/nulab/scala-oauth2-provider">scala-oauth2-provider</a> — OAuth 2.0 server-side implementation written in Scala.</li>
+
+<li><a href="https://github.com/jaliss/securesocial">SecureSocial</a> — A module that provides OAuth, OAuth2 and OpenID authentication for Play Framework applications.</li>
+
+<li><a href="https://github.com/t2v/play2-auth">play2-auth</a> — Play2.x Authentication and Authorization module.</li>
+
+<li><a href="https://github.com/leleuj/play-pac4j">play-pac4j</a> — Profile &amp; Authentication Client in Scala for CAS, OAuth, OpenID, SAML &amp; HTTP protocols and Play 2.x framework.</li>
+
+<li><a href="https://github.com/mohiva/play-silhouette">play-silhouette</a> — Authentication library for Play Framework applications that supports several authentication methods, including OAuth1, OAuth2, OpenID, Credentials or custom authentication schemes.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="testing"></a>Testing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for code testing.</em></p><ul><li><a href="https://github.com/rickynils/scalacheck">ScalaCheck</a> — Property-based testing for Scala.</li>
+
+<li><a href="https://github.com/scalatest/scalatest">ScalaTest</a> — A testing tool for Scala and Java developers.</li>
+
+<li><a href="https://scalameter.github.io/">ScalaMeter</a> - Performance &amp;  memory footprint measuring, regression testing.</li>
+
+<li><a href="https://github.com/etorreborre/specs2">Specs2</a> — Software Specifications for Scala.</li>
+
+<li><a href="https://github.com/lihaoyi/utest">µTest</a> — A tiny, portable testing library for Scala.</li>
+
+<li><a href="https://github.com/xitrum-framework/scalive">Scalive</a> — Connect a Scala REPL to running JVM processes without any prior setup; this library is used for inspecting systems in production mode.</li>
+
+<li><a href="https://github.com/scalastyle/scalastyle">Scalastyle</a> – Scala style checker.</li>
+
+<li><a href="http://gatling-tool.org/">Gatling</a> – Async Scala-Akka-Netty based Stress Tool.</li>
+
+<li><a href="http://scalamock.org">ScalaMock</a> – Scala native mocking framework </li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="json-manipulation"></a>JSON Manipulation</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for work with json.</em></p><ul><li><a href="https://github.com/json4s/json4s">json4s</a> — Project aims to provide a single AST to be used by other scala json libraries.</li>
+
+<li><a href="https://github.com/spray/spray-json">spray-json</a> — Lightweight, clean and efficient JSON implementation in Scala.</li>
+
+<li><a href="http://argonaut.io/">argonaut</a> — Purely Functional JSON in Scala.</li>
+
+<li><a href="https://github.com/FasterXML/jackson-module-scala">jackson-module-scala</a> — Add-on module for Jackson to support Scala-specific datatypes.</li>
+
+<li><a href="https://github.com/playframework/playframework/tree/master/framework/src/play-json">play-json</a> — Flexible and powerful JSON manipulation, validation and serialization, with no reflection at runtime.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="serialization"></a>Serialization</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for serializing and deserializing data for storage or transport.</em></p><ul><li><a href="https://github.com/scala/pickling">Pickling</a> — Fast, customizable, boilerplate-free pickling support.</li>
+
+<li><a href="https://github.com/scodec/scodec">scodec</a> — A combinator library for working with binary data.</li>
+
+<li><a href="http://twitter.github.io/scrooge/">Scrooge</a> — An Apache Thrift code generator for Scala.</li>
+
+<li><a href="https://github.com/jto/validation">validation</a> — Advanced validation &amp; serialization for JSON, HTML form data, etc, with no reflection at runtime.</li>
+
+<li><a href="https://github.com/twitter/chill">Chill</a> — Extensions for the Kryo serialization library to ease configuration in systems like Hadoop and Storm.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="science-and-data-analysis"></a>Science and Data Analysis</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries for scientific computing, data analysis and numerical processing.</em></p><ul><li><a href="https://github.com/twitter/algebird">Algebird</a> — Abstract Algebra for Scala.</li>
+
+<li><a href="https://github.com/scalanlp/breeze">Breeze</a> — Breeze is a numerical processing library for Scala.</li>
+
+<li><a href="https://github.com/scalanlp/chalk">Chalk</a> — Chalk is a natural language processing library. </li>
+
+<li><a href="https://github.com/factorie/factorie">FACTORIE</a> — A toolkit for deployable probabilistic modeling, implemented as a software library in Scala.</li>
+
+<li><a href="https://github.com/p2t2/figaro">Figaro</a> - Figaro is a probabilistic programming language that supports development of very rich probabilistic models.</li>
+
+<li><a href="https://github.com/romainreuillon/mgo">MGO</a> — Modular multi-objective evolutionary algorithm optimization library enforcing immutability.</li>
+
+<li><a href="https://spark.apache.org/mllib/">MLLib</a> — Machine Learning framework for Spark</li>
+
+<li><a href="https://github.com/ISCPIF/openmole">OpenMOLE</a> — OpenMOLE (Open MOdeL Experiment) is a workflow engine designed to leverage the computing power of distributed execution environments for naturally parallel processes.</li>
+
+<li><a href="https://github.com/saddle/saddle">Saddle</a> — A minimalist port of Pandas to Scala</li>
+
+<li><a href="https://github.com/non/spire">Spire</a> — Powerful new number types and numeric abstractions for Scala.</li>
+
+<li><a href="https://github.com/garyKeorkunian/squants">Squants</a> — The Scala API for Quantities, Units of Measure and Dimensional Analysis.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="big-data"></a>Big Data</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul><li><a href="http://spark.apache.org/">Spark</a> — Lightning fast cluster computing — up to 100x faster than Hadoop for iterative algorithms (memory caching) and up to 10x faster than Hadoop for single-pass MapReduce jobs. Compatible with YARN-enabled Hadoop clusters, can run on Mesos and in stand-alone mode as well.</li>
+
+<li><a href="https://github.com/twitter/scalding">Scalding</a> — A Scala binding for the Cascading abstraction of Hadoop MapReduce.</li>
+
+<li><a href="https://github.com/twitter/summingbird">Summingbird</a> — An implementation of the “lambda architecture” as a software abstraction — a single API for Hadoop and Storm.</li>
+
+<li><a href="https://github.com/adamretter/shadoop">Shadoop</a> - A Scala DSL for Hadoop MapReduce.</li>
+
+<li><a href="http://crunch.apache.org/scrunch.html">Scrunch</a> — A Scala wrapper for <a href="http://crunch.apache.org/index.html">Apache Crunch</a> which provides a framework for writing, testing, and running MapReduce pipelines.</li>
+
+<li><a href="https://github.com/romainreuillon/gridscale">GridScale</a> — A Scala API for computing clusters and grids.</li>
+
+<li><a href="https://github.com/klout/scoozie">scoozie</a> — Scala DSL on top of Oozie XML.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="functional-reactive-programming"></a>Functional Reactive Programming</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Event streams, signals, observables, etc.</em></p><ul><li><a href="https://github.com/lihaoyi/scala.rx">Scala.Rx</a> — An experimental library for Functional Reactive Programming in Scala (reactive variables). Scala.js compatible.</li>
+
+<li><a href="https://github.com/dylemma/scala.frp">scala.frp</a> — Functional Reactive Programming for Scala (event streams).</li>
+
+<li><a href="https://github.com/Netflix/RxJava/tree/master/language-adaptors/rxjava-scala">RxJava-Scala</a> — Scala Adaptor for RxJava.</li>
+
+<li><a href="https://github.com/storm-enroute/reactive-collections">Reactive Collections</a> – A library that incorporates event streams and signals with specialized collections called reactive containers, and expresses concurrency using isolates and channels.</li>
+
+<li><a href="http://vertx.io/">Vertx.io</a> – A polyglot reactive application platform for the JVM which aims to be an alternative to node.js. Its concurrency model resembles actors. It supports <a href="http://vertx.io/core_manual_scala.html">Scala</a>, Clojure, Java, Javascript, Ruby, Groovy and Python.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="modularization-and-dependency-injection"></a>Modularization and Dependency Injection</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Modularization of applications, dependency injection, etc.</em></p><ul><li><a href="https://github.com/helgoboss/domino">Domino</a> — Write elegant OSGi bundle activators in Scala.</li>
+
+<li><a href="https://github.com/xitrum-framework/sclasner">Sclasner</a> - Scala classpath scanner.</li>
+
+<li><a href="https://github.com/scaldi/scaldi">Scaldi</a> — Lightweight Scala Dependency Injection Library.</li>
+
+<li><a href="https://github.com/adamw/macwire">MacWire</a> — Scala Macro to generate wiring code for class instantiation. DI container replacement.</li>
+
+<li><a href="https://github.com/dickwall/subcut">SubCut</a> — Scala Uniquely Bound Classes Under Traits.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="distributed-systems"></a>Distributed Systems</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Libraries and frameworks for writing distributed applications.</em></p><ul><li><a href="http://akka.io/">Akka</a> — A toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications.</li>
+
+<li><a href="https://twitter.github.io/finagle/">Finagle</a> — An extensible, protocol-agnostic RPC system designed for high performance and concurrency.</li>
+
+<li><a href="https://github.com/xitrum-framework/glokka">Glokka</a> - Library to register and lookup actors by names in an Akka cluster.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="extensions"></a>Extensions</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Scala extensions.</em></p><ul><li><a href="https://github.com/scalaz/scalaz">Scalaz</a> — An extension to the core Scala library for functional programming.</li>
+
+<li><a href="https://github.com/milessabin/shapeless">Shapeless</a> — A type class and dependent type based generic programming library for Scala.</li>
+
+<li><a href="https://github.com/twitter/util">Twitter Util</a> — General-purpose Scala libraries, including a future implementation and other concurrency tools.</li>
+
+<li><a href="https://github.com/scala/async">Scala Async</a> — An asynchronous programming facility for Scala.</li>
+
+<li><a href="https://github.com/resolvable/resolvable">Resolvable</a> — A library to optimize fetching immutable data structures from several endpoints in several formats.</li>
+
+<li><a href="http://scala-blitz.github.io/">Scala Blitz</a> – A library to speed up Scala collection operations by removing runtime overheads during compilation, and a custom data-parallel operation runtime.</li>
+
+<li><a href="http://log4s.org">Log4s</a> - Fast, Scala-friendly logging bindings on top of <a href="http://slf4j.org/">SLF4J</a>. Uses macros for extreme performance.</li>
+
+<li><a href="https://github.com/maxcellent/lamma">Lamma</a> – A Scala date library for date and schedule generation.</li>
+
+<li><a href="http://www.scala-graph.org/">Scala Graph</a> – A Scala library with basic graph functionality that seamlessly fits into the Scala standard collections library</li>
+
+<li><a href="https://github.com/twitter/cassovary">Cassovary</a> – A Scala library that is designed from the ground up for space efficiency, handling graphs with billions of nodes and edges.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="android"></a>Android</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Scala libraries and wrappers for Android development.</em></p><ul><li><a href="https://github.com/pocorall/scaloid">Scaloid</a> — Less painful Android development with Scala.</li>
+
+<li><a href="https://github.com/macroid/macroid">Macroid</a> — A modular functional UI language for Android.</li>
+
+<li><a href="https://github.com/pfn/android-sdk-plugin">Android SDK Plugin for SBT</a> — An sbt plugin that adds tasks for developing Android applications.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="http"></a>HTTP</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Scala libraries and wrappers for HTTP clients.</em></p><ul><li><a href="https://github.com/dispatch/reboot">Dispatch</a> — Library for asynchronous HTTP interaction. It provides a Scala vocabulary for Java’s <a href="https://github.com/AsyncHttpClient/async-http-client">async-http-client</a>.</li>
+
+<li><a href="https://github.com/ngocdaothanh/netcaty">Netcaty</a> - Simple net test client/server for Netty and Scala lovers.</li>
+
+<li><a href="https://github.com/eed3si9n/scalaxb">Scalaxb</a> — An XML data-binding tool for Scala that supports W3C XML Schema (xsd) and Web Services Description Language (wsdl) as the input file.</li>
+
+<li><a href="http://spray.io/">Spray</a> — Actor-based library for http interaction.</li>
+
+<li><a href="https://github.com/softprops/tubesocks">Tubesocks</a> — Library supporting bi-directional communication with websocket servers.</li>
+
+<li><a href="https://github.com/scalaj/scalaj-http">scalaj-http</a> – Simple scala wrapper for HttpURLConnection (including OAuth support).</li>
+
+<li><a href="https://github.com/finagle/finch">Finch.io</a> — Purely Functional REST API atop of <a href="https://github.com/twitter/finagle">Finagle</a>.</li>
+
+<li><a href="https://github.com/stackmob/newman">Newman</a> — A REST DSL that tries to take the best from Dispatch, Finagle and Apache HttpClient. See <a href="https://www.paypal-engineering.com/2014/02/13/hello-newman-a-rest-client-for-scala/">here</a> for rationale.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="semantic-web"></a>Semantic Web</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Scala libraries for interactions with the Web of Data, and other RDF tools</em></p><ul><li><a href="https://github.com/w3c/banana-rdf">Banana-RDF</a> – Scala-friendly abstractions for RDF and Linked Data technologies. Supports Jena, Sesame and native Scala.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="metrics-and-monitoring"></a>Metrics and Monitoring</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Scala libraries for gathering metrics and monitoring applications.</em></p><ul><li><a href="http://kamon.io">Kamon</a> - Gathering metrics from applications built with Akka, Spray and Play! with support for user metrics as well.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="parsing"></a>Parsing</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Scala libraries for creating parsers.</em></p><ul><li><a href="https://github.com/scala/scala-parser-combinators">Scala Parser Combinators</a> – Scala Standard Parser Combinator Library.</li>
+
+<li><a href="https://github.com/sirthias/parboiled2">Parboiled2</a> – A Fast Parser Generator for Scala 2.10.3+.</li></ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><a name="sbt-plugins"></a>Sbt plugins</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><em>Sbt plugins to make your life easier.</em></p><ul><li><a href="https://github.com/spray/sbt-revolver">Sbt-Revolver</a> – Fork &amp; Stop processes from sbt.</li>
+
+<li><a href="https://github.com/typesafehub/sbteclipse">Sbt-Eclipse</a> – Create Eclipse project definitions from sbt builds.</li>
+
+<li><a href="https://github.com/sbt/sbt-native-packager">Sbt-Native-Packager</a> – Bundle up Scala software for native packaging systems, like deb, rpm, homebrew, msi..</li>
+
+<li><a href="https://github.com/jrudolph/sbt-dependency-graph">Sbt-Dependency-Graph</a> – Create a dependency graph for your project.</li>
+
+<li><a href="https://github.com/sbt/sbt-onejar">Sbt-One-Jar</a> – Packages your project using One-JAR™.</li>
+
+<li><a href="https://github.com/sbt/sbt-start-script">Sbt-Start-Script</a> – Create a &quot;start&quot; script to run the program.</li>
+
+<li><a href="https://github.com/MasseGuillaume/ScalaKata">ScalaKata</a> – Scala playground &amp; Documentation tool.</li>
+
+<li><a href="https://github.com/typelevel/wartremover">WartRemover</a> – Flexible Scala code linting tool.</li>
+
+<li><a href="https://github.com/earldouglas/xsbt-web-plugin">xsbt-web-plugin</a> – Build enterprise J2EE Web applications in Scala.</li></ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="quick-links">
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=watch&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li>
+                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=curated&amp;repo=curated.github.io&amp;type=fork&amp;count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+            </li>
+            <li class="tweet-btn">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+        </ul>
+        <p>Built by <a href="https://github.com/arshad">@arshad</a></p>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <a href="https://github.com/curated/resources"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>
